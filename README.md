@@ -44,8 +44,8 @@ a<h1 align="center">About me 💫 </h1>
 <details><a href="https://open.spotify.com/user/31rvfbish5mkv7mhyb6u7syx65gy"><img src="https://spotify-recently-played-readme.vercel.app/api?user=31rvfbish5mkv7mhyb6u7syx65gy&unique=true&count=5" alt="Spotify recently played"></a>
 </details>
   
-![Codeforces Stats](https://codeforces-readme-stats.vercel.app/api/card?username=madmins07&theme=merko&bg_color=FFFFFF&text_color=E5677F&icon_color=000000&title_color=E34572)
-![Madhav's GitHub stats](https://github-readme-stats.vercel.app/api?username=Madmins07&show_icons=true&theme=merko&bg_color=FFFFFF&text_color=E5677F&icon_color=000000&title_color=E34572)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Madmins07&layout=donut&color=E5677F&title_color=E34572&test_size=20&text_color=E5677F)](https://github.com/Madmins07/github-readme-stats)
+![Codeforces Stats](https://codeforces-readme-stats.vercel.app/api/card?username=madmins07&theme=merko&bg_color=000000&text_color=E5677F&icon_color=FFFFFF&title_color=E34572)
+![Madhav's GitHub stats](https://github-readme-stats.vercel.app/api?username=Madmins07&show_icons=true&theme=merko&bg_color=000000&text_color=E5677F&icon_color=FFFFFF&title_color=E34572)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Madmins07&layout=donut&color=E5677F&title_color=E34572&test_size=20&text_color=E5677F&bg_color=000000)](https://github.com/Madmins07/github-readme-stats)
 <br></br>
 <p align="center"><a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Montserrat&size=30&pause=1000&color=F73D8C&random=false&width=435&lines=Thank+you!+%F0%9F%A4%8D" alt="Typing SVG" /></a></p>
