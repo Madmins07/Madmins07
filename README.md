@@ -1,6 +1,6 @@
 
 <p align="center"><h1 >About me 💫:- </h1></p><br>
-  <img align='right' src="https://github.com/Madmins07/Madmins07/assets/152009368/1443b62f-fb1a-4be4-91cf-9426e0f3ee6c.gif" width="500" height="400">
+  <img align='right' src="https://github.com/Madmins07/Madmins07/assets/152009368/1443b62f-fb1a-4be4-91cf-9426e0f3ee6c.gif" width="530" height="400">
 <p align="center">
   
 
