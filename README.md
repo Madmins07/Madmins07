@@ -1,11 +1,12 @@
 
 <p align="center"><h1 >About me 💫:- </h1></p><br>
-  <img align='right' src="https://github.com/Madmins07/Madmins07/assets/152009368/44fb6a0a-afbf-46b1-ae96-4e5cc8ba1cef.gif" width="500" height="400">
+  <img align='right' src="https://github.com/Madmins07/Madmins07/assets/152009368/1443b62f-fb1a-4be4-91cf-9426e0f3ee6c.gif" width="500" height="400">
 <p align="center">
-  
+  ![mad1](https://github.com/Madmins07/Madmins07/assets/152009368/1443b62f-fb1a-4be4-91cf-9426e0f3ee6c)
+
   <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Montserrat&weight=500&size=30&duration=4000&pause=500&color=8B4BF7&background=FFFFFF00&random=false&width=435&lines=Hi+%F0%9F%91%8B%2C+I+am+Madhav+;A+First+Year+Undergrad;At+IIT+KGP%F0%9F%8C%99" alt="Typing SVG" /></a></p>
 
-
+![mad2](https://github.com/Madmins07/Madmins07/assets/152009368/44fb6a0a-afbf-46b1-ae96-4e5cc8ba1cef.gif")
 
 
 - 🌱 Proficient in <b>***Advcanced Machine Learning algorithms and Neural Networks***</b>
