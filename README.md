@@ -45,4 +45,4 @@
 </details>
 
 ![Codeforces Stats](https://codeforces-readme-stats.vercel.app/api/card?username=madmins07&theme=merko&bg_color=000000&text_color=E5677F&icon_color=BD3B85&title_color=E34572)
-![Codeforces Stats](https://codeforces-readme-stats.vercel.app/api/card?username=madmins07&theme=merko&bg_color=FFFFFF&text_color=E5677F&icon_color=BD3B85&title_color=E34572)
+![Codeforces Stats](https://codeforces-readme-stats.vercel.app/api/card?username=madmins07&theme=merko&bg_color=FFFFFF&text_color=E5677F&icon_color=000000&title_color=E34572)
