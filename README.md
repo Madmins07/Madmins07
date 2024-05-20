@@ -2,14 +2,13 @@
 <p align="center">
 <a  href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Monteserrat&weight=500&size=30&pause=1000&color=F73071&random=false&width=435&lines=I+am+Madhav+Agarwal+%F0%9F%A4%8D;First+Year+UG+Student;At+IIT+KGP%F0%9F%8C%99;Pursuing+Industrial+%26+Systems+%F0%9F%92%80" alt="Typing SVG" /></a></p>
 <img align='right' src="https://github.com/Madmins07/Madmins07/assets/152009368/1443b62f-fb1a-4be4-91cf-9426e0f3ee6c.gif" width="450" height="350">
-
+<p align="left">
 - 🌱 Proficient in <b>***Advcanced Machine Learning algorithms and Neural Networks***</b>
 - 🔭 I’m currently working on <b>***ML Projects***</b>
 - 💫 I like blogging: <b>***madblogs6.wordpress.com***</b>![undefined - Imgur](https://github.com/Madmins07/Madmins07/assets/152009368/425340fa-ced9-4139-b925-911e7e0a33ab)
 - ✨ Interested in ***Quantitative Finance*** and ***consulting***
-
 - 👀 Reach me: <b>***madhavagarwal50@gmail.com***</b>
-- 🤍 <b>Connect with me on :</b>
+- 🤍 <b>Connect with me on :</b></p>
 <p align="center">
   <a href="https://www.youtube.com/channel/UCFmXA9SDImYXYxI5nT2w5Yg"><img width="32px" alt="Youtube" title="Youtube" src="https://i.imgur.com/qiXu7b2.png"/></a>
   &#8287;&#8287;&#8287;&#8287;&#8287;
