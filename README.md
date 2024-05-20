@@ -8,10 +8,10 @@
 
 -->
 
-- 🌱 Proficient in <b>Advcanced Machine Learning algorithms and Neural Networks</b>
-- 🔭 I’m currently working on <b>ML Projects</b>
-- 💫 I like blogging: <b>madblogs6.wordpress.com</b>
-- 👀 Reach me: <b>madhavagarwal50@gmail.com</b>
+- 🌱 Proficient in <b>***Advcanced Machine Learning algorithms and Neural Networks***</b>
+- 🔭 I’m currently working on <b>***ML Projects***</b>
+- 💫 I like blogging: <b>***madblogs6.wordpress.com***</b>
+- 👀 Reach me: <b>***madhavagarwal50@gmail.com***</b>
 - 🔌Connect with me on :
 &nbsp;<a href = "https://www.linkedin.com/in/madhav-agarwal07/" target="_blank" rel="noreferrer"> <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/85983760/250218339-89ac98b7-fa19-44d0-a9a4-12e6bf395db1.png" alt="Linkedin" width="20" height="20"/> </a>
 &nbsp;<a href = "https://www.instagram.com/madhav_agarwal04/" target="_blank" rel="noreferrer"> <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/85983760/250218749-5846c805-489a-40b9-80ed-5937deebf256.png" alt="Instagram" width="20" height="20"/> </a>
