@@ -40,11 +40,9 @@
 [![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=31rvfbish5mkv7mhyb6u7syx65gy&cover_image=true&theme=default&show_offline=true&background_color=000000&interchange=false&bar_color=53b14f&bar_color_cover=true)](https://github.com/kittinan/spotify-github-profile)
 <img align="right" src="https://github.com/Madmins07/Madmins07/assets/152009368/220445d2-f123-4e79-9f61-3045074bf02b.gif" width="300" height="320">
 
-
-
 <summary>Recently played Songs</summary>
 <details><a href="https://open.spotify.com/user/31rvfbish5mkv7mhyb6u7syx65gy"><img src="https://spotify-recently-played-readme.vercel.app/api?user=31rvfbish5mkv7mhyb6u7syx65gy&unique=true&count=5" alt="Spotify recently played"></a>
 </details>
 
 ![Codeforces Stats](https://codeforces-readme-stats.vercel.app/api/card?username=madmins07&theme=merko&bg_color=000000&text_color=E5677F&icon_color=BD3B85&title_color=E34572)
-
+![Codeforces Stats](https://codeforces-readme-stats.vercel.app/api/card?username=madmins07&theme=merko&bg_color=FFFFFF&text_color=E5677F&icon_color=BD3B85&title_color=E34572)
