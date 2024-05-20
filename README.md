@@ -38,7 +38,7 @@
 
 [![Sukoon](https://img.shields.io/badge/Sukoon-%231DB954.svg?&style=flat-square&logo=spotify&logoColor=white)](https://open.spotify.com/playlist/0dV4OxjcmrbhOPNpWrIlod) [![Calm Synths!](https://img.shields.io/badge/Calm%20Synths-%231DB954.svg?&style=flat-square&logo=spotify&logoColor=white)](https://open.spotify.com/artist/73aKnLT4O8G2pBEfdlQzrE) [![KPOP Music](https://img.shields.io/badge/KPOP%20Music-%231DB954.svg?&style=flat-square&logo=spotify&logoColor=white)](https://open.spotify.com/playlist/2DFExFNWYOwQMZy6wUeCxX?si=s1Ndgj8hTg-r8zLlvRgv1Q) [![EDM](https://img.shields.io/badge/EDM-%231DB954.svg?&style=flat-square&logo=spotify&logoColor=white)](https://open.spotify.com/playlist/5KHnVFcNPl3N3ag5KaPwUB)
 
-[![Spotify](https://readme-spotify.warengonzaga.com/api/spotify)](https://open.spotify.com/user/vmt7lpqdatuelp2chw7ur2p2l)
+[![Spotify](https://readme-spotify.warengonzaga.com/api/spotify)](https://open.spotify.com/user/31rvfbish5mkv7mhyb6u7syx65gy)
 
 <details>
     <summary>Recently played Songs</summary>
