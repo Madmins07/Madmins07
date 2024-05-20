@@ -22,15 +22,13 @@
   <a href="https://skillicons.dev">
     <img align='center' src="https://skillicons.dev/icons?i=html,css,js,idea,java,matlab,obsidian,tensorflow,pytorch,sublime,ts,php,wordpress,nodejs,react,mongodb,mysql,py,git,figma,arduino,c,cpp,cs,clion,vscode&theme=dark&perline=15" />
   </a>
-
-
-
-- 📖 I'm learning these Tools :
-&nbsp;<a href="https://opencv.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="25" height="25"/> </a>
-&nbsp;<a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="35" height="25"/> </a>
-&nbsp;<a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="27" height="27"/> </a>
 ## 🎧 Spotify Playing
 
 [![Sukoon](https://img.shields.io/badge/Sukoon-%231DB954.svg?&style=flat-square&logo=spotify&logoColor=white)](https://open.spotify.com/playlist/0dV4OxjcmrbhOPNpWrIlod) [![Calm Synths!](https://img.shields.io/badge/Calm%20Synths-%231DB954.svg?&style=flat-square&logo=spotify&logoColor=white)](https://open.spotify.com/artist/73aKnLT4O8G2pBEfdlQzrE) [![KPOP Music](https://img.shields.io/badge/KPOP%20Music-%231DB954.svg?&style=flat-square&logo=spotify&logoColor=white)](https://open.spotify.com/playlist/2DFExFNWYOwQMZy6wUeCxX?si=s1Ndgj8hTg-r8zLlvRgv1Q) [![EDM](https://img.shields.io/badge/EDM-%231DB954.svg?&style=flat-square&logo=spotify&logoColor=white)](https://open.spotify.com/playlist/5KHnVFcNPl3N3ag5KaPwUB)
 
 [![Spotify](https://readme-spotify.warengonzaga.com/api/spotify)](https://open.spotify.com/user/vmt7lpqdatuelp2chw7ur2p2l)
+
+<details>
+    <summary>Recently played</summary>
+    <a href="https://open.spotify.com/user/31rvfbish5mkv7mhyb6u7syx65gy"><img src="https://spotify-recently-played-readme.vercel.app/api?user=31rvfbish5mkv7mhyb6u7syx65gy&unique=true&count=5" alt="Spotify recently played"></a>
+</details>
