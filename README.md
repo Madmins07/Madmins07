@@ -19,7 +19,7 @@
 
 ## 🔧 Technologies
 
-![skills](https://skillicons.dev/icons?i=html,css,js,ts,php,wordpress,nodejs,react,mongodb,mysql,py,git,figma,vscode&theme=dark)
+![skills](https://skillicons.dev/icons?i=html,css,js,ts,php,wordpress,nodejs,react,mongodb,mysql,py,git,figma,arduino,c,cpp,cs,clion,vscode&theme=dark)
 
 - 📖 I'm learning these Tools :
 &nbsp;<a href="https://opencv.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="25" height="25"/> </a>
