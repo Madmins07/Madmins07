@@ -17,12 +17,9 @@
 &nbsp;<a href = "https://www.instagram.com/madhav_agarwal04/" target="_blank" rel="noreferrer"> <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/85983760/250218749-5846c805-489a-40b9-80ed-5937deebf256.png" alt="Instagram" width="20" height="20"/> </a>
 &nbsp;<a href = "https://www.facebook.com/profile.php?id=100004705756515&mibextid=ZbWKwL" target="_blank" rel="noreferrer"> <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/85983760/250218757-1ed70945-1eb7-4c33-978a-5bff4ba597ec.png" alt="Linkedin" width="23" height="23"/> </a>
 
-
-
-
 ## 🔧 Technologies
 
-![skills](https://skillicons.dev/icons?i=html,css,js,ts,php,wordpress,nodejs,react,mongodb,mysql,py,git,figma,vscode&theme=light)
+![skills](https://skillicons.dev/icons?i=html,css,js,ts,php,wordpress,nodejs,react,mongodb,mysql,py,git,figma,vscode&theme=dark)
 
 - 📖 I'm learning these Tools :
 &nbsp;<a href="https://opencv.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="25" height="25"/> </a>
