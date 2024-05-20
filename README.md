@@ -18,7 +18,7 @@
 &nbsp;<a href = "https://www.facebook.com/profile.php?id=100004705756515&mibextid=ZbWKwL" target="_blank" rel="noreferrer"> <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/85983760/250218757-1ed70945-1eb7-4c33-978a-5bff4ba597ec.png" alt="Linkedin" width="23" height="23"/> </a>
 <br></br><br></br><br></br>
 
--> # ***🔧Languages & Technologies***
+# -> ***🔧Languages & Technologies***
   <a href="https://skillicons.dev">
     <img align='center' src="https://skillicons.dev/icons?i=html,css,js,idea,java,matlab,obsidian,tensorflow,pytorch,sublime,ts,php,wordpress,nodejs,react,mongodb,mysql,py,git,figma,arduino,c,cpp,cs,clion,vscode&theme=dark&perline=15" />
   </a>
