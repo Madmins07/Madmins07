@@ -1,4 +1,4 @@
-<img align='right' src="https://github.com/Madmins07/Madmins07/assets/152009368/44fb6a0a-afbf-46b1-ae96-4e5cc8ba1cef.gif" width="400" height="500" style="border: 1px;
+<img align='right' src="https://github.com/Madmins07/Madmins07/assets/152009368/44fb6a0a-afbf-46b1-ae96-4e5cc8ba1cef.gif" width="400" height="300" style="border: 1px;
   border-radius: 50%;
   padding: 5px;">
 <p align="center">
