@@ -47,3 +47,4 @@
 </details>
 
 ![Codeforces Stats](https://codeforces-readme-stats.vercel.app/api/card?username=madmins07&theme=merko&bg_color=140D38&text_color=E5677F&icon_color=BD3B85&title_color=BD3B85)
+![Codeforces Stats](https://codeforces-readme-stats.vercel.app/api/card?username=madmins07&theme=merko&bg_color=000000&text_color=FFFFFF&icon_color=FFFFFF&title_color=FFFFFF)
