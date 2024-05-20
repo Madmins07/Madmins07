@@ -19,13 +19,10 @@
   &#8287;&#8287;&#8287;&#8287;&#8287;
   <a href="https://discord.gg/fWbt2KHK" alt="Discord" title="Dev Pro Tips Discord Server"><img width="32px" src="https://i.imgur.com/OViZO8J.png"/></a>
   &#8287;&#8287;&#8287;&#8287;&#8287;
-  <br></br>
   <a href="https://www.facebook.com/profile.php?id=100004705756515" alt="Facebook" title="Facebook"><img width="32px" src="https://i.imgur.com/PpLeD3K.png"/></a>
   &#8287;&#8287;&#8287;&#8287;&#8287;
   <a href="https://www.instagram.com/madhav_agarwal04/" alt="Instagram" title="Instagram"><img width="32px" src="https://i.imgur.com/0uVwkoZ.png"/></a>
   &#8287;&#8287;&#8287;&#8287;&#8287;
-  
-
 </p>
 
 
