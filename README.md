@@ -10,7 +10,8 @@
 
 - 🌱 Proficient in <b>***Advcanced Machine Learning algorithms and Neural Networks***</b>
 - 🔭 I’m currently working on <b>***ML Projects***</b>
-- 💫 I like blogging: <b>***madblogs6.wordpress.com***</b>
+- 💫 I like blogging: <b>***madblogs6.wordpress.com***</b>![undefined - Imgur](https://github.com/Madmins07/Madmins07/assets/152009368/425340fa-ced9-4139-b925-911e7e0a33ab)
+
 - 👀 Reach me: <b>***madhavagarwal50@gmail.com***</b>
 - 🤍 <b>Connect with me on :</b>
 <p align="center">
@@ -22,11 +23,10 @@
   &#8287;&#8287;&#8287;&#8287;&#8287;
   <a href="https://discord.gg/fWbt2KHK" alt="Discord" title="Dev Pro Tips Discord Server"><img width="32px" src="https://i.imgur.com/OViZO8J.png"/></a>
   &#8287;&#8287;&#8287;&#8287;&#8287;
-  <a href="https://www.facebook.com/profile.php?id=100004705756515"><img width="32px" alt="Facebook" title="Facebook" src="http://i.imgur.com/P3YfQoD.png "/></a>
+  <a href="https://www.facebook.com/profile.php?id=100004705756515"><img width="32px" alt="Facebook" title="Facebook" src="https://i.imgur.com/0uVwkoZ.png"/></a>
   &#8287;&#8287;&#8287;&#8287;&#8287;
   
-<!--   &#8287;&#8287;&#8287;&#8287;&#8287;
-  <a href="http://eyl327.mywebcommunity.org/promos/"><img width="32px" alt="Free Stuff" title="Free gifts for you" src="https://i.imgur.com/0uVwkoZ.png"/></a> -->
+
 </p>
 <br></br><br></br><br></br>
 
