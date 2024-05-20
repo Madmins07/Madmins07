@@ -45,3 +45,4 @@
 </details>
   
 ![Codeforces Stats](https://codeforces-readme-stats.vercel.app/api/card?username=madmins07&theme=merko&bg_color=FFFFFF&text_color=E5677F&icon_color=000000&title_color=E34572)
+[![Madhav's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Madmins07&theme=github-compact)](https://github.com/ashutosh00710/github-readme-activity-graph)
