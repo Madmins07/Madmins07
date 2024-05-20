@@ -46,5 +46,4 @@
 <details><a href="https://open.spotify.com/user/31rvfbish5mkv7mhyb6u7syx65gy"><img src="https://spotify-recently-played-readme.vercel.app/api?user=31rvfbish5mkv7mhyb6u7syx65gy&unique=true&count=5" alt="Spotify recently played"></a>
 </details>
 
-<img height="45px" src="https://readme-typing-svg.herokuapp.com?font=Righteous&color=E1E1E1&size=50&center=true&vCenter=true&width=300&lines=Github+Stats">
-<img height="45px" src="Images/Static/stats.png">
+![Codeforces Stats](https://codeforces-readme-stats.vercel.app/api/card?username=madmins07)
