@@ -48,5 +48,5 @@ a<h1 align="center">About me 💫 </h1>
 ![Madhav's GitHub stats](https://github-readme-stats.vercel.app/api?username=Madmins07&show_icons=true&theme=merko&bg_color=000000&text_color=E5677F&icon_color=FFFFFF&title_color=E34572)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Madmins07&theme=merko&bg_color=000000&icon_color=FFFFFF&title_color=E34572&text_color=E5677F)
 <br></br>
-<p align="center"><a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Montserrat&size=30&pause=1000&color=F73D8C&random=false&width=435&lines=Thank+you!+%F0%9F%A4%8D" alt="Typing SVG" /></a></p>
+<p align="left"><a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Montserrat&size=30&pause=1000&color=F73D8C&random=false&width=435&lines=Thank+you!+%F0%9F%A4%8D" alt="Typing SVG" /></a></p>
 <img align="right" src="https://github.com/Madmins07/Madmins07/assets/152009368/220445d2-f123-4e79-9f61-3045074bf02b.gif" width="300" height="320">
