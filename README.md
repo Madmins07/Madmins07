@@ -1,7 +1,8 @@
 <h1 align="center">About me 💫:- </h1>
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Monteserrat&weight=500&size=30&pause=1000&color=F73071&random=false&width=435&lines=I+am+Madhav+Agarwal%F0%9F%A4%8D;First+Year+UG+%F0%9F%A7%91%E2%80%8D%F0%9F%8E%93;At+IIT+KGP%F0%9F%8C%99)](https://git.io/typing-svg)
+
 <img align='right' src="https://github.com/Madmins07/Madmins07/assets/152009368/1443b62f-fb1a-4be4-91cf-9426e0f3ee6c.gif" width="430" height="300">
 
+<br>&emsp[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Monteserrat&weight=500&size=30&pause=1000&color=F73071&random=false&width=435&lines=I+am+Madhav+Agarwal%F0%9F%A4%8D;First+Year+UG+%F0%9F%A7%91%E2%80%8D%F0%9F%8E%93;At+IIT+KGP%F0%9F%8C%99)](https://git.io/typing-svg)</br>
 
 
 - 🌱 Proficient in <b>***Advcanced Machine Learning algorithms and Neural Networks***</b>
