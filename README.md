@@ -19,7 +19,7 @@
   &#8287;&#8287;&#8287;&#8287;&#8287;
   <a href="https://discord.gg/fWbt2KHK" alt="Discord" title="Dev Pro Tips Discord Server"><img width="32px" src="https://i.imgur.com/OViZO8J.png"/></a>
   &#8287;&#8287;&#8287;&#8287;&#8287;
-  <a href="https://www.facebook.com/profile.php?id=100004705756515" alt="Discord" title="Dev Pro Tips Discord Server"><img width="32px" src="https://github.com/Madmins07/Madmins07/assets/152009368/65a74a81-3c17-4062-8692-062663606c41.png"/></a>
+  <a href="https://www.facebook.com/profile.php?id=100004705756515" alt="Facebook" title="Facebook"><img width="32px" src="http://i.imgur.com/P3YfQoD.png"/></a>
   &#8287;&#8287;&#8287;&#8287;&#8287;
   
   
