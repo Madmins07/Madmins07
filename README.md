@@ -1,8 +1,5 @@
 <h1 align="center">About me 💫:- </h1>
-
-  
-
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Montserrat&weight=500&size=30&duration=4000&pause=500&color=8B4BF7&background=FFFFFF00&random=false&width=435&lines=Hi+%F0%9F%91%8B%2C+I+am+Madhav+;A+First+Year+Undergrad;At+IIT+KGP%F0%9F%8C%99" alt="Typing SVG"></a>
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Monteserrat&weight=500&size=30&pause=1000&color=F73071&random=false&width=435&lines=I+am+Madhav+Agarwal%F0%9F%A4%8D;First+Year+UG+%F0%9F%A7%91%E2%80%8D%F0%9F%8E%93;At+IIT+KGP%F0%9F%8C%99)](https://git.io/typing-svg)
 <img align='right' src="https://github.com/Madmins07/Madmins07/assets/152009368/1443b62f-fb1a-4be4-91cf-9426e0f3ee6c.gif" width="430" height="300">
 
 
