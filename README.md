@@ -44,12 +44,11 @@
 <details><a href="https://open.spotify.com/user/31rvfbish5mkv7mhyb6u7syx65gy"><img src="https://spotify-recently-played-readme.vercel.app/api?user=31rvfbish5mkv7mhyb6u7syx65gy&unique=true&count=5" alt="Spotify recently played"></a>
 </details>
 <h2>:thought_balloon: Quote of the day</h2>
-    <summary>See quote</summary>
-    <a href="https://github.com/piyushsuthar/github-readme-quotes">
+<summary><a href="https://github.com/piyushsuthar/github-readme-quotes">
         Be humble, be polite
 And always be on the side which is right
 Otherwise one day you'll shiver
 To see what you've become 
-When you see yourself in the mirror
-    </a>
+When you see yourself in the mirror</a></summary>
+    
 ![Codeforces Stats](https://codeforces-readme-stats.vercel.app/api/card?username=madmins07&theme=merko&bg_color=FFFFFF&text_color=E5677F&icon_color=000000&title_color=E34572)
