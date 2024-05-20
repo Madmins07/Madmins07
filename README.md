@@ -35,11 +35,7 @@
 
 [![Sukoon](https://img.shields.io/badge/Sukoon-%231DB954.svg?&style=flat-square&logo=spotify&logoColor=white)](https://open.spotify.com/playlist/0dV4OxjcmrbhOPNpWrIlod) [![Calm Synths!](https://img.shields.io/badge/Calm%20Synths-%231DB954.svg?&style=flat-square&logo=spotify&logoColor=white)](https://open.spotify.com/artist/73aKnLT4O8G2pBEfdlQzrE) [![KPOP Music](https://img.shields.io/badge/KPOP%20Music-%231DB954.svg?&style=flat-square&logo=spotify&logoColor=white)](https://open.spotify.com/playlist/2DFExFNWYOwQMZy6wUeCxX?si=s1Ndgj8hTg-r8zLlvRgv1Q) [![EDM](https://img.shields.io/badge/EDM-%231DB954.svg?&style=flat-square&logo=spotify&logoColor=white)](https://open.spotify.com/playlist/5KHnVFcNPl3N3ag5KaPwUB)
 
-[![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=31rvfbish5mkv7mhyb6u7syx65gy&cover_image=true&theme=default&show_offline=false&background_color=ffffff&interchange=false&bar_color_cover=true)](https://github.com/kittinan/spotify-github-profile)<br></br>
-[![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=31rvfbish5mkv7mhyb6u7syx65gy&cover_image=true&theme=natemoo-re&show_offline=false&background_color=ffffff&interchange=false&bar_color=53b14f&bar_color_cover=true)](https://github.com/kittinan/spotify-github-profile)
-<br></br>
-[![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=31rvfbish5mkv7mhyb6u7syx65gy&cover_image=true&theme=novatorem&show_offline=false&background_color=ffffff&interchange=false&bar_color=53b14f&bar_color_cover=true)](https://github.com/kittinan/spotify-github-profile)
-<details>
+[![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=31rvfbish5mkv7mhyb6u7syx65gy&cover_image=true&theme=default&show_offline=true&background_color=919191&interchange=false&bar_color=53b14f&bar_color_cover=true)](https://github.com/kittinan/spotify-github-profile)
 
     <summary>Recently played Songs</summary>
     <a href="https://open.spotify.com/user/31rvfbish5mkv7mhyb6u7syx65gy"><img src="https://spotify-recently-played-readme.vercel.app/api?user=31rvfbish5mkv7mhyb6u7syx65gy&unique=true&count=5" alt="Spotify recently played"></a>
