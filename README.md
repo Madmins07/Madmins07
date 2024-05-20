@@ -38,7 +38,7 @@ a<h1 align="center">About me 💫 </h1>
 [![Sukoon](https://img.shields.io/badge/Sukoon-%231DB954.svg?&style=flat-square&logo=spotify&logoColor=white)](https://open.spotify.com/playlist/0dV4OxjcmrbhOPNpWrIlod) [![Calm Synths!](https://img.shields.io/badge/Calm%20Synths-%231DB954.svg?&style=flat-square&logo=spotify&logoColor=white)](https://open.spotify.com/artist/73aKnLT4O8G2pBEfdlQzrE) [![KPOP Music](https://img.shields.io/badge/KPOP%20Music-%231DB954.svg?&style=flat-square&logo=spotify&logoColor=white)](https://open.spotify.com/playlist/2DFExFNWYOwQMZy6wUeCxX?si=s1Ndgj8hTg-r8zLlvRgv1Q) [![EDM](https://img.shields.io/badge/EDM-%231DB954.svg?&style=flat-square&logo=spotify&logoColor=white)](https://open.spotify.com/playlist/5KHnVFcNPl3N3ag5KaPwUB)
 
 [![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=31rvfbish5mkv7mhyb6u7syx65gy&cover_image=true&theme=default&show_offline=true&background_color=000000&interchange=false&bar_color=53b14f&bar_color_cover=true)](https://github.com/kittinan/spotify-github-profile)
-<img align="right" src="https://github.com/Madmins07/Madmins07/assets/152009368/220445d2-f123-4e79-9f61-3045074bf02b.gif" width="300" height="320">
+
 
 <summary>Recently played Songs</summary>
 <details><a href="https://open.spotify.com/user/31rvfbish5mkv7mhyb6u7syx65gy"><img src="https://spotify-recently-played-readme.vercel.app/api?user=31rvfbish5mkv7mhyb6u7syx65gy&unique=true&count=5" alt="Spotify recently played"></a>
@@ -49,3 +49,4 @@ a<h1 align="center">About me 💫 </h1>
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Madmins07&theme=merko&bg_color=000000&icon_color=FFFFFF&title_color=E34572&text_color=E5677F)
 <br></br>
 <p align="center"><a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Montserrat&size=30&pause=1000&color=F73D8C&random=false&width=435&lines=Thank+you!+%F0%9F%A4%8D" alt="Typing SVG" /></a></p>
+<img align="right" src="https://github.com/Madmins07/Madmins07/assets/152009368/220445d2-f123-4e79-9f61-3045074bf02b.gif" width="300" height="320">
