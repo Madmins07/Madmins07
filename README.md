@@ -1,5 +1,5 @@
 
-<p align="center"><h1 >About me 💫:- </h1></p>
+<p align="center"><h1 >About me 💫:- </h1></p><br>
   <img align='right' src="https://github.com/Madmins07/Madmins07/assets/152009368/44fb6a0a-afbf-46b1-ae96-4e5cc8ba1cef.gif" width="500" height="400">
 <p align="center">
   
