@@ -24,7 +24,11 @@
   &#8287;&#8287;&#8287;&#8287;&#8287;
   <a href="https://www.instagram.com/madhav_agarwal04/" alt="Instagram" title="Instagram"><img width="32px" src="https://i.imgur.com/0uVwkoZ.png"/></a>
   &#8287;&#8287;&#8287;&#8287;&#8287;
-  
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/dheereshagrwal/colored-icons@1.7.5/src/app/ci.min.css"
+/>
+<i class="ci ci-spotify ci-2x">https://open.spotify.com/user/31rvfbish5mkv7mhyb6u7syx65gy</i>
   
 
 </p>
