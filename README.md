@@ -5,7 +5,7 @@ a<h1 align="center">About me 💫 </h1>
 
 - 🌱 Proficient in <b>***Advcanced Machine Learning algorithms and Neural Networks***</b>
 - 🔭 I’m currently working on <b>***ML Projects***</b>
-- 💫 I like blogging: <b>***madblogs6.wordpress.com***</b>![undefined - Imgur](https://github.com/Madmins07/Madmins07/assets/152009368/425340fa-ced9-4139-b925-911e7e0a33ab)
+- 💫 I like blogging: <b>***madblogs6.wordpress.com***</b>
 - ✨ Interested in ***Quantitative Finance*** and ***consulting***
 - 👀 Reach me: <b>***madhavagarwal50@gmail.com***</b>
 <br></br>
