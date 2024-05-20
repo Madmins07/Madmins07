@@ -46,4 +46,4 @@ a<h1 align="center">About me 💫 </h1>
   
 ![Codeforces Stats](https://codeforces-readme-stats.vercel.app/api/card?username=madmins07&theme=merko&bg_color=FFFFFF&text_color=E5677F&icon_color=000000&title_color=E34572)
 ![Madhav's GitHub stats](https://github-readme-stats.vercel.app/api?username=Madmins07&show_icons=true&theme=merko&bg_color=FFFFFF&text_color=E5677F&icon_color=000000&title_color=E34572)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Madmins07&layout=donut&color=E5677F&title_color=E34572)](https://github.com/Madmins07/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Madmins07&layout=donut&color=E5677F&title_color=E34572&test_size=20&text_color=E5677F)](https://github.com/Madmins07/github-readme-stats)
