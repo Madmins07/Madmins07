@@ -24,9 +24,6 @@
   &#8287;&#8287;&#8287;&#8287;&#8287;
   <a href="https://www.instagram.com/madhav_agarwal04/" alt="Instagram" title="Instagram"><img width="32px" src="https://i.imgur.com/0uVwkoZ.png"/></a>
   &#8287;&#8287;&#8287;&#8287;&#8287;
-  <a href="https://skillicons.dev">
-    <img align='center' src="https://skillicons.dev/icons?i=instagram&theme=dark&perline=15" href="https://www.instagram.com/madhav_agarwal04/" />
-  </a>
   
 
 </p>
