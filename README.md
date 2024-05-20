@@ -46,6 +46,6 @@ a<h1 align="center">About me 💫 </h1>
   
 ![Codeforces Stats](https://codeforces-readme-stats.vercel.app/api/card?username=madmins07&theme=merko&bg_color=000000&text_color=E5677F&icon_color=FFFFFF&title_color=E34572)
 ![Madhav's GitHub stats](https://github-readme-stats.vercel.app/api?username=Madmins07&show_icons=true&theme=merko&bg_color=000000&text_color=E5677F&icon_color=FFFFFF&title_color=E34572)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Madmins07&layout=donut&color=E5677F&title_color=E34572&test_size=20&text_color=E5677F&bg_color=000000)](https://github.com/Madmins07/github-readme-stats)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Madmins07&theme=merko&bg_color=000000&icon_color=FFFFFF&title_color=E34572&text_color=E5677F)
 <br></br>
 <p align="center"><a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Montserrat&size=30&pause=1000&color=F73D8C&random=false&width=435&lines=Thank+you!+%F0%9F%A4%8D" alt="Typing SVG" /></a></p>
