@@ -1,7 +1,7 @@
-<img align='right' src="https://github.com/Madmins07/Madmins07/assets/152009368/44fb6a0a-afbf-46b1-ae96-4e5cc8ba1cef.gif" width="450" height="500">
+<img align='right' src="https://github.com/Madmins07/Madmins07/assets/152009368/44fb6a0a-afbf-46b1-ae96-4e5cc8ba1cef.gif" width="650" height="500">
 <p align="center">
   
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Montserrat&weight=500&size=30&duration=4000&pause=500&color=8B4BF7&background=FFFFFF00&random=false&width=435&lines=Hi+%F0%9F%91%8B%2C+I+am+Madhav+;Currently+a+First+Year+Undergrad;At+IIT+KGP%F0%9F%8C%99" alt="Typing SVG" /></a>
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Montserrat&weight=500&size=30&duration=4000&pause=500&color=8B4BF7&background=FFFFFF00&random=false&width=435&lines=Hi+%F0%9F%91%8B%2C+I+am+Madhav+;A+First+Year+Undergrad;At+IIT+KGP%F0%9F%8C%99" alt="Typing SVG" /></a>
 
 
 </br>
