@@ -4,10 +4,6 @@
   <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Montserrat&weight=500&size=30&duration=4000&pause=500&color=8B4BF7&background=FFFFFF00&random=false&width=435&lines=Hi+%F0%9F%91%8B%2C+I+am+Madhav+;A+First+Year+Undergrad;At+IIT+KGP%F0%9F%8C%99" alt="Typing SVG" /></a>
 
 
-</br>
-
--->
-
 - 🌱 Proficient in <b>***Advcanced Machine Learning algorithms and Neural Networks***</b>
 - 🔭 I’m currently working on <b>***ML Projects***</b>
 - 💫 I like blogging: <b>***madblogs6.wordpress.com***</b>
