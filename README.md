@@ -29,7 +29,7 @@ a<h1 align="center">About me 💫 </h1>
 
 ### -> ***🔧Languages & Technologies***
 
-  <a href="https://skillicons.dev">
+  <a href="https://www.instagram.com/madhav_agarwal04/">
     <img align='center' src="https://skillicons.dev/icons?i=html,css,js,idea,java,matlab,obsidian,tensorflow,pytorch,sublime,ts,php,wordpress,nodejs,react,mongodb,mysql,py,git,figma,arduino,c,cpp,cs,clion,vscode&theme=dark&perline=15" />
   </a>
   
