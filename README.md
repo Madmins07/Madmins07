@@ -37,7 +37,7 @@ a<h1 align="center">About me 💫 </h1>
 
 [![Sukoon](https://img.shields.io/badge/Sukoon-%231DB954.svg?&style=flat-square&logo=spotify&logoColor=white)](https://open.spotify.com/playlist/0dV4OxjcmrbhOPNpWrIlod) [![Calm Synths!](https://img.shields.io/badge/Calm%20Synths-%231DB954.svg?&style=flat-square&logo=spotify&logoColor=white)](https://open.spotify.com/artist/73aKnLT4O8G2pBEfdlQzrE) [![KPOP Music](https://img.shields.io/badge/KPOP%20Music-%231DB954.svg?&style=flat-square&logo=spotify&logoColor=white)](https://open.spotify.com/playlist/2DFExFNWYOwQMZy6wUeCxX?si=s1Ndgj8hTg-r8zLlvRgv1Q) [![EDM](https://img.shields.io/badge/EDM-%231DB954.svg?&style=flat-square&logo=spotify&logoColor=white)](https://open.spotify.com/playlist/5KHnVFcNPl3N3ag5KaPwUB)
 
-[![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=31rvfbish5mkv7mhyb6u7syx65gy&cover_image=true&show_offline=false&theme=default&background_color=000000&interchange=false&bar_color=53b14f&bar_color_cover=true)](https://github.com/kittinan/spotify-github-profile)
+[![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=31rvfbish5mkv7mhyb6u7syx65gy&cover_image=true&show_offline=true&theme=default&background_color=000000&interchange=false&bar_color=53b14f&bar_color_cover=true)](https://github.com/kittinan/spotify-github-profile)
 
 
 <summary>Recently played Songs</summary>
