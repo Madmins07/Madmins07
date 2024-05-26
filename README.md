@@ -53,3 +53,6 @@
 <br></br>
 <p align="left"><a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Montserrat&size=30&pause=500&color=F73D8C&random=false&width=435&lines=Thank+you!+%F0%9F%A4%8D" alt="Typing SVG" /></a></p>
 <img align="center" src="https://github.com/Madmins07/Madmins07/assets/152009368/220445d2-f123-4e79-9f61-3045074bf02b.gif" width="200" height="120">
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
+</p>
