@@ -1,8 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&text=Hi!&height=100&section=header"/>
-</p>
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=100&color=gradient&text=Hi%20🌙&fontColor=F73071&fontSize=70&animation=blinking&customColorList=0,9)"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&text=Hi!&height=100&section=header&animation=scaleIn"/>
 </p>
 <h1 align="center">About me 💫 </h1>
 <p align="center">
