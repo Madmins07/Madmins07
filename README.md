@@ -2,7 +2,7 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&text=Hi!&height=100&section=header"/>
 </p>
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=100&color=gradient&text=Hi%20🌙&fontColor=F73071&fontSize=70&animation=blinking"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=100&color=gradient&text=Hi%20🌙&fontColor=F73071&fontSize=70&animation=blinking&customColorList=0,2,2,5,30)"/>
 </p>
 <h1 align="center">About me 💫 </h1>
 <p align="center">
