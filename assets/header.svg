@@ -1,0 +1,71 @@
+<svg width="1000" height="360" viewBox="0 0 1000 360" xmlns="http://www.w3.org/2000/svg">
+<style>
+  text{font-family:ui-monospace,'SF Mono','Cascadia Code',Menlo,Consolas,'Courier New',monospace}
+  .blink{animation:blink 1.2s step-end infinite}
+  .pulse{animation:pulse 2s ease-in-out infinite}
+  .tickwrap{animation:scroll 26s linear infinite}
+  @keyframes blink{0%,55%{opacity:1}56%,100%{opacity:0}}
+  @keyframes pulse{0%,100%{opacity:1}50%{opacity:.25}}
+  @keyframes scroll{from{transform:translateX(0)}to{transform:translateX(-1250px)}}
+</style>
+<defs>
+<clipPath id="t1"><rect x="40" y="70" width="0" height="30"><animate attributeName="width" from="0" to="300" begin="0.3s" dur="0.9s" fill="freeze" calcMode="discrete" values="0;21;43;64;86;107;129;150;171;193;214;236;257;279;300"/></rect></clipPath><clipPath id="t2"><rect x="40" y="106" width="0" height="46"><animate attributeName="width" from="0" to="470" begin="1.4s" dur="1.0s" fill="freeze" calcMode="discrete" values="0;34;67;101;134;168;201;235;269;302;336;369;403;436;470"/></rect></clipPath><clipPath id="t3"><rect x="40" y="158" width="0" height="24"><animate attributeName="width" from="0" to="340" begin="2.6s" dur="0.7s" fill="freeze" calcMode="discrete" values="0;24;49;73;97;121;146;170;194;219;243;267;291;316;340"/></rect></clipPath><clipPath id="t4"><rect x="40" y="186" width="0" height="24"><animate attributeName="width" from="0" to="460" begin="3.4s" dur="0.7s" fill="freeze" calcMode="discrete" values="0;33;66;99;131;164;197;230;263;296;329;361;394;427;460"/></rect></clipPath><clipPath id="t5"><rect x="40" y="214" width="0" height="24"><animate attributeName="width" from="0" to="380" begin="4.2s" dur="0.8s" fill="freeze" calcMode="discrete" values="0;27;54;81;109;136;163;190;217;244;271;299;326;353;380"/></rect></clipPath>
+<clipPath id="frame"><rect x="0" y="0" width="1000" height="360" rx="14"/></clipPath>
+<pattern id="grid" width="25" height="25" patternUnits="userSpaceOnUse">
+  <path d="M25 0H0V25" fill="none" stroke="#ffffff" stroke-opacity="0.02"/>
+</pattern>
+<linearGradient id="fadeL" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0" stop-color="#0a0d12"/><stop offset="1" stop-color="#0a0d12" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="fadeR" x1="1" y1="0" x2="0" y2="0">
+  <stop offset="0" stop-color="#0a0d12"/><stop offset="1" stop-color="#0a0d12" stop-opacity="0"/>
+</linearGradient>
+</defs>
+<g clip-path="url(#frame)">
+<rect width="1000" height="360" fill="#0a0d12"/>
+<rect width="1000" height="360" fill="url(#grid)"/>
+
+<!-- window chrome -->
+<rect width="1000" height="44" fill="#0e131a"/>
+<line x1="0" y1="44" x2="1000" y2="44" stroke="#1f2630"/>
+<circle cx="28" cy="22" r="7" fill="#ff5f56"/><circle cx="52" cy="22" r="7" fill="#ffbd2e"/><circle cx="76" cy="22" r="7" fill="#27c93f"/>
+<text x="500" y="27" text-anchor="middle" font-size="13" fill="#8b949e">madhav@kgp : ~/quant-desk — MADHAV.TERMINAL v3.0</text>
+<circle cx="912" cy="22" r="5" fill="#3fb950" class="pulse"/>
+<text x="926" y="26" font-size="12" fill="#3fb950" font-weight="bold">LIVE</text>
+
+<!-- typed intro -->
+<g clip-path="url(#t1)"><text x="40" y="92" font-size="16"><tspan fill="#3fb950">$</tspan><tspan fill="#c9d1d9"> ./madhav --profile</tspan></text></g>
+<g clip-path="url(#t2)"><text x="40" y="140" font-size="38" font-weight="bold" fill="#ffb000" letter-spacing="1">MADHAV AGARWAL</text></g>
+<g clip-path="url(#t3)"><text x="40" y="176" font-size="17" fill="#58a6ff">&gt; quant @ WorldQuant</text></g>
+<g clip-path="url(#t4)"><text x="40" y="204" font-size="16" fill="#c9d1d9">&gt; IIT Kharagpur · Industrial &amp; Systems '27</text></g>
+<g clip-path="url(#t5)"><text x="40" y="232" font-size="15" fill="#8b949e">&gt; ml/dl · time-series · quant · cp</text></g>
+
+<!-- status chips -->
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="5.1s" dur="0.4s" fill="freeze"/>
+  <rect x="40" y="252" width="88" height="24" rx="5" fill="none" stroke="#3fb950"/><text x="84" y="268" text-anchor="middle" font-size="12" fill="#3fb950">SYS: OK</text>
+  <rect x="138" y="252" width="140" height="24" rx="5" fill="none" stroke="#ffb000"/><text x="208" y="268" text-anchor="middle" font-size="12" fill="#ffb000">MODELS: LOADED</text>
+  <rect x="288" y="252" width="116" height="24" rx="5" fill="none" stroke="#f85149"/><text x="346" y="268" text-anchor="middle" font-size="12" fill="#f85149">COFFEE: 96%</text>
+</g>
+<text x="40" y="300" font-size="16" fill="#3fb950">$</text>
+<rect x="56" y="286" width="10" height="18" fill="#ffb000" class="blink"/>
+
+<!-- chart panel -->
+<rect x="522" y="60" width="440" height="252" rx="10" fill="#0d1117" stroke="#1f2630"/>
+<text x="540" y="86" font-size="13" fill="#8b949e">MADHAV/USD · 1D</text>
+<text x="944" y="86" text-anchor="end" font-size="14" font-weight="bold" fill="#3fb950">▲ 128.47  +12.4%</text>
+<line x1="540" y1="110" x2="944" y2="110" stroke="#161c26" stroke-dasharray="3 5"/><line x1="540" y1="150" x2="944" y2="150" stroke="#161c26" stroke-dasharray="3 5"/><line x1="540" y1="190" x2="944" y2="190" stroke="#161c26" stroke-dasharray="3 5"/><line x1="540" y1="230" x2="944" y2="230" stroke="#161c26" stroke-dasharray="3 5"/><line x1="540" y1="270" x2="944" y2="270" stroke="#161c26" stroke-dasharray="3 5"/>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.80s" dur="0.25s" fill="freeze"/><line x1="548" y1="232" x2="548" y2="258" stroke="#3fb950" stroke-width="1.5"/><rect x="542" y="238" width="12" height="14" fill="#3fb950" rx="1"/></g><g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.02s" dur="0.25s" fill="freeze"/><line x1="573" y1="222" x2="573" y2="246" stroke="#3fb950" stroke-width="1.5"/><rect x="567" y="228" width="12" height="12" fill="#3fb950" rx="1"/></g><g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.24s" dur="0.25s" fill="freeze"/><line x1="598" y1="226" x2="598" y2="250" stroke="#f85149" stroke-width="1.5"/><rect x="592" y="232" width="12" height="12" fill="#f85149" rx="1"/></g><g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.46s" dur="0.25s" fill="freeze"/><line x1="623" y1="210" x2="623" y2="236" stroke="#3fb950" stroke-width="1.5"/><rect x="617" y="216" width="12" height="14" fill="#3fb950" rx="1"/></g><g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.68s" dur="0.25s" fill="freeze"/><line x1="648" y1="200" x2="648" y2="224" stroke="#3fb950" stroke-width="1.5"/><rect x="642" y="206" width="12" height="12" fill="#3fb950" rx="1"/></g><g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.90s" dur="0.25s" fill="freeze"/><line x1="673" y1="206" x2="673" y2="230" stroke="#f85149" stroke-width="1.5"/><rect x="667" y="212" width="12" height="12" fill="#f85149" rx="1"/></g><g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2.12s" dur="0.25s" fill="freeze"/><line x1="698" y1="188" x2="698" y2="216" stroke="#3fb950" stroke-width="1.5"/><rect x="692" y="194" width="12" height="16" fill="#3fb950" rx="1"/></g><g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2.34s" dur="0.25s" fill="freeze"/><line x1="723" y1="176" x2="723" y2="202" stroke="#3fb950" stroke-width="1.5"/><rect x="717" y="182" width="12" height="14" fill="#3fb950" rx="1"/></g><g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2.56s" dur="0.25s" fill="freeze"/><line x1="748" y1="182" x2="748" y2="206" stroke="#f85149" stroke-width="1.5"/><rect x="742" y="188" width="12" height="12" fill="#f85149" rx="1"/></g><g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2.78s" dur="0.25s" fill="freeze"/><line x1="773" y1="164" x2="773" y2="192" stroke="#3fb950" stroke-width="1.5"/><rect x="767" y="170" width="12" height="16" fill="#3fb950" rx="1"/></g><g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="3.00s" dur="0.25s" fill="freeze"/><line x1="798" y1="152" x2="798" y2="178" stroke="#3fb950" stroke-width="1.5"/><rect x="792" y="158" width="12" height="14" fill="#3fb950" rx="1"/></g><g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="3.22s" dur="0.25s" fill="freeze"/><line x1="823" y1="160" x2="823" y2="184" stroke="#f85149" stroke-width="1.5"/><rect x="817" y="166" width="12" height="12" fill="#f85149" rx="1"/></g><g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="3.44s" dur="0.25s" fill="freeze"/><line x1="848" y1="140" x2="848" y2="170" stroke="#3fb950" stroke-width="1.5"/><rect x="842" y="146" width="12" height="18" fill="#3fb950" rx="1"/></g><g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="3.66s" dur="0.25s" fill="freeze"/><line x1="873" y1="126" x2="873" y2="154" stroke="#3fb950" stroke-width="1.5"/><rect x="867" y="132" width="12" height="16" fill="#3fb950" rx="1"/></g><g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="3.88s" dur="0.25s" fill="freeze"/><line x1="898" y1="134" x2="898" y2="158" stroke="#f85149" stroke-width="1.5"/><rect x="892" y="140" width="12" height="12" fill="#f85149" rx="1"/></g><g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="4.10s" dur="0.25s" fill="freeze"/><line x1="923" y1="108" x2="923" y2="144" stroke="#3fb950" stroke-width="1.5"/><rect x="917" y="114" width="12" height="24" fill="#3fb950" rx="1"/></g>
+<rect x="542" y="286" width="12" height="10" fill="#3fb950" opacity="0.28"><animate attributeName="opacity" from="0" to="0.28" begin="0.80s" dur="0.25s" fill="freeze"/></rect><rect x="567" y="282" width="12" height="14" fill="#3fb950" opacity="0.28"><animate attributeName="opacity" from="0" to="0.28" begin="1.02s" dur="0.25s" fill="freeze"/></rect><rect x="592" y="288" width="12" height="8" fill="#f85149" opacity="0.28"><animate attributeName="opacity" from="0" to="0.28" begin="1.24s" dur="0.25s" fill="freeze"/></rect><rect x="617" y="280" width="12" height="16" fill="#3fb950" opacity="0.28"><animate attributeName="opacity" from="0" to="0.28" begin="1.46s" dur="0.25s" fill="freeze"/></rect><rect x="642" y="284" width="12" height="12" fill="#3fb950" opacity="0.28"><animate attributeName="opacity" from="0" to="0.28" begin="1.68s" dur="0.25s" fill="freeze"/></rect><rect x="667" y="287" width="12" height="9" fill="#f85149" opacity="0.28"><animate attributeName="opacity" from="0" to="0.28" begin="1.90s" dur="0.25s" fill="freeze"/></rect><rect x="692" y="278" width="12" height="18" fill="#3fb950" opacity="0.28"><animate attributeName="opacity" from="0" to="0.28" begin="2.12s" dur="0.25s" fill="freeze"/></rect><rect x="717" y="281" width="12" height="15" fill="#3fb950" opacity="0.28"><animate attributeName="opacity" from="0" to="0.28" begin="2.34s" dur="0.25s" fill="freeze"/></rect><rect x="742" y="286" width="12" height="10" fill="#f85149" opacity="0.28"><animate attributeName="opacity" from="0" to="0.28" begin="2.56s" dur="0.25s" fill="freeze"/></rect><rect x="767" y="276" width="12" height="20" fill="#3fb950" opacity="0.28"><animate attributeName="opacity" from="0" to="0.28" begin="2.78s" dur="0.25s" fill="freeze"/></rect><rect x="792" y="280" width="12" height="16" fill="#3fb950" opacity="0.28"><animate attributeName="opacity" from="0" to="0.28" begin="3.00s" dur="0.25s" fill="freeze"/></rect><rect x="817" y="285" width="12" height="11" fill="#f85149" opacity="0.28"><animate attributeName="opacity" from="0" to="0.28" begin="3.22s" dur="0.25s" fill="freeze"/></rect><rect x="842" y="274" width="12" height="22" fill="#3fb950" opacity="0.28"><animate attributeName="opacity" from="0" to="0.28" begin="3.44s" dur="0.25s" fill="freeze"/></rect><rect x="867" y="277" width="12" height="19" fill="#3fb950" opacity="0.28"><animate attributeName="opacity" from="0" to="0.28" begin="3.66s" dur="0.25s" fill="freeze"/></rect><rect x="892" y="284" width="12" height="12" fill="#f85149" opacity="0.28"><animate attributeName="opacity" from="0" to="0.28" begin="3.88s" dur="0.25s" fill="freeze"/></rect><rect x="917" y="270" width="12" height="26" fill="#3fb950" opacity="0.28"><animate attributeName="opacity" from="0" to="0.28" begin="4.10s" dur="0.25s" fill="freeze"/></rect>
+<polyline points="548,249 573,238 598,242 623,227 648,216 673,222 698,206 723,193 748,198 773,182 798,169 823,176 848,159 873,144 898,150 923,130" fill="none" stroke="#58a6ff" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" opacity="0.9" stroke-dasharray="600" stroke-dashoffset="600"><animate attributeName="stroke-dashoffset" from="600" to="0" begin="1s" dur="3.6s" fill="freeze"/></polyline>
+
+<!-- ticker tape -->
+<line x1="0" y1="318" x2="1000" y2="318" stroke="#1f2630"/>
+<g class="tickwrap">
+  <text x="0" y="344" font-size="15" fill="#ffb000" textLength="1250">MADHAV ▲ 128.47   ●   IIT-KGP · ISE '27   ●   WORLDQUANT ▲ ACTIVE   ●   PYTHON ▲ 30%   ●   C++ ▲ 22%   ●   CODEFORCES ▲ GRIND   ●   PYTORCH ▲ LOADED   ●   TIME-SERIES ▲ STATIONARY   ●   SLEEP ▼ 4.2H   ●   COFFEE ▲ ATH   ●   </text>
+  <text x="1250" y="344" font-size="15" fill="#ffb000" textLength="1250">MADHAV ▲ 128.47   ●   IIT-KGP · ISE '27   ●   WORLDQUANT ▲ ACTIVE   ●   PYTHON ▲ 30%   ●   C++ ▲ 22%   ●   CODEFORCES ▲ GRIND   ●   PYTORCH ▲ LOADED   ●   TIME-SERIES ▲ STATIONARY   ●   SLEEP ▼ 4.2H   ●   COFFEE ▲ ATH   ●   </text>
+</g>
+<rect x="0" y="319" width="60" height="41" fill="url(#fadeL)"/>
+<rect x="940" y="319" width="60" height="41" fill="url(#fadeR)"/>
+</g>
+<rect x="0.5" y="0.5" width="999" height="359" rx="14" fill="none" stroke="#1f2630"/>
+</svg>
