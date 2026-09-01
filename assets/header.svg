@@ -36,7 +36,7 @@
 <!-- typed intro -->
 <g clip-path="url(#t1)"><text x="40" y="92" font-size="16"><tspan fill="#3fb950">$</tspan><tspan fill="#c9d1d9"> ./madhav --profile</tspan></text></g>
 <g clip-path="url(#t2)"><text x="40" y="140" font-size="38" font-weight="bold" fill="#ffb000" letter-spacing="1">MADHAV AGARWAL</text></g>
-<g clip-path="url(#t3)"><text x="40" y="176" font-size="17" fill="#58a6ff">&gt; quant @ WorldQuant</text></g>
+<g clip-path="url(#t3)"><text x="40" y="176" font-size="17" fill="#58a6ff">&gt; exec head · kdag · iit kharagpur</text></g>
 <g clip-path="url(#t4)"><text x="40" y="204" font-size="16" fill="#c9d1d9">&gt; IIT Kharagpur · Industrial &amp; Systems '27</text></g>
 <g clip-path="url(#t5)"><text x="40" y="232" font-size="15" fill="#8b949e">&gt; ml/dl · time-series · quant · cp</text></g>
 
@@ -61,8 +61,8 @@
 <!-- ticker tape -->
 <line x1="0" y1="318" x2="1000" y2="318" stroke="#1f2630"/>
 <g class="tickwrap">
-  <text x="0" y="344" font-size="15" fill="#ffb000" textLength="1250">MADHAV ▲ 128.47   ●   IIT-KGP · ISE '27   ●   WORLDQUANT ▲ ACTIVE   ●   PYTHON ▲ 30%   ●   C++ ▲ 22%   ●   CODEFORCES ▲ GRIND   ●   PYTORCH ▲ LOADED   ●   TIME-SERIES ▲ STATIONARY   ●   SLEEP ▼ 4.2H   ●   COFFEE ▲ ATH   ●   </text>
-  <text x="1250" y="344" font-size="15" fill="#ffb000" textLength="1250">MADHAV ▲ 128.47   ●   IIT-KGP · ISE '27   ●   WORLDQUANT ▲ ACTIVE   ●   PYTHON ▲ 30%   ●   C++ ▲ 22%   ●   CODEFORCES ▲ GRIND   ●   PYTORCH ▲ LOADED   ●   TIME-SERIES ▲ STATIONARY   ●   SLEEP ▼ 4.2H   ●   COFFEE ▲ ATH   ●   </text>
+  <text x="0" y="344" font-size="15" fill="#ffb000" textLength="1250">MADHAV ▲ 128.47   ●   IIT-KGP · ISE '27   ●   KDAG ▲ EXEC HEAD   ●   WORLDQUANT ▲ GOLD   ●   PYTHON ▲ 30%   ●   C++ ▲ 22%   ●   TIME-SERIES ▲ STATIONARY   ●   CODEFORCES ▲ GRIND   ●   SLEEP ▼ 4.2H   ●   COFFEE ▲ ATH   ●</text>
+  <text x="1250" y="344" font-size="15" fill="#ffb000" textLength="1250">MADHAV ▲ 128.47   ●   IIT-KGP · ISE '27   ●   KDAG ▲ EXEC HEAD   ●   WORLDQUANT ▲ GOLD   ●   PYTHON ▲ 30%   ●   C++ ▲ 22%   ●   TIME-SERIES ▲ STATIONARY   ●   CODEFORCES ▲ GRIND   ●   SLEEP ▼ 4.2H   ●   COFFEE ▲ ATH   ●</text>
 </g>
 <rect x="0" y="319" width="60" height="41" fill="url(#fadeL)"/>
 <rect x="940" y="319" width="60" height="41" fill="url(#fadeR)"/>
