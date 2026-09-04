@@ -1,130 +1,169 @@
-<svg width="1000" height="140" viewBox="0 0 1000 140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A golden retriever strolling across the top of the profile">
+<svg width="1000" height="160" viewBox="0 0 1000 160" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A golden retriever puppy strolling across the top of the profile">
 <defs>
-  <clipPath id="dogFrame"><rect width="1000" height="140" rx="16"/></clipPath>
+  <clipPath id="dogFrame"><rect width="1000" height="160" rx="16"/></clipPath>
   <linearGradient id="coat" x1="0" y1="0" x2="0" y2="1">
-    <stop offset="0" stop-color="#f2c885"/><stop offset="1" stop-color="#d59a45"/>
+    <stop offset="0" stop-color="#f7d49f"/><stop offset="1" stop-color="#dda657"/>
   </linearGradient>
-  <linearGradient id="coatFar" x1="0" y1="0" x2="0" y2="1">
-    <stop offset="0" stop-color="#c9954a"/><stop offset="1" stop-color="#a5722c"/>
+  <linearGradient id="coatDark" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#dfab63"/><stop offset="1" stop-color="#bb8438"/>
+  </linearGradient>
+  <linearGradient id="cream" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#fdf2dd"/><stop offset="1" stop-color="#f3ddb4"/>
   </linearGradient>
   <radialGradient id="vig" cx="0.5" cy="0.5" r="0.75">
-    <stop offset="0.55" stop-color="#0b0d10"/>
-    <stop offset="1" stop-color="#040507"/>
+    <stop offset="0.55" stop-color="#0b0d10"/><stop offset="1" stop-color="#050609"/>
   </radialGradient>
 </defs>
 
 <g clip-path="url(#dogFrame)">
-  <rect width="1000" height="140" fill="#0b0d10"/>
-  <rect width="1000" height="140" fill="url(#vig)"/>
+  <rect width="1000" height="160" fill="#0b0d10"/>
+  <rect width="1000" height="160" fill="url(#vig)"/>
 
-  <line x1="28" y1="119" x2="972" y2="119" stroke="#1c2128" stroke-width="1"/>
+  <line x1="28" y1="130" x2="972" y2="130" stroke="#1c2128" stroke-width="1"/>
   <g fill="#161b21">
-    <circle cx="150" cy="125" r="1.6"/><circle cx="322" cy="127" r="1.4"/>
-    <circle cx="505" cy="124" r="1.7"/><circle cx="688" cy="127" r="1.3"/>
-    <circle cx="861" cy="125" r="1.5"/>
+    <circle cx="150" cy="137" r="1.6"/><circle cx="322" cy="139" r="1.4"/>
+    <circle cx="505" cy="136" r="1.7"/><circle cx="688" cy="139" r="1.3"/>
+    <circle cx="861" cy="137" r="1.5"/>
   </g>
 
   <g>
     <animateTransform attributeName="transform" type="translate"
-      values="-260,0; 1220,0" dur="32s" repeatCount="indefinite"/>
+      values="-280,0; 1240,0" dur="34s" repeatCount="indefinite"/>
 
-    <g transform="scale(1.12)">
+    <ellipse cx="95" cy="128" rx="72" ry="6.5" fill="#000000" opacity="0.42">
+      <animate attributeName="rx" values="72;64;72" dur="0.36s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.42;0.3;0.42" dur="0.36s" repeatCount="indefinite"/>
+    </ellipse>
 
-      <ellipse cx="105" cy="105" rx="66" ry="6" fill="#000000" opacity="0.4">
-        <animate attributeName="rx" values="66;59;66" dur="0.34s" repeatCount="indefinite"/>
-        <animate attributeName="opacity" values="0.4;0.29;0.4" dur="0.34s" repeatCount="indefinite"/>
-      </ellipse>
+    <g>
+      <animateTransform attributeName="transform" type="translate"
+        values="0,0; 0,-2.6; 0,0" dur="0.36s" repeatCount="indefinite"/>
 
+      <!-- far legs -->
+      <g transform="translate(70,100)">
+        <animateTransform attributeName="transform" type="rotate"
+          values="16;-14;16" dur="0.72s" repeatCount="indefinite" additive="sum"/>
+        <path d="M-6,-5 C-6,-9 6,-9 6,-5 L5,16 C5,20 6.5,23 8,24.6 L-8,24.6 C-6.5,23 -5,20 -5,16 Z" fill="url(#coatDark)"/>
+        <ellipse cx="0" cy="25.4" rx="7.6" ry="3.8" fill="#b07c33"/>
+      </g>
+      <g transform="translate(122,100)">
+        <animateTransform attributeName="transform" type="rotate"
+          values="-14;16;-14" dur="0.72s" repeatCount="indefinite" additive="sum"/>
+        <path d="M-6,-5 C-6,-9 6,-9 6,-5 L5,16 C5,20 6.5,23 8,24.6 L-8,24.6 C-6.5,23 -5,20 -5,16 Z" fill="url(#coatDark)"/>
+        <ellipse cx="0" cy="25.4" rx="7.6" ry="3.8" fill="#b07c33"/>
+      </g>
+
+      <!-- plume tail -->
+      <g transform="translate(42,70)">
+        <animateTransform attributeName="transform" type="rotate"
+          values="-13;15;-13" dur="0.34s" repeatCount="indefinite" additive="sum"/>
+        <path d="M2,2 C-14,-2 -28,-12 -38,-30" fill="none" stroke="#dda657"
+              stroke-width="16" stroke-linecap="round"/>
+        <ellipse cx="-14" cy="-8" rx="12" ry="11" fill="#e6b571"/>
+        <ellipse cx="-26" cy="-19" rx="12" ry="11" fill="#eec085"/>
+        <ellipse cx="-36" cy="-30" rx="11" ry="10" fill="#f7d49f"/>
+        <path d="M0,1 C-13,-3 -25,-12 -34,-28" fill="none" stroke="#fbe3ba"
+              stroke-width="5" stroke-linecap="round" opacity="0.45"/>
+      </g>
+
+      <!-- body with a soft, fur scalloped back -->
+      <path d="M36,88 C31,70 41,58 58,56
+               q9,-7 17,0 q9,-7 17,0 q9,-7 17,0 q9,-6 16,2
+               C135,64 140,82 134,94
+               C120,108 56,110 44,99 C38,95 37,92 36,88 Z"
+            fill="url(#coat)"/>
+      <!-- belly -->
+      <path d="M52,98 C78,109 116,108 133,95 C120,108 56,110 44,99 Z" fill="#fdf2dd" opacity="0.55"/>
+      <!-- haunch -->
+      <ellipse cx="62" cy="80" rx="22" ry="21" fill="#eec085" opacity="0.4"/>
+
+      <!-- near legs -->
+      <g transform="translate(58,100)">
+        <animateTransform attributeName="transform" type="rotate"
+          values="-14;16;-14" dur="0.72s" repeatCount="indefinite" additive="sum"/>
+        <path d="M-6,-5 C-6,-9 6,-9 6,-5 L5,16 C5,20 6.5,23 8,24.6 L-8,24.6 C-6.5,23 -5,20 -5,16 Z" fill="url(#coat)"/>
+        <ellipse cx="0" cy="25.4" rx="7.6" ry="3.8" fill="#fbe3ba"/>
+        <g stroke="#e0bd85" stroke-width="1.1" stroke-linecap="round">
+          <line x1="-3" y1="24" x2="-3" y2="27"/><line x1="0" y1="24.4" x2="0" y2="27.4"/><line x1="3" y1="24" x2="3" y2="27"/>
+        </g>
+      </g>
+      <g transform="translate(110,100)">
+        <animateTransform attributeName="transform" type="rotate"
+          values="16;-14;16" dur="0.72s" repeatCount="indefinite" additive="sum"/>
+        <path d="M-6,-5 C-6,-9 6,-9 6,-5 L5,16 C5,20 6.5,23 8,24.6 L-8,24.6 C-6.5,23 -5,20 -5,16 Z" fill="url(#coat)"/>
+        <ellipse cx="0" cy="25.4" rx="7.6" ry="3.8" fill="#fbe3ba"/>
+        <g stroke="#e0bd85" stroke-width="1.1" stroke-linecap="round">
+          <line x1="-3" y1="24" x2="-3" y2="27"/><line x1="0" y1="24.4" x2="0" y2="27.4"/><line x1="3" y1="24" x2="3" y2="27"/>
+        </g>
+      </g>
+
+      <!-- head, turned toward the viewer -->
       <g>
-        <animateTransform attributeName="transform" type="translate"
-          values="0,0; 0,-2.4; 0,0" dur="0.34s" repeatCount="indefinite"/>
-
-        <!-- far legs -->
-        <g transform="translate(80,72)">
-          <animateTransform attributeName="transform" type="rotate"
-            values="17;-15;17" dur="0.68s" repeatCount="indefinite" additive="sum"/>
-          <path d="M-5,-4 C-5,-8 5,-8 5,-4 L4,16 C4,20 5.4,23 7,24.6 L-7,24.6 C-5.4,23 -4,20 -4,16 Z" fill="url(#coatFar)"/>
-          <ellipse cx="0" cy="25.4" rx="6.6" ry="3.4" fill="#b07c33"/>
-        </g>
-        <g transform="translate(136,72)">
-          <animateTransform attributeName="transform" type="rotate"
-            values="-15;17;-15" dur="0.68s" repeatCount="indefinite" additive="sum"/>
-          <path d="M-5,-4 C-5,-8 5,-8 5,-4 L4,16 C4,20 5.4,23 7,24.6 L-7,24.6 C-5.4,23 -4,20 -4,16 Z" fill="url(#coatFar)"/>
-          <ellipse cx="0" cy="25.4" rx="6.6" ry="3.4" fill="#b07c33"/>
-        </g>
-
-        <!-- plume tail -->
-        <g transform="translate(48,54)">
-          <animateTransform attributeName="transform" type="rotate"
-            values="-12;14;-12" dur="0.37s" repeatCount="indefinite" additive="sum"/>
-          <path d="M2,2 C-14,-2 -27,-11 -37,-26" fill="none" stroke="#d59a45"
-                stroke-width="14" stroke-linecap="round"/>
-          <ellipse cx="-22" cy="-13" rx="11" ry="9.5" fill="#e5ae5f" transform="rotate(-33 -22 -13)"/>
-          <ellipse cx="-35" cy="-25" rx="10.5" ry="9" fill="#f0c682" transform="rotate(-45 -35 -25)"/>
-          <path d="M0,1 C-13,-3 -25,-11 -34,-25" fill="none" stroke="#f7dda6"
-                stroke-width="4.5" stroke-linecap="round" opacity="0.5"/>
-        </g>
-
-        <!-- body -->
-        <path d="M44,60 C41,43 58,33 82,32 C108,31 131,37 142,48
-                 C149,56 148,67 138,72 C122,81 87,82 63,77 C48,74 45,68 44,60 Z"
-              fill="url(#coat)"/>
-        <!-- cream underside -->
-        <path d="M58,74 C82,81 116,81 137,72 C122,81 87,82 63,77 Z" fill="#f7e8c8" opacity="0.6"/>
-        <!-- chest ruff -->
-        <path d="M138,46 C147,52 149,62 141,70 C146,61 144,52 136,47 Z" fill="#f7e8c8" opacity="0.55"/>
-        <!-- haunch -->
-        <ellipse cx="66" cy="57" rx="19" ry="18" fill="#e9b96e" opacity="0.35"/>
-
-        <!-- near legs -->
-        <g transform="translate(69,72)">
-          <animateTransform attributeName="transform" type="rotate"
-            values="-15;17;-15" dur="0.68s" repeatCount="indefinite" additive="sum"/>
-          <path d="M-5,-4 C-5,-8 5,-8 5,-4 L4,16 C4,20 5.4,23 7,24.6 L-7,24.6 C-5.4,23 -4,20 -4,16 Z" fill="url(#coat)"/>
-          <ellipse cx="0" cy="25.4" rx="6.6" ry="3.4" fill="#f7dda6"/>
-        </g>
-        <g transform="translate(125,72)">
-          <animateTransform attributeName="transform" type="rotate"
-            values="17;-15;17" dur="0.68s" repeatCount="indefinite" additive="sum"/>
-          <path d="M-5,-4 C-5,-8 5,-8 5,-4 L4,16 C4,20 5.4,23 7,24.6 L-7,24.6 C-5.4,23 -4,20 -4,16 Z" fill="url(#coat)"/>
-          <ellipse cx="0" cy="25.4" rx="6.6" ry="3.4" fill="#f7dda6"/>
-        </g>
-
-        <!-- head -->
+        <animateTransform attributeName="transform" type="rotate"
+          values="-2.5 150,78; 2.5 150,78; -2.5 150,78" dur="2.9s" repeatCount="indefinite"/>
         <g>
           <animateTransform attributeName="transform" type="rotate"
-            values="0 143,52; 3 143,52; 0 143,52" dur="0.68s" repeatCount="indefinite"/>
+            values="0 150,78; 0 150,78; 11 150,78; 13 150,78; 11 150,78; 0 150,78; 0 150,78"
+            keyTimes="0; 0.32; 0.39; 0.45; 0.51; 0.58; 1"
+            dur="8s" repeatCount="indefinite"/>
+
+          <!-- fluffy skull with a soft crown of fur -->
+          <circle cx="151" cy="52" r="26" fill="url(#coat)"/>
+          <g fill="url(#coat)">
+            <circle cx="137" cy="31" r="8.5"/><circle cx="146" cy="27" r="8.5"/>
+            <circle cx="156" cy="27" r="8.5"/><circle cx="165" cy="31" r="8.5"/>
+          </g>
+
+          <!-- muzzle -->
+          <ellipse cx="151" cy="66" rx="17" ry="12.5" fill="url(#cream)"/>
+          <!-- blush -->
+          <ellipse cx="130" cy="62" rx="6.5" ry="3.8" fill="#f0a48c" opacity="0.4"/>
+          <ellipse cx="172" cy="62" rx="6.5" ry="3.8" fill="#f0a48c" opacity="0.4"/>
+
+          <!-- eyes -->
+          <ellipse cx="140" cy="49" rx="5" ry="5.4" fill="#3a2a1c">
+            <animate attributeName="ry" values="5.4;5.4;0.4;5.4;5.4;5.4;0.4;5.4;5.4"
+                     keyTimes="0;0.30;0.325;0.35;0.66;0.70;0.725;0.75;1"
+                     dur="5.6s" repeatCount="indefinite"/>
+          </ellipse>
+          <ellipse cx="162" cy="49" rx="5" ry="5.4" fill="#3a2a1c">
+            <animate attributeName="ry" values="5.4;5.4;0.4;5.4;5.4;5.4;0.4;5.4;5.4"
+                     keyTimes="0;0.30;0.325;0.35;0.66;0.70;0.725;0.75;1"
+                     dur="5.6s" repeatCount="indefinite"/>
+          </ellipse>
+          <circle cx="141.8" cy="47" r="1.7" fill="#ffffff" opacity="0.95"/>
+          <circle cx="163.8" cy="47" r="1.7" fill="#ffffff" opacity="0.95"/>
+
+          <!-- nose, smile, tongue -->
+          <path d="M145,59 C145,55.5 157,55.5 157,59 C157,62.4 153.6,64.6 151,64.6 C148.4,64.6 145,62.4 145,59 Z" fill="#3a2a1c"/>
+          <path d="M151,65 L151,68" stroke="#3a2a1c" stroke-width="1.6" stroke-linecap="round"/>
+          <path d="M151,68 C151,72 145,73.5 142,70.5" fill="none" stroke="#3a2a1c" stroke-width="1.6" stroke-linecap="round"/>
+          <path d="M151,68 C151,72 157,73.5 160,70.5" fill="none" stroke="#3a2a1c" stroke-width="1.6" stroke-linecap="round"/>
+          <ellipse cx="151" cy="74" rx="4.6" ry="5.2" fill="#ef8fa0">
+            <animate attributeName="ry" values="5.2;6.4;5.2" dur="1.5s" repeatCount="indefinite"/>
+          </ellipse>
+
+          <!-- floppy ears, hanging in front at the sides -->
           <g>
             <animateTransform attributeName="transform" type="rotate"
-              values="0 143,52; 0 143,52; 14 143,52; 16 143,52; 14 143,52; 0 143,52; 0 143,52"
-              keyTimes="0; 0.30; 0.37; 0.43; 0.49; 0.56; 1"
-              dur="7.5s" repeatCount="indefinite"/>
-
-            <!-- neck -->
-            <path d="M128,44 C136,34 152,31 162,38 L158,64 C144,69 132,60 128,52 Z" fill="url(#coat)"/>
-            <!-- ear sits behind the skull, toward the back of the head -->
-            <path d="M139,24 C149,21 155,31 154,43 C153,55 146,62 138,60
-                     C130,58 128,47 129,36 C130,29 134,25 139,24 Z" fill="url(#coatFar)"/>
-            <!-- skull -->
-            <circle cx="157" cy="40" r="19" fill="url(#coat)"/>
-            <!-- brow tuft -->
-            <path d="M146,26 C153,20 164,21 170,27 C162,24 153,24 146,26 Z" fill="#f7dda6" opacity="0.7"/>
-            <!-- muzzle -->
-            <path d="M166,31 C180,28 195,34 198,42 C200,49 192,53 180,53 C169,53 164,46 164,39 Z" fill="#f7e8c8"/>
-            <ellipse cx="197" cy="41" rx="5" ry="4.2" fill="#2b2118"/>
-            <path d="M189,50 C192,52 196,52 198,50" fill="none" stroke="#cbab7c" stroke-width="1.3" stroke-linecap="round"/>
-            <!-- eye, clear of the ear -->
-            <ellipse cx="163" cy="34" rx="2.9" ry="2.9" fill="#2b2118">
-              <animate attributeName="ry" values="2.9;2.9;0.3;2.9;2.9;2.9;0.3;2.9;2.9"
-                       keyTimes="0;0.32;0.345;0.37;0.70;0.74;0.765;0.79;1"
-                       dur="6.4s" repeatCount="indefinite"/>
-            </ellipse>
-            <circle cx="164.2" cy="32.8" r="1" fill="#ffffff" opacity="0.9"/>
+              values="-3 132,36; 4.5 132,36; -3 132,36" dur="0.72s" repeatCount="indefinite"/>
+            <path d="M134,33 C116,32 104,50 108,70 C111,86 125,92 133,83 C139,76 138,45 134,33 Z" fill="url(#coatDark)"/>
+            <path d="M131,40 C119,42 113,55 115,68 C112,54 119,42 131,40 Z" fill="#f7d49f" opacity="0.35"/>
           </g>
+          <g>
+            <animateTransform attributeName="transform" type="rotate"
+              values="3 170,36; -4.5 170,36; 3 170,36" dur="0.72s" repeatCount="indefinite"/>
+            <path d="M168,33 C186,32 198,50 194,70 C191,86 177,92 169,83 C163,76 164,45 168,33 Z" fill="url(#coatDark)"/>
+            <path d="M171,40 C183,42 189,55 187,68 C190,54 183,42 171,40 Z" fill="#f7d49f" opacity="0.35"/>
+          </g>
+
+          <!-- collar with a little gold tag -->
+          <path d="M129,80 C138,88 164,88 173,80 L173,87 C164,95 138,95 129,87 Z" fill="#c2564f"/>
+          <circle cx="151" cy="93" r="5.2" fill="#e8c06a" stroke="#b7913f" stroke-width="1"/>
         </g>
       </g>
     </g>
   </g>
 </g>
-<rect x="0.5" y="0.5" width="999" height="139" rx="16" fill="none" stroke="#1c2128"/>
+<rect x="0.5" y="0.5" width="999" height="159" rx="16" fill="none" stroke="#1c2128"/>
 </svg>

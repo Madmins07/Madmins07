@@ -31,6 +31,14 @@ I advise the **Kharagpur Data Analytics Group**, having run it as Executive Head
 
 ## track record
 
+<div align="center">
+  <img src="assets/timeline.svg" alt="Timeline from Seventh Triangle and Myntra in 2024, through PharmEasy in 2025, to KDAG Advisor in 2026" width="100%"/>
+</div>
+
+<details>
+<summary><b>the same thing, with the detail filled in</b></summary>
+<br/>
+
 | when | where | what |
 |:-----|:------|:-----|
 | **2026-27** | **KDAG**, IIT Kharagpur | **Advisor** to the Kharagpur Data Analytics Group, steering curriculum and project direction. |
@@ -40,16 +48,18 @@ I advise the **Kharagpur Data Analytics Group**, having run it as Executive Head
 | **Jul to Nov 2024** | **Seventh Triangle Consulting** | **Research & Development Intern**, four months of applied research and analysis. |
 | | **WorldQuant** | **Gold Level**, WorldQuant Challenge. |
 
-## stack
+</details>
+
+## allocation
 
 <div align="center">
-  <img src="assets/skills.svg" alt="Skill allocation across Python, C++, machine learning and time series" width="100%"/>
+  <img src="assets/skills.svg" alt="Skill allocation across Python, C++, machine learning, time series and quantitative methods" width="100%"/>
 </div>
 
+## what the repos are actually written in
+
 <div align="center">
-
-`Python` · `C++` · `PyTorch` · `TensorFlow` · `scikit-learn` · `pandas` · `NumPy` · `statsmodels` · `SQL` · `Git`
-
+  <img src="assets/languages.svg" alt="Language mix across public repositories: Jupyter Notebook 57 percent, C++ 22 percent, Python 12 percent" width="100%"/>
 </div>
 
 ## selected work

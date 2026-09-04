@@ -1,57 +1,59 @@
-<svg width="1000" height="330" viewBox="0 0 1000 330" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Skill allocation: Python, C++, machine learning, time series and econometrics, quantitative methods">
+<svg width="1000" height="384" viewBox="0 0 1000 384" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Skill allocation: Python, C++, machine learning, time series, quantitative methods">
 <style>
   .mono{font-family:ui-monospace,'SF Mono','Cascadia Code',Menlo,Consolas,monospace}
   .sans{font-family:ui-sans-serif,-apple-system,'Helvetica Neue','Segoe UI',Arial,sans-serif}
+  .pulse{animation:pulse 2.4s ease-in-out infinite}
+  @keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
 </style>
 <defs>
-  <clipPath id="sFrame"><rect width="1000" height="330" rx="16"/></clipPath>
+  <clipPath id="sFrame"><rect width="1000" height="384" rx="16"/></clipPath>
   <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0" stop-color="#c98f4a"/><stop offset="1" stop-color="#e8c68d"/>
+    <stop offset="0" stop-color="#b07f3d"/><stop offset="1" stop-color="#f0cf95"/>
   </linearGradient>
 </defs>
-
 <g clip-path="url(#sFrame)">
-  <rect width="1000" height="330" fill="#0b0d10"/>
+  <rect width="1000" height="384" fill="#0b0d10"/>
+  <rect width="1000" height="40" fill="#0e1116"/>
+  <line x1="0" y1="40" x2="1000" y2="40" stroke="#1c2128"/>
+  <circle cx="26" cy="20" r="4" fill="#79d4a7" class="pulse"/>
+  <text x="42" y="25" class="mono" font-size="12" font-weight="bold" fill="#e0b170" letter-spacing="1.4">ALLOCATION · SKILL PORTFOLIO</text>
+  <text x="956" y="25" text-anchor="end" class="mono" font-size="11" fill="#5f6875" letter-spacing="1.2">RISK: HIGH CONVICTION · REBALANCED OFTEN</text>
 
-  <text x="44" y="52" class="mono" font-size="12" fill="#7d8794" letter-spacing="2.6">ALLOCATION</text>
-  <text x="956" y="52" text-anchor="end" class="mono" font-size="11" fill="#4d5661" letter-spacing="1.4">HIGH CONVICTION, REBALANCED OFTEN</text>
-  <line x1="44" y1="68" x2="956" y2="68" stroke="#1c2128"/>
+  <text x="44" y="72" class="mono" font-size="10.5" fill="#3f4854" letter-spacing="1.8">ASSET</text>
+  <text x="330" y="72" class="mono" font-size="10.5" fill="#3f4854" letter-spacing="1.8">WEIGHT</text>
+  <text x="824" y="72" class="mono" font-size="10.5" fill="#3f4854" letter-spacing="1.8">P&amp;L</text>
 
-  <!-- Python -->
-  <text x="44" y="106" class="sans" font-size="17" font-weight="600" fill="#f0eae0">Python</text>
-  <text x="44" y="126" class="sans" font-size="12.5" fill="#6c7683">research, modelling, most things</text>
-  <rect x="330" y="98" width="480" height="8" rx="4" fill="#141920"/>
-  <rect x="330" y="98" width="0" height="8" rx="4" fill="url(#bar)">
-    <animate attributeName="width" values="0;480" begin="0.2s" dur="1.1s" fill="freeze"/>
-  </rect>
-  <text x="956" y="107" text-anchor="end" class="mono" font-size="14" fill="#e0b170">32%</text>
-
-  <!-- C++ -->
-  <text x="44" y="162" class="sans" font-size="17" font-weight="600" fill="#f0eae0">C++</text>
-  <text x="44" y="182" class="sans" font-size="12.5" fill="#6c7683">contests, and anything that has to be fast</text>
-  <rect x="330" y="154" width="480" height="8" rx="4" fill="#141920"/>
-  <rect x="330" y="154" width="0" height="8" rx="4" fill="url(#bar)">
-    <animate attributeName="width" values="0;330" begin="0.35s" dur="1.1s" fill="freeze"/>
-  </rect>
-  <text x="956" y="163" text-anchor="end" class="mono" font-size="14" fill="#e0b170">22%</text>
-
-  <!-- ML -->
-  <text x="44" y="218" class="sans" font-size="17" font-weight="600" fill="#f0eae0">Machine learning</text>
-  <text x="44" y="238" class="sans" font-size="12.5" fill="#6c7683">PyTorch, TensorFlow, scikit-learn</text>
-  <rect x="330" y="210" width="480" height="8" rx="4" fill="#141920"/>
-  <rect x="330" y="210" width="0" height="8" rx="4" fill="url(#bar)">
-    <animate attributeName="width" values="0;270" begin="0.5s" dur="1.1s" fill="freeze"/>
-  </rect>
-  <text x="956" y="219" text-anchor="end" class="mono" font-size="14" fill="#e0b170">18%</text>
-
-  <!-- Time series -->
-  <text x="44" y="274" class="sans" font-size="17" font-weight="600" fill="#f0eae0">Time series</text>
-  <text x="44" y="294" class="sans" font-size="12.5" fill="#6c7683">forecasting, econometrics, stationarity</text>
-  <rect x="330" y="266" width="480" height="8" rx="4" fill="#141920"/>
-  <rect x="330" y="266" width="0" height="8" rx="4" fill="url(#bar)">
-    <animate attributeName="width" values="0;240" begin="0.65s" dur="1.1s" fill="freeze"/>
-  </rect>
-  <text x="956" y="275" text-anchor="end" class="mono" font-size="14" fill="#e0b170">16%</text>
+  <text x="44" y="104" class="mono" font-size="14" font-weight="bold" fill="#e0b170">PYTHON</text>
+  <text x="44" y="120" class="sans" font-size="11.5" fill="#5f6875">research, modelling, most things</text>
+  <rect x="330" y="93" width="460" height="11" rx="5.5" fill="#141920" stroke="#1c2128"/>
+  <rect x="330" y="93" width="0" height="11" rx="5.5" fill="url(#bar)">
+    <animate attributeName="width" values="0;460.0" begin="0.25s" dur="1s" fill="freeze"/></rect>
+  <text x="824" y="104" class="mono" font-size="14" fill="#e8e2d8">32%</text>
+  <text x="872" y="104" class="mono" font-size="14" fill="#79d4a7">▲</text><text x="44" y="160" class="mono" font-size="14" font-weight="bold" fill="#e0b170">C++</text>
+  <text x="44" y="176" class="sans" font-size="11.5" fill="#5f6875">contests, and anything that has to be fast</text>
+  <rect x="330" y="149" width="460" height="11" rx="5.5" fill="#141920" stroke="#1c2128"/>
+  <rect x="330" y="149" width="0" height="11" rx="5.5" fill="url(#bar)">
+    <animate attributeName="width" values="0;316.2" begin="0.39s" dur="1s" fill="freeze"/></rect>
+  <text x="824" y="160" class="mono" font-size="14" fill="#e8e2d8">22%</text>
+  <text x="872" y="160" class="mono" font-size="14" fill="#79d4a7">▲</text><text x="44" y="216" class="mono" font-size="14" font-weight="bold" fill="#e0b170">MACHINE LEARNING</text>
+  <text x="44" y="232" class="sans" font-size="11.5" fill="#5f6875">PyTorch, TensorFlow, scikit-learn</text>
+  <rect x="330" y="205" width="460" height="11" rx="5.5" fill="#141920" stroke="#1c2128"/>
+  <rect x="330" y="205" width="0" height="11" rx="5.5" fill="url(#bar)">
+    <animate attributeName="width" values="0;258.8" begin="0.53s" dur="1s" fill="freeze"/></rect>
+  <text x="824" y="216" class="mono" font-size="14" fill="#e8e2d8">18%</text>
+  <text x="872" y="216" class="mono" font-size="14" fill="#79d4a7">▲</text><text x="44" y="272" class="mono" font-size="14" font-weight="bold" fill="#e0b170">TIME SERIES</text>
+  <text x="44" y="288" class="sans" font-size="11.5" fill="#5f6875">forecasting, econometrics, stationarity</text>
+  <rect x="330" y="261" width="460" height="11" rx="5.5" fill="#141920" stroke="#1c2128"/>
+  <rect x="330" y="261" width="0" height="11" rx="5.5" fill="url(#bar)">
+    <animate attributeName="width" values="0;230.0" begin="0.67s" dur="1s" fill="freeze"/></rect>
+  <text x="824" y="272" class="mono" font-size="14" fill="#e8e2d8">16%</text>
+  <text x="872" y="272" class="mono" font-size="14" fill="#79d4a7">▲</text><text x="44" y="328" class="mono" font-size="14" font-weight="bold" fill="#e0b170">QUANT METHODS</text>
+  <text x="44" y="344" class="sans" font-size="11.5" fill="#5f6875">stochastic calculus, optimisation</text>
+  <rect x="330" y="317" width="460" height="11" rx="5.5" fill="#141920" stroke="#1c2128"/>
+  <rect x="330" y="317" width="0" height="11" rx="5.5" fill="url(#bar)">
+    <animate attributeName="width" values="0;172.5" begin="0.81s" dur="1s" fill="freeze"/></rect>
+  <text x="824" y="328" class="mono" font-size="14" fill="#e8e2d8">12%</text>
+  <text x="872" y="328" class="mono" font-size="14" fill="#79d4a7">▲</text>
 </g>
-<rect x="0.5" y="0.5" width="999" height="329" rx="16" fill="none" stroke="#1c2128"/>
+<rect x="0.5" y="0.5" width="999" height="383" rx="16" fill="none" stroke="#1c2128"/>
 </svg>
