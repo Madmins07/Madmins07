@@ -1,8 +1,4 @@
 <div align="center">
-  <img src="assets/dog.svg" alt="A golden retriever strolling across the top of the profile" width="100%"/>
-</div>
-
-<div align="center">
   <img src="assets/header.svg" alt="Madhav Agarwal, Industrial and Systems Engineering at IIT Kharagpur, class of 2028, Advisor at Kharagpur Data Analytics Group" width="100%"/>
 </div>
 
@@ -56,10 +52,16 @@ I advise the **Kharagpur Data Analytics Group**, having run it as Executive Head
   <img src="assets/skills.svg" alt="Skill allocation across Python, C++, machine learning, time series and quantitative methods" width="100%"/>
 </div>
 
-## what the repos are actually written in
+## positions
 
 <div align="center">
-  <img src="assets/languages.svg" alt="Language mix across public repositories: Jupyter Notebook 57 percent, C++ 22 percent, Python 12 percent" width="100%"/>
+  <img src="assets/positions.svg" alt="A tongue in cheek blotter: long stochastic calculus, long the Codeforces grind, short 8 a.m. lectures" width="100%"/>
+</div>
+
+## a day at the desk
+
+<div align="center">
+  <img src="assets/dayinthelife.svg" alt="A twenty four hour clock of a typical day: lectures, KDAG, research and backtests, Codeforces late at night, and six hours of sleep" width="100%"/>
 </div>
 
 ## selected work

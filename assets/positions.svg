@@ -1,0 +1,66 @@
+<svg width="1000" height="404" viewBox="0 0 1000 404" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A tongue in cheek blotter of positions: long stochastic calculus, long Codeforces, short 8 a.m. lectures">
+<style>
+  .mono{font-family:ui-monospace,'SF Mono','Cascadia Code',Menlo,Consolas,monospace}
+  .sans{font-family:ui-sans-serif,-apple-system,'Helvetica Neue','Segoe UI',Arial,sans-serif}
+  .pulse{animation:pulse 2.4s ease-in-out infinite}
+  @keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
+</style>
+<defs><clipPath id="pFrame"><rect width="1000" height="404" rx="16"/></clipPath></defs>
+<g clip-path="url(#pFrame)">
+  <rect width="1000" height="404" fill="#0b0d10"/>
+  <rect width="1000" height="40" fill="#0e1116"/>
+  <line x1="0" y1="40" x2="1000" y2="40" stroke="#1c2128"/>
+  <circle cx="26" cy="20" r="4" fill="#79d4a7" class="pulse"/>
+  <text x="42" y="25" class="mono" font-size="12" font-weight="bold" fill="#e0b170" letter-spacing="1.4">POSITIONS · OPEN</text>
+  <text x="956" y="25" text-anchor="end" class="mono" font-size="11" fill="#5f6875" letter-spacing="1.2">MARKED TO MARKET · NOT INVESTMENT ADVICE</text>
+  <text x="44" y="76" class="mono" font-size="10.5" fill="#3f4854" letter-spacing="1.8">SIDE</text>
+  <text x="122" y="76" class="mono" font-size="10.5" fill="#3f4854" letter-spacing="1.8">POSITION</text>
+  <text x="620" y="76" class="mono" font-size="10.5" fill="#3f4854" letter-spacing="1.8">TREND</text>
+  <text x="956" y="76" text-anchor="end" class="mono" font-size="10.5" fill="#3f4854" letter-spacing="1.8">P&amp;L</text>
+  <line x1="44" y1="86" x2="956" y2="86" stroke="#1c2128"/>
+  <g opacity="0"><animate attributeName="opacity" values="0;1" begin="0.30s" dur="0.5s" fill="freeze"/>
+  <rect x="44" y="96" width="62" height="20" rx="4" fill="#10231a" stroke="#79d4a7" stroke-opacity="0.5"/>
+  <text x="75" y="110" text-anchor="middle" class="mono" font-size="10.5" fill="#79d4a7" letter-spacing="1">LONG</text>
+  <text x="122" y="108" class="sans" font-size="15" font-weight="600" fill="#f0eae0">Stochastic calculus</text>
+  <text x="122" y="123" class="sans" font-size="11.5" fill="#5f6875">Shreve, volume I, second read</text>
+  <polyline points="620,106.0 625,104.1 630,102.3 635,102.1 640,100.6 645,100.2 650,99.9 655,99.0 660,99.4 665,98.1 670,97.7 675,97.3 680,97.1 685,96.3 690,96.4 695,94.4 700,93.0 705,91.9 710,90.6 715,88.8 720,88.0 725,88.1" fill="none" stroke="#79d4a7" stroke-width="1.6" stroke-linejoin="round" opacity="0.85"/>
+  <text x="956" y="112" text-anchor="end" class="mono" font-size="14" fill="#79d4a7">▲ +412.6%</text></g><g opacity="0"><animate attributeName="opacity" values="0;1" begin="0.42s" dur="0.5s" fill="freeze"/>
+  <rect x="44" y="136" width="62" height="20" rx="4" fill="#10231a" stroke="#79d4a7" stroke-opacity="0.5"/>
+  <text x="75" y="150" text-anchor="middle" class="mono" font-size="10.5" fill="#79d4a7" letter-spacing="1">LONG</text>
+  <text x="122" y="148" class="sans" font-size="15" font-weight="600" fill="#f0eae0">The Codeforces grind</text>
+  <text x="122" y="163" class="sans" font-size="11.5" fill="#5f6875">rating goes up, eventually</text>
+  <polyline points="620,146.0 625,145.2 630,144.7 635,144.5 640,143.4 645,142.8 650,142.7 655,142.3 660,140.5 665,139.8 670,139.0 675,139.7 680,138.4 685,137.4 690,135.2 695,134.9 700,133.6 705,132.7 710,130.9 715,129.7 720,129.8 725,128.0" fill="none" stroke="#79d4a7" stroke-width="1.6" stroke-linejoin="round" opacity="0.85"/>
+  <text x="956" y="152" text-anchor="end" class="mono" font-size="14" fill="#79d4a7">▲ +128.4%</text></g><g opacity="0"><animate attributeName="opacity" values="0;1" begin="0.54s" dur="0.5s" fill="freeze"/>
+  <rect x="44" y="176" width="62" height="20" rx="4" fill="#10231a" stroke="#79d4a7" stroke-opacity="0.5"/>
+  <text x="75" y="190" text-anchor="middle" class="mono" font-size="10.5" fill="#79d4a7" letter-spacing="1">LONG</text>
+  <text x="122" y="188" class="sans" font-size="15" font-weight="600" fill="#f0eae0">Chai at 2 a.m.</text>
+  <text x="122" y="203" class="sans" font-size="11.5" fill="#5f6875">the only reliable alpha</text>
+  <polyline points="620,185.9 625,185.4 630,185.5 635,186.0 640,183.9 645,184.4 650,182.9 655,182.8 660,181.1 665,180.5 670,179.4 675,179.1 680,178.7 685,176.6 690,175.0 695,174.8 700,173.7 705,173.2 710,171.0 715,169.7 720,168.4 725,168.0" fill="none" stroke="#79d4a7" stroke-width="1.6" stroke-linejoin="round" opacity="0.85"/>
+  <text x="956" y="192" text-anchor="end" class="mono" font-size="14" fill="#79d4a7">▲ +96.2%</text></g><g opacity="0"><animate attributeName="opacity" values="0;1" begin="0.66s" dur="0.5s" fill="freeze"/>
+  <rect x="44" y="216" width="62" height="20" rx="4" fill="#10231a" stroke="#79d4a7" stroke-opacity="0.5"/>
+  <text x="75" y="230" text-anchor="middle" class="mono" font-size="10.5" fill="#79d4a7" letter-spacing="1">LONG</text>
+  <text x="122" y="228" class="sans" font-size="15" font-weight="600" fill="#f0eae0">K-pop during backtests</text>
+  <text x="122" y="243" class="sans" font-size="11.5" fill="#5f6875">inexplicable, but it works</text>
+  <polyline points="620,226.0 625,224.8 630,223.7 635,223.3 640,223.5 645,222.1 650,221.2 655,220.1 660,219.0 665,218.3 670,217.9 675,216.8 680,215.8 685,215.0 690,214.8 695,214.2 700,213.2 705,212.0 710,211.4 715,210.1 720,209.2 725,208.0" fill="none" stroke="#79d4a7" stroke-width="1.6" stroke-linejoin="round" opacity="0.85"/>
+  <text x="956" y="232" text-anchor="end" class="mono" font-size="14" fill="#79d4a7">▲ +64.8%</text></g><g opacity="0"><animate attributeName="opacity" values="0;1" begin="0.78s" dur="0.5s" fill="freeze"/>
+  <rect x="44" y="256" width="62" height="20" rx="4" fill="#241417" stroke="#e2857f" stroke-opacity="0.5"/>
+  <text x="75" y="270" text-anchor="middle" class="mono" font-size="10.5" fill="#e2857f" letter-spacing="1">SHORT</text>
+  <text x="122" y="268" class="sans" font-size="15" font-weight="600" fill="#f0eae0">8 a.m. lectures</text>
+  <text x="122" y="283" class="sans" font-size="11.5" fill="#5f6875">structurally impaired</text>
+  <polyline points="620,248.0 625,248.8 630,248.5 635,249.9 640,250.5 645,252.4 650,253.4 655,254.6 660,255.0 665,255.5 670,256.5 675,256.9 680,257.0 685,259.0 690,260.4 695,261.4 700,262.7 705,264.1 710,265.2 715,266.0 720,265.6 725,266.0" fill="none" stroke="#e2857f" stroke-width="1.6" stroke-linejoin="round" opacity="0.85"/>
+  <text x="956" y="272" text-anchor="end" class="mono" font-size="14" fill="#e2857f">▼ -71.3%</text></g><g opacity="0"><animate attributeName="opacity" values="0;1" begin="0.90s" dur="0.5s" fill="freeze"/>
+  <rect x="44" y="296" width="62" height="20" rx="4" fill="#241417" stroke="#e2857f" stroke-opacity="0.5"/>
+  <text x="75" y="310" text-anchor="middle" class="mono" font-size="10.5" fill="#e2857f" letter-spacing="1">SHORT</text>
+  <text x="122" y="308" class="sans" font-size="15" font-weight="600" fill="#f0eae0">Notebook outputs in git</text>
+  <text x="122" y="323" class="sans" font-size="11.5" fill="#5f6875">57% of my repos, regrettably</text>
+  <polyline points="620,288.3 625,288.0 630,289.3 635,290.8 640,291.8 645,291.8 650,292.9 655,293.7 660,294.8 665,295.5 670,295.8 675,296.8 680,298.8 685,298.9 690,300.3 695,300.5 700,301.1 705,301.9 710,303.2 715,303.7 720,304.8 725,306.0" fill="none" stroke="#e2857f" stroke-width="1.6" stroke-linejoin="round" opacity="0.85"/>
+  <text x="956" y="312" text-anchor="end" class="mono" font-size="14" fill="#e2857f">▼ -44.9%</text></g><g opacity="0"><animate attributeName="opacity" values="0;1" begin="1.02s" dur="0.5s" fill="freeze"/>
+  <rect x="44" y="336" width="62" height="20" rx="4" fill="#241417" stroke="#e2857f" stroke-opacity="0.5"/>
+  <text x="75" y="350" text-anchor="middle" class="mono" font-size="10.5" fill="#e2857f" letter-spacing="1">SHORT</text>
+  <text x="122" y="348" class="sans" font-size="15" font-weight="600" fill="#f0eae0">Sleep, in exam week</text>
+  <text x="122" y="363" class="sans" font-size="11.5" fill="#5f6875">liquidated early</text>
+  <polyline points="620,328.0 625,329.3 630,329.9 635,330.0 640,331.1 645,331.6 650,331.7 655,331.3 660,332.9 665,334.1 670,335.8 675,336.8 680,337.5 685,339.3 690,340.8 695,341.9 700,342.4 705,343.4 710,344.3 715,345.0 720,344.9 725,346.0" fill="none" stroke="#e2857f" stroke-width="1.6" stroke-linejoin="round" opacity="0.85"/>
+  <text x="956" y="352" text-anchor="end" class="mono" font-size="14" fill="#e2857f">▼ -88.1%</text></g>
+</g>
+<rect x="0.5" y="0.5" width="999" height="403" rx="16" fill="none" stroke="#1c2128"/>
+</svg>
