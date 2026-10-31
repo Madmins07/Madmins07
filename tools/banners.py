@@ -4,28 +4,20 @@ from common import *
 from repos import REPOS
 
 def banner(name, r):
-    W, H, uid = 1000, 240, "b"
-    acc = P[r.get("accent", "cyan")]
-    s = open_svg(W, H, f"{r['title']}: {r['tagline']}", uid, acc, acc, P["ground"], "#0A0A16", rx=18)
-    s += glow_blob(uid, 860, 110, 240, 130, acc, .18, "drift")
-    s += glow_blob(uid, 120, 240, 280, 90, P["violet"], .14, "drift2")
-    cx, cy = 866, 120
-    s += f'<g class="spin" style="transform-origin:{cx}px {cy}px"><circle cx="{cx}" cy="{cy}" r="74" fill="none" stroke="{P["line"]}" stroke-width="1" stroke-dasharray="3 7"/><circle cx="{cx+74}" cy="{cy}" r="3" fill="{acc}" filter="url(#{uid}glow)"/></g>\n'
-    s += f'<g class="spinr" style="transform-origin:{cx}px {cy}px"><circle cx="{cx}" cy="{cy}" r="48" fill="none" stroke="{acc}" stroke-width="1" stroke-dasharray="40 24" opacity=".5"/><circle cx="{cx}" cy="{cy-48}" r="2.4" fill="{P["ink"]}"/></g>\n'
-    s += f'<circle cx="{cx}" cy="{cy}" r="22" fill="none" stroke="url(#{uid}spec)" stroke-width="1.4" stroke-dasharray="138" stroke-dashoffset="138"><animate attributeName="stroke-dashoffset" values="138;0" begin=".4s" dur="1.6s" fill="freeze"/></circle>\n'
-    s += f'<circle cx="{cx}" cy="{cy}" r="4.5" fill="{acc}" class="pulse" filter="url(#{uid}glow)"/>\n'
-    s += f'<rect x="{SPINE_X-1}" y="0" width="2" height="{H}" fill="url(#{uid}spine)" opacity=".5"/><circle cx="{SPINE_X}" cy="60" r="3.5" fill="{acc}" filter="url(#{uid}glow)"/>\n'
-    s += reveal(eyebrow(66, 64, f"MADMINS07  /  {name.upper()}", acc), .1)
-    s += reveal(text(66, 122, r["title"], 44, P["ink"], "sans", "800", ls="-1.6"), .25, .7, 14)
-    s += f'<rect x="66" y="138" width="0" height="2" fill="url(#{uid}spec)"><animate attributeName="width" values="0;240" begin=".7s" dur=".9s" fill="freeze"/></rect>\n'
-    s += reveal(text(66, 166, r["tagline"], 15.5, P["body"], "sans"), .55, .7, 10)
-    x, inner = 66, ""
+    Hh, uid = 220, "b"
+    s = open_svg(W, Hh, f"{r['title']}: {r['tagline']}", uid, rx=14)
+    s += f'<rect x="{RAIL-.5}" y="0" width="1" height="{Hh}" fill="{P["line2"]}"/><rect x="{RAIL-4}" y="52" width="8" height="8" fill="{P["accent"]}"/>\n'
+    s += reveal(text(RAIL + 26, 60, f"MADMINS07  /  {name.upper()}", 10.5, P["accent"], "mono", "700", ls="2.4"), .1)
+    s += reveal(label(RIGHT, 60, f"{r['kind']}  ·  {r['year']}  ·  {r['lang'].upper()}", P["muted"], "end"), .2)
+    s += hline(RAIL + 26, RIGHT, 74)
+    s += reveal(text(LEFT, 126, r["title"], 42, P["ink"], "sans", "800", ls="-1.6"), .25, .7, 12)
+    s += grow(LEFT, 140, 44, 3, P["accent"], .7, 0, .5)
+    s += reveal(text(LEFT, 168, r["tagline"], 14.5, P["body"], "sans"), .5, .6, 8)
+    x, inner = LEFT, ""
     for c in r["chips"]:
-        piece, w = chip(x, 188, c, textfill=acc); inner += piece; x += w + 8
-    s += reveal(inner, .85, .6, 8)
-    s += reveal(eyebrow(952, 64, f"{r['kind']}  ·  {r['year']}", P["muted"], "end"), .4)
-    s += reveal(text(952, 209, r["lang"].upper(), 10.5, P["muted"], "mono", anchor="end", ls="2.2"), .5)
-    return s + close_svg(W, H, frame=True, rx=18)
+        piece, w = chip(x, 184, c, P["body"]); inner += piece; x += w + 6
+    s += reveal(inner, .75, .5, 6)
+    return s + close_svg(W, Hh, frame=True, rx=14)
 
 if __name__ == "__main__":
     for name, r in REPOS.items():
