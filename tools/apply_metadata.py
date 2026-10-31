@@ -49,6 +49,14 @@ print(f"{'ok  ' if st == 200 else 'FAIL'} {OWNER:<28} desc={st}")
 if os.environ.get("PROFILE"):
     st, body = api("PATCH", "/user", PROFILE_FIELDS)
     print(f"{'ok  ' if st == 200 else 'FAIL'} profile fields {st} {body.get('message', '')}")
+    # social links: swap the old LinkedIn slug for madmins07
+    st, accounts = api("GET", "/user/social_accounts")
+    old = [a["url"] for a in (accounts if isinstance(accounts, list) else []) if "linkedin.com" in a["url"] and "madmins07" not in a["url"]]
+    if old:
+        st, _ = api("DELETE", "/user/social_accounts", {"account_urls": old})
+        print(f"{'ok  ' if st == 204 else 'FAIL'} removed old LinkedIn link {st}")
+    st, body = api("POST", "/user/social_accounts", {"account_urls": ["https://www.linkedin.com/in/madmins07/"]})
+    print(f"{'ok  ' if st == 201 else 'FAIL'} LinkedIn → madmins07 {st} {body.get('message', '') if isinstance(body, dict) else ''}")
 
 print(f"\n{ok} repos updated, {fail} failed.")
 print("Pins are not settable through the API. Pin these six by hand at https://github.com/Madmins07 (Customize your pins):")
