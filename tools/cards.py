@@ -7,13 +7,15 @@ from layout import H, SELECTED
 
 def projects(S):
     u, h = "j", H["projects"]
+    try: fallback = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "repos.json")))
+    except Exception: fallback = {}
     s = open_svg(W, h, "Selected work: " + ", ".join(SELECTED), u)
     s += section(u, h, "05", "SELECTED WORK", f"STARS REFRESH NIGHTLY  ·  {S.get('generated','')}")
     repos = S.get("repos", {})
     for i, name in enumerate(S.get("selected", SELECTED)):
         r = repos.get(name, {}); col, row = i % 2, i // 2
         x, y = LEFT + col * 440, 110 + row * 70
-        lines_ = wrap(r.get("description", ""), 52); desc = lines_[:2]
+        lines_ = wrap(r.get("description") or fallback.get(name, {}).get("desc", ""), 52); desc = lines_[:2]
         if len(lines_) > 2: desc[1] = desc[1][:49].rstrip(" ,.;:") + "…"
         inner = text(x, y, f"{i+1:02d}", 10, P["accent"], "mono", "700", ls="2") + text(x + 30, y, name, 13.5, P["ink"], "mono", "700")
         for k, l in enumerate(desc): inner += text(x + 30, y + 18 + k * 15, l, 11, P["body"], "sans")
@@ -90,7 +92,7 @@ def activity(S):
     cell, gap = 10, 3; hx, hy = LEFT, 112
     if weeks:
         mx = max((c for w in weeks for _, c in w), default=1) or 1
-        last_month = None
+        last_month = None; last_label_x = -100
         for wi, w in enumerate(weeks):
             for di, (date, c) in enumerate(w):
                 x, y = hx + wi * (cell + gap), hy + di * (cell + gap)
@@ -98,11 +100,11 @@ def activity(S):
                 else:
                     op = .3 + .7 * min(1, (c / mx) ** .5)
                     s += f'<rect x="{x}" y="{y}" width="{cell}" height="{cell}" fill="{P["accent"]}" fill-opacity="{op:.2f}" opacity="0"><animate attributeName="opacity" values="0;1" begin="{.3+wi*.02:.2f}s" dur=".4s" fill="freeze"/></rect>'
-            m = w[0][0][:7]
-            if m != last_month and di >= 0:
-                last_month = m
-                if wi > 0 or True:
-                    s += text(hx + wi * (cell + gap), hy - 8, dt.datetime.strptime(m, "%Y-%m").strftime("%b").upper(), 8, P["muted"], "mono", ls="1")
+            m = w[-1][0][:7]
+            lx = hx + wi * (cell + gap)
+            if m != last_month and lx - last_label_x >= 28:
+                last_month = m; last_label_x = lx
+                s += text(lx, hy - 8, dt.datetime.strptime(m, "%Y-%m").strftime("%b").upper(), 8, P["muted"], "mono", ls="1")
         s += "\n"
     nums = [("CONTRIBUTIONS", T.get("contributions_year", "–")), ("COMMITS", T.get("commits_year", "–")), ("STREAK", f"{K.get('current', '–')}d"), ("LONGEST", f"{K.get('longest', '–')}d")]
     for i, (k, v) in enumerate(nums):
