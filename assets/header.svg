@@ -1,82 +1,99 @@
-<svg width="1000" height="350" viewBox="0 0 1000 350" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Madhav Agarwal, Industrial and Systems Engineering at IIT Kharagpur, class of 2028, Advisor at Kharagpur Data Analytics Group">
+<svg width="1000" height="400" viewBox="0 0 1000 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Madhav Agarwal. Operations at Amoh, the medical AI research lab. Industrial and Systems Engineering, IIT Kharagpur, class of 2028.">
 <style>
-  .mono{font-family:ui-monospace,'SF Mono','Cascadia Code',Menlo,Consolas,monospace}
-  .sans{font-family:ui-sans-serif,-apple-system,'Helvetica Neue','Segoe UI',Arial,sans-serif}
-  .pulse{animation:pulse 2.4s ease-in-out infinite}
-  .tick{animation:scroll 34s linear infinite}
-  @keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
-  @keyframes scroll{from{transform:translateX(0)}to{transform:translateX(-1724px)}}
+  .sans{font-family:-apple-system,'Instrument Sans','Inter','Segoe UI','Helvetica Neue',Arial,sans-serif}
+  .mono{font-family:ui-monospace,'SF Mono','Geist Mono','JetBrains Mono',Menlo,Consolas,monospace}
+  .pulse{animation:pulse 2.6s ease-in-out infinite}
+  .blink{animation:blink 1.4s step-end infinite}
+  .drift{animation:drift 14s ease-in-out infinite alternate}
+  .drift2{animation:drift2 18s ease-in-out infinite alternate}
+  .spin{transform-origin:center;animation:spin 40s linear infinite}
+  .spinr{transform-origin:center;animation:spinr 60s linear infinite}
+  .scan{animation:scan 9s linear infinite}
+  @keyframes pulse{0%,100%{opacity:1}50%{opacity:.25}}
+  @keyframes blink{0%,55%{opacity:1}56%,100%{opacity:0}}
+  @keyframes drift{from{transform:translate(0,0)}to{transform:translate(-60px,24px)}}
+  @keyframes drift2{from{transform:translate(0,0)}to{transform:translate(50px,-30px)}}
+  @keyframes spin{to{transform:rotate(360deg)}}
+  @keyframes spinr{to{transform:rotate(-360deg)}}
+  @keyframes scan{from{transform:translateY(-120%)}to{transform:translateY(120%)}}
 </style>
 <defs>
-  <clipPath id="hFrame"><rect width="1000" height="350" rx="16"/></clipPath>
-  <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0" stop-color="#e0b170"/><stop offset="1" stop-color="#0b0d10"/>
+  <clipPath id="hf"><rect width="1000" height="400" rx="18"/></clipPath>
+  <filter id="hglow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="hsoft" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="55"/></filter>
+  <filter id="hsoft2" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="28"/></filter>
+  <pattern id="hdots" width="22" height="22" patternUnits="userSpaceOnUse">
+    <circle cx="1" cy="1" r="1" fill="#202723"/>
+  </pattern>
+  <linearGradient id="hsage" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#5A6A60"/><stop offset="1" stop-color="#A6BDAD"/>
   </linearGradient>
-  <linearGradient id="fadeL" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0" stop-color="#0b0d10"/><stop offset="1" stop-color="#0b0d10" stop-opacity="0"/>
+  <linearGradient id="hsagev" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#A6BDAD"/><stop offset="1" stop-color="#5A6A60"/>
   </linearGradient>
-  <linearGradient id="fadeR" x1="1" y1="0" x2="0" y2="0">
-    <stop offset="0" stop-color="#0b0d10"/><stop offset="1" stop-color="#0b0d10" stop-opacity="0"/>
+  <linearGradient id="hinkfade" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#EEF1ED"/><stop offset="1" stop-color="#A6BDAD"/>
+  </linearGradient>
+  <linearGradient id="hhair" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#788A7F" stop-opacity="0"/><stop offset=".5" stop-color="#A6BDAD"/><stop offset="1" stop-color="#788A7F" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="hfadeL" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#0B0E0D"/><stop offset="1" stop-color="#0B0E0D" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="hfadeR" x1="1" y1="0" x2="0" y2="0">
+    <stop offset="0" stop-color="#0B0E0D"/><stop offset="1" stop-color="#0B0E0D" stop-opacity="0"/>
   </linearGradient>
 </defs>
-<g clip-path="url(#hFrame)">
-  <rect width="1000" height="350" fill="#0b0d10"/>
-  <rect width="1000" height="40" fill="#0e1116"/>
-  <line x1="0" y1="40" x2="1000" y2="40" stroke="#1c2128"/>
-  <circle cx="26" cy="20" r="5.5" fill="#e2857f"/><circle cx="46" cy="20" r="5.5" fill="#e0b170"/><circle cx="66" cy="20" r="5.5" fill="#79d4a7"/>
-  <text x="500" y="25" text-anchor="middle" class="mono" font-size="12" fill="#6c7683">madhav@kgp : ~/quant-desk</text>
-  <circle cx="910" cy="20" r="4" fill="#79d4a7" class="pulse"/>
-  <text x="924" y="24" class="mono" font-size="11" fill="#79d4a7" font-weight="bold">LIVE</text>
-
-  <g opacity="0">
-    <animate attributeName="opacity" values="0;1" begin="0.15s" dur="0.6s" fill="freeze"/>
-    <animateTransform attributeName="transform" type="translate" from="0 10" to="0 0" begin="0.15s" dur="0.6s" fill="freeze"/>
-    <text x="44" y="80" class="mono" font-size="11.5" fill="#7d8794" letter-spacing="1.8">IIT KHARAGPUR · INDUSTRIAL &amp; SYSTEMS ENGINEERING</text>
-  </g>
-  <g opacity="0">
-    <animate attributeName="opacity" values="0;1" begin="0.35s" dur="0.7s" fill="freeze"/>
-    <animateTransform attributeName="transform" type="translate" from="0 14" to="0 0" begin="0.35s" dur="0.7s" fill="freeze"/>
-    <text x="44" y="130" class="sans" font-size="46" font-weight="700" fill="#f0eae0" letter-spacing="-1">Madhav Agarwal</text>
-  </g>
-  <rect x="44" y="148" width="0" height="2" rx="1" fill="url(#rule)">
-    <animate attributeName="width" values="0;280" begin="0.6s" dur="0.9s" fill="freeze"/></rect>
-  <g opacity="0">
-    <animate attributeName="opacity" values="0;1" begin="0.8s" dur="0.7s" fill="freeze"/>
-    <animateTransform attributeName="transform" type="translate" from="0 10" to="0 0" begin="0.8s" dur="0.7s" fill="freeze"/>
-    <text x="44" y="180" class="sans" font-size="18" fill="#e0b170">Advisor, Kharagpur Data Analytics Group</text>
-    <text x="44" y="206" class="sans" font-size="15" fill="#9aa4b2">Quantitative finance · Machine learning · Time series</text>
-  </g>
-  <g opacity="0">
-    <animate attributeName="opacity" values="0;1" begin="1.05s" dur="0.7s" fill="freeze"/>
-    <rect x="44" y="228" width="132" height="26" rx="13" fill="none" stroke="#2a3038"/>
-    <text x="110" y="245" text-anchor="middle" class="mono" font-size="11" fill="#7fb8f0" letter-spacing="1.2">CLASS OF 2028</text>
-    <rect x="186" y="228" width="152" height="26" rx="13" fill="none" stroke="#2a3038"/>
-    <text x="262" y="245" text-anchor="middle" class="mono" font-size="11" fill="#79d4a7" letter-spacing="1.2">WORLDQUANT GOLD</text>
-    <rect x="348" y="228" width="126" height="26" rx="13" fill="none" stroke="#2a3038"/>
-    <text x="411" y="245" text-anchor="middle" class="mono" font-size="11" fill="#e0b170" letter-spacing="1.2">KOLKATA, IN</text>
-  </g>
-
-  <rect x="580" y="62" width="380" height="228" rx="12" fill="#0d1117" stroke="#1c2128"/>
-  <text x="598" y="86" class="mono" font-size="11.5" fill="#6c7683">MADHAV/USD · 1D</text>
-  <text x="942" y="86" text-anchor="end" class="mono" font-size="12.5" font-weight="bold" fill="#79d4a7">▲ 128.47  +12.4%</text>
-  <g stroke="#141a21" stroke-dasharray="3 5">
-    <line x1="598" y1="110" x2="942" y2="110"/><line x1="598" y1="150" x2="942" y2="150"/>
-    <line x1="598" y1="190" x2="942" y2="190"/><line x1="598" y1="230" x2="942" y2="230"/>
-    <line x1="598" y1="270" x2="942" y2="270"/>
-  </g>
-  <g opacity="0"><animate attributeName="opacity" values="0;1" begin="0.55s" dur="0.28s" fill="freeze"/><line x1="600.0" y1="252.1" x2="600.0" y2="278.0" stroke="#79d4a7" stroke-width="1.4"/><rect x="595.5" y="259.1" width="9" height="9.1" rx="1.5" fill="#79d4a7"/></g><g opacity="0"><animate attributeName="opacity" values="0;1" begin="0.68s" dur="0.28s" fill="freeze"/><line x1="620.0" y1="242.9" x2="620.0" y2="266.4" stroke="#79d4a7" stroke-width="1.4"/><rect x="615.5" y="249.5" width="9" height="9.6" rx="1.5" fill="#79d4a7"/></g><g opacity="0"><animate attributeName="opacity" values="0;1" begin="0.81s" dur="0.28s" fill="freeze"/><line x1="640.0" y1="242.8" x2="640.0" y2="259.1" stroke="#e2857f" stroke-width="1.4"/><rect x="635.5" y="249.5" width="9" height="2.5" rx="1.5" fill="#e2857f"/></g><g opacity="0"><animate attributeName="opacity" values="0;1" begin="0.94s" dur="0.28s" fill="freeze"/><line x1="660.0" y1="224.8" x2="660.0" y2="256.6" stroke="#79d4a7" stroke-width="1.4"/><rect x="655.5" y="228.3" width="9" height="23.2" rx="1.5" fill="#79d4a7"/></g><g opacity="0"><animate attributeName="opacity" values="0;1" begin="1.07s" dur="0.28s" fill="freeze"/><line x1="680.0" y1="219.4" x2="680.0" y2="242.3" stroke="#e2857f" stroke-width="1.4"/><rect x="675.5" y="228.3" width="9" height="5.9" rx="1.5" fill="#e2857f"/></g><g opacity="0"><animate attributeName="opacity" values="0;1" begin="1.20s" dur="0.28s" fill="freeze"/><line x1="700.0" y1="224.0" x2="700.0" y2="252.3" stroke="#e2857f" stroke-width="1.4"/><rect x="695.5" y="234.2" width="9" height="7.9" rx="1.5" fill="#e2857f"/></g><g opacity="0"><animate attributeName="opacity" values="0;1" begin="1.33s" dur="0.28s" fill="freeze"/><line x1="720.0" y1="217.3" x2="720.0" y2="246.1" stroke="#79d4a7" stroke-width="1.4"/><rect x="715.5" y="224.7" width="9" height="17.4" rx="1.5" fill="#79d4a7"/></g><g opacity="0"><animate attributeName="opacity" values="0;1" begin="1.46s" dur="0.28s" fill="freeze"/><line x1="740.0" y1="217.9" x2="740.0" y2="237.0" stroke="#e2857f" stroke-width="1.4"/><rect x="735.5" y="224.7" width="9" height="9.1" rx="1.5" fill="#e2857f"/></g><g opacity="0"><animate attributeName="opacity" values="0;1" begin="1.59s" dur="0.28s" fill="freeze"/><line x1="760.0" y1="229.2" x2="760.0" y2="238.6" stroke="#e2857f" stroke-width="1.4"/><rect x="755.5" y="233.8" width="9" height="2.5" rx="1.5" fill="#e2857f"/></g><g opacity="0"><animate attributeName="opacity" values="0;1" begin="1.72s" dur="0.28s" fill="freeze"/><line x1="780.0" y1="219.9" x2="780.0" y2="244.7" stroke="#79d4a7" stroke-width="1.4"/><rect x="775.5" y="226.0" width="9" height="9.6" rx="1.5" fill="#79d4a7"/></g><g opacity="0"><animate attributeName="opacity" values="0;1" begin="1.85s" dur="0.28s" fill="freeze"/><line x1="800.0" y1="206.5" x2="800.0" y2="232.6" stroke="#79d4a7" stroke-width="1.4"/><rect x="795.5" y="214.1" width="9" height="11.9" rx="1.5" fill="#79d4a7"/></g><g opacity="0"><animate attributeName="opacity" values="0;1" begin="1.98s" dur="0.28s" fill="freeze"/><line x1="820.0" y1="190.1" x2="820.0" y2="219.0" stroke="#79d4a7" stroke-width="1.4"/><rect x="815.5" y="196.3" width="9" height="17.8" rx="1.5" fill="#79d4a7"/></g><g opacity="0"><animate attributeName="opacity" values="0;1" begin="2.11s" dur="0.28s" fill="freeze"/><line x1="840.0" y1="154.3" x2="840.0" y2="205.5" stroke="#79d4a7" stroke-width="1.4"/><rect x="835.5" y="164.7" width="9" height="31.7" rx="1.5" fill="#79d4a7"/></g><g opacity="0"><animate attributeName="opacity" values="0;1" begin="2.24s" dur="0.28s" fill="freeze"/><line x1="860.0" y1="139.8" x2="860.0" y2="169.2" stroke="#79d4a7" stroke-width="1.4"/><rect x="855.5" y="145.0" width="9" height="19.7" rx="1.5" fill="#79d4a7"/></g><g opacity="0"><animate attributeName="opacity" values="0;1" begin="2.37s" dur="0.28s" fill="freeze"/><line x1="880.0" y1="139.4" x2="880.0" y2="153.6" stroke="#79d4a7" stroke-width="1.4"/><rect x="875.5" y="142.7" width="9" height="2.5" rx="1.5" fill="#79d4a7"/></g><g opacity="0"><animate attributeName="opacity" values="0;1" begin="2.50s" dur="0.28s" fill="freeze"/><line x1="900.0" y1="126.5" x2="900.0" y2="148.4" stroke="#79d4a7" stroke-width="1.4"/><rect x="895.5" y="135.7" width="9" height="6.9" rx="1.5" fill="#79d4a7"/></g><g opacity="0"><animate attributeName="opacity" values="0;1" begin="2.63s" dur="0.28s" fill="freeze"/><line x1="920.0" y1="96.5" x2="920.0" y2="138.5" stroke="#79d4a7" stroke-width="1.4"/><rect x="915.5" y="105.7" width="9" height="30.1" rx="1.5" fill="#79d4a7"/></g><g opacity="0"><animate attributeName="opacity" values="0;1" begin="2.76s" dur="0.28s" fill="freeze"/><line x1="940.0" y1="96.0" x2="940.0" y2="113.0" stroke="#e2857f" stroke-width="1.4"/><rect x="935.5" y="105.7" width="9" height="2.5" rx="1.5" fill="#e2857f"/></g>
-  <polyline points="600.0,259.1 620.0,249.5 640.0,251.5 660.0,228.3 680.0,234.2 700.0,242.2 720.0,224.7 740.0,233.8 760.0,235.6 780.0,226.0 800.0,214.1 820.0,196.3 840.0,164.7 860.0,145.0 880.0,142.7 900.0,135.7 920.0,105.7 940.0,106.7" fill="none" stroke="#7fb8f0" stroke-width="1.8"
-            stroke-linejoin="round" stroke-linecap="round" opacity="0.7"
-            stroke-dasharray="520" stroke-dashoffset="520">
-    <animate attributeName="stroke-dashoffset" values="520;0" begin="0.8s" dur="2.6s" fill="freeze"/></polyline>
-
-  <line x1="0" y1="310" x2="1000" y2="310" stroke="#1c2128"/>
-  <g class="tick">
-    <text x="0" y="334" class="mono" font-size="13" fill="#a8834f">MADHAV ▲ 128.47</text><text x="153" y="334" class="mono" font-size="13" fill="#5c4a2e">●</text><text x="183" y="334" class="mono" font-size="13" fill="#a8834f">IIT KHARAGPUR · ISE '28</text><text x="405" y="334" class="mono" font-size="13" fill="#5c4a2e">●</text><text x="435" y="334" class="mono" font-size="13" fill="#a8834f">KDAG ▲ ADVISOR</text><text x="580" y="334" class="mono" font-size="13" fill="#5c4a2e">●</text><text x="609" y="334" class="mono" font-size="13" fill="#a8834f">WORLDQUANT ▲ GOLD</text><text x="780" y="334" class="mono" font-size="13" fill="#5c4a2e">●</text><text x="809" y="334" class="mono" font-size="13" fill="#a8834f">PYTHON ▲ 32%</text><text x="937" y="334" class="mono" font-size="13" fill="#5c4a2e">●</text><text x="967" y="334" class="mono" font-size="13" fill="#a8834f">C++ ▲ 22%</text><text x="1068" y="334" class="mono" font-size="13" fill="#5c4a2e">●</text><text x="1098" y="334" class="mono" font-size="13" fill="#a8834f">TIME SERIES ▲ STATIONARY</text><text x="1329" y="334" class="mono" font-size="13" fill="#5c4a2e">●</text><text x="1358" y="334" class="mono" font-size="13" fill="#a8834f">CODEFORCES ▲ GRIND</text><text x="1538" y="334" class="mono" font-size="13" fill="#5c4a2e">●</text><text x="1567" y="334" class="mono" font-size="13" fill="#a8834f">COFFEE ▲ ATH</text><text x="1695" y="334" class="mono" font-size="13" fill="#5c4a2e">●</text>
-    <text x="1724" y="334" class="mono" font-size="13" fill="#a8834f">MADHAV ▲ 128.47</text><text x="1878" y="334" class="mono" font-size="13" fill="#5c4a2e">●</text><text x="1907" y="334" class="mono" font-size="13" fill="#a8834f">IIT KHARAGPUR · ISE '28</text><text x="2130" y="334" class="mono" font-size="13" fill="#5c4a2e">●</text><text x="2159" y="334" class="mono" font-size="13" fill="#a8834f">KDAG ▲ ADVISOR</text><text x="2304" y="334" class="mono" font-size="13" fill="#5c4a2e">●</text><text x="2334" y="334" class="mono" font-size="13" fill="#a8834f">WORLDQUANT ▲ GOLD</text><text x="2504" y="334" class="mono" font-size="13" fill="#5c4a2e">●</text><text x="2534" y="334" class="mono" font-size="13" fill="#a8834f">PYTHON ▲ 32%</text><text x="2661" y="334" class="mono" font-size="13" fill="#5c4a2e">●</text><text x="2691" y="334" class="mono" font-size="13" fill="#a8834f">C++ ▲ 22%</text><text x="2793" y="334" class="mono" font-size="13" fill="#5c4a2e">●</text><text x="2822" y="334" class="mono" font-size="13" fill="#a8834f">TIME SERIES ▲ STATIONARY</text><text x="3053" y="334" class="mono" font-size="13" fill="#5c4a2e">●</text><text x="3083" y="334" class="mono" font-size="13" fill="#a8834f">CODEFORCES ▲ GRIND</text><text x="3262" y="334" class="mono" font-size="13" fill="#5c4a2e">●</text><text x="3292" y="334" class="mono" font-size="13" fill="#a8834f">COFFEE ▲ ATH</text><text x="3419" y="334" class="mono" font-size="13" fill="#5c4a2e">●</text>
-  </g>
-  <rect x="0" y="311" width="56" height="39" fill="url(#fadeL)"/>
-  <rect x="944" y="311" width="56" height="39" fill="url(#fadeR)"/>
+<g clip-path="url(#hf)">
+<rect width="1000" height="400" fill="#0B0E0D"/>
+<rect width="1000" height="400" fill="url(#hdots)" opacity=".55"/>
+<ellipse cx="790" cy="120" rx="260" ry="150" fill="#788A7F" opacity="0.22" filter="url(#hsoft)" class="drift"/>
+<ellipse cx="160" cy="420" rx="300" ry="110" fill="#5A6A60" opacity="0.2" filter="url(#hsoft)" class="drift2"/>
+<rect x="0" y="300" width="1000" height="1" fill="url(#hhair)"/>
+<rect x="0" y="0" width="1000" height="60" fill="url(#hsagev)" opacity=".035" class="scan"/>
+<g opacity="0"><animate attributeName="opacity" values="0;1" begin="0.1s" dur="0.6s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 10" to="0 0" begin="0.1s" dur="0.6s" fill="freeze"/>
+<text x="56" y="90" class="mono" font-size="10.5" fill="#788A7F" letter-spacing="2.2">MADHAV AGARWAL   ·   IIT KHARAGPUR &#x27;28   ·   KOLKATA</text>
 </g>
-<rect x="0.5" y="0.5" width="999" height="349" rx="16" fill="none" stroke="#1c2128"/>
+<g opacity="0"><animate attributeName="opacity" values="0;1" begin="0.3s" dur="0.8s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 16" to="0 0" begin="0.3s" dur="0.8s" fill="freeze"/>
+<text x="56" y="152" class="sans" font-size="60" fill="url(#hinkfade)" font-weight="700" letter-spacing="-2.4">Madhav Agarwal</text>
+</g>
+<rect x="56" y="170" width="0" height="1.5" fill="url(#hsage)"><animate attributeName="width" values="0;300" begin=".8s" dur="1s" fill="freeze"/></rect>
+<text x="56" y="206" class="sans" font-size="17.5" fill="#C2C9C3" opacity="0">Operations at Amoh, the medical AI research lab.<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.05;.2;.24;1" dur="16.8s" begin="1.2s" repeatCount="indefinite"/></text>
+<text x="56" y="206" class="sans" font-size="17.5" fill="#C2C9C3" opacity="0">Quant research. Time series. Optimisation.<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.05;.2;.24;1" dur="16.8s" begin="5.4s" repeatCount="indefinite"/></text>
+<text x="56" y="206" class="sans" font-size="17.5" fill="#C2C9C3" opacity="0">Advisor, Kharagpur Data Analytics Group.<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.05;.2;.24;1" dur="16.8s" begin="9.6s" repeatCount="indefinite"/></text>
+<text x="56" y="206" class="sans" font-size="17.5" fill="#C2C9C3" opacity="0">Codeforces Specialist. Problems after midnight.<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.05;.2;.24;1" dur="16.8s" begin="13.8s" repeatCount="indefinite"/></text>
+<g opacity="0"><animate attributeName="opacity" values="0;1" begin="1.0s" dur="0.8s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" begin="1.0s" dur="0.8s" fill="freeze"/>
+<text x="56" y="244" class="sans" font-size="13.5" fill="#7E8781">Building the infrastructure that lets models do real clinical work.</text>
+<text x="56" y="264" class="sans" font-size="13.5" fill="#7E8781">Reading stochastic calculus on the side.</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" values="0;1" begin="0.5s" dur="0.8s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 12" to="0 0" begin="0.5s" dur="0.8s" fill="freeze"/>
+<rect x="622" y="70" width="322" height="206" rx="16" fill="#111614" stroke="#202723"/>
+<text x="640" y="98" class="mono" font-size="10.5" fill="#788A7F" letter-spacing="2.2">SIGNAL  /  NOISE</text>
+<text x="926" y="98" class="mono" font-size="9.5" fill="#7E8781" text-anchor="end" letter-spacing="2">ILLUSTRATIVE</text>
+</g>
+<line x1="640" y1="122.0" x2="926" y2="122.0" stroke="#202723" stroke-dasharray="2 5"/>
+<line x1="640" y1="166.0" x2="926" y2="166.0" stroke="#202723" stroke-dasharray="2 5"/>
+<line x1="640" y1="210.0" x2="926" y2="210.0" stroke="#202723" stroke-dasharray="2 5"/>
+<line x1="640" y1="254.0" x2="926" y2="254.0" stroke="#202723" stroke-dasharray="2 5"/>
+<path d="M640.0 197.3 L646.7 197.4 L653.3 197.6 L660.0 198.3 L666.6 199.1 L673.3 200.1 L679.9 201.5 L686.6 202.9 L693.2 205.0 L699.9 207.1 L706.5 207.8 L713.2 209.2 L719.8 210.3 L726.5 211.0 L733.1 210.3 L739.8 208.7 L746.4 207.2 L753.1 205.4 L759.7 203.7 L766.4 201.0 L773.0 198.8 L779.7 198.1 L786.3 198.0 L793.0 198.2 L799.6 198.6 L806.3 198.8 L812.9 199.4 L819.6 199.5 L826.2 199.2 L832.9 198.1 L839.5 197.5 L846.2 198.1 L852.8 198.7 L859.5 199.1 L866.1 199.9 L872.8 200.8 L879.4 201.7 L886.1 201.8 L892.7 201.6 L899.4 200.3 L906.0 199.1 L912.7 198.7 L919.3 197.9 L926.0 197.4 L926.0 254 L640.0 254 Z" fill="url(#hsagev)" opacity="0"><animate attributeName="opacity" values="0;.16" begin="2.6s" dur="1s" fill="freeze"/></path>
+<path d="M640.0 203.0 L646.7 196.4 L653.3 194.9 L660.0 188.6 L666.6 191.3 L673.3 204.6 L679.9 188.6 L686.6 212.4 L693.2 208.0 L699.9 197.8 L706.5 219.3 L713.2 213.3 L719.8 226.1 L726.5 202.8 L733.1 203.3 L739.8 211.0 L746.4 199.5 L753.1 209.4 L759.7 196.2 L766.4 199.3 L773.0 192.9 L779.7 200.7 L786.3 184.1 L793.0 182.5 L799.6 199.2 L806.3 197.1 L812.9 215.7 L819.6 192.2 L826.2 196.4 L832.9 184.3 L839.5 186.4 L846.2 202.4 L852.8 197.8 L859.5 193.6 L866.1 216.4 L872.8 206.0 L879.4 211.3 L886.1 212.5 L892.7 215.2 L899.4 192.4 L906.0 210.4 L912.7 208.2 L919.3 199.4 L926.0 181.9" fill="none" stroke="#7E8781" stroke-width="1" opacity=".55" stroke-dasharray="557" stroke-dashoffset="557"><animate attributeName="stroke-dashoffset" values="557;0" begin="1.1s" dur="2.2s" fill="freeze"/></path>
+<path d="M640.0 197.3 L646.7 197.4 L653.3 197.6 L660.0 198.3 L666.6 199.1 L673.3 200.1 L679.9 201.5 L686.6 202.9 L693.2 205.0 L699.9 207.1 L706.5 207.8 L713.2 209.2 L719.8 210.3 L726.5 211.0 L733.1 210.3 L739.8 208.7 L746.4 207.2 L753.1 205.4 L759.7 203.7 L766.4 201.0 L773.0 198.8 L779.7 198.1 L786.3 198.0 L793.0 198.2 L799.6 198.6 L806.3 198.8 L812.9 199.4 L819.6 199.5 L826.2 199.2 L832.9 198.1 L839.5 197.5 L846.2 198.1 L852.8 198.7 L859.5 199.1 L866.1 199.9 L872.8 200.8 L879.4 201.7 L886.1 201.8 L892.7 201.6 L899.4 200.3 L906.0 199.1 L912.7 198.7 L919.3 197.9 L926.0 197.4" fill="none" stroke="#A6BDAD" stroke-width="2" stroke-linejoin="round" filter="url(#hglow)" stroke-dasharray="290" stroke-dashoffset="290"><animate attributeName="stroke-dashoffset" values="290;0" begin="1.4s" dur="2.4s" fill="freeze"/></path>
+<circle cx="926.0" cy="197.4" r="4" fill="#EEF1ED" opacity="0" filter="url(#hglow)"><animate attributeName="opacity" values="0;1" begin="3.7s" dur=".3s" fill="freeze"/></circle>
+<circle cx="926.0" cy="197.4" r="9" fill="none" stroke="#A6BDAD" opacity="0"><animate attributeName="opacity" values="0;.8;0" begin="3.8s" dur="2.4s" repeatCount="indefinite"/><animate attributeName="r" values="5;14" begin="3.8s" dur="2.4s" repeatCount="indefinite"/></circle>
+<text x="640" y="270" class="mono" font-size="9.5" fill="#7E8781" letter-spacing="1.6">noise</text>
+<text x="926" y="270" class="mono" font-size="9.5" fill="#A6BDAD" text-anchor="end" letter-spacing="1.6">signal</text>
+<g opacity="0"><animate attributeName="opacity" values="0;1" begin="1.3s" dur="0.7s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" begin="1.3s" dur="0.7s" fill="freeze"/>
+<rect x="56" y="332" width="205" height="26" rx="13" fill="#111614" stroke="#5A6A60"/><rect x="69.0" y="340.5" width="9" height="9" rx="2.0" fill="#5A6A60"/><rect x="82.0" y="340.5" width="9" height="9" rx="2.0" fill="#788A7F"/><rect x="95.0" y="340.5" width="9" height="9" rx="2.0" fill="#A6BDAD"/>
+<text x="116" y="349" class="mono" font-size="10.5" fill="#A6BDAD" font-weight="600" letter-spacing="1.4">AMOH  ·  OPERATIONS</text>
+<rect x="269" y="333" width="134" height="24" rx="12.0" fill="#111614" stroke="#202723"/><text x="336.0" y="348.6" class="mono" font-size="10.5" fill="#A6BDAD" font-weight="600" text-anchor="middle" letter-spacing="1.4">KDAG  ·  ADVISOR</text>
+<rect x="411" y="333" width="155" height="24" rx="12.0" fill="#111614" stroke="#202723"/><text x="488.5" y="348.6" class="mono" font-size="10.5" fill="#A6BDAD" font-weight="600" text-anchor="middle" letter-spacing="1.4">WORLDQUANT  ·  GOLD</text>
+<rect x="574" y="333" width="155" height="24" rx="12.0" fill="#111614" stroke="#202723"/><text x="651.5" y="348.6" class="mono" font-size="10.5" fill="#A6BDAD" font-weight="600" text-anchor="middle" letter-spacing="1.4">CODEFORCES  ·  1541</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" values="0;1" begin="1.5s" dur="0.6s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 10" to="0 0" begin="1.5s" dur="0.6s" fill="freeze"/>
+<circle cx="850" cy="345" r="3.2" fill="#A6BDAD" class="blink"/><text x="860" y="349" class="mono" font-size="10.5" fill="#7E8781" letter-spacing="1.6">IST  ·  UTC+5:30</text>
+</g>
+</g>
+<rect x=".5" y=".5" width="999" height="399" rx="18" fill="none" stroke="#202723"/>
 </svg>

@@ -1,62 +1,105 @@
-<svg width="1000" height="364" viewBox="0 0 1000 364" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A twenty four hour clock of a typical day: lectures, KDAG, research and backtests, Codeforces late at night, and six hours of sleep">
+<svg width="1000" height="320" viewBox="0 0 1000 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A twenty four hour ring of a typical day: late Codeforces, six hours of sleep, lectures, Amoh and KDAG in the afternoon, research at night">
 <style>
-  .mono{font-family:ui-monospace,'SF Mono','Cascadia Code',Menlo,Consolas,monospace}
-  .sans{font-family:ui-sans-serif,-apple-system,'Helvetica Neue','Segoe UI',Arial,sans-serif}
+  .sans{font-family:-apple-system,'Instrument Sans','Inter','Segoe UI','Helvetica Neue',Arial,sans-serif}
+  .mono{font-family:ui-monospace,'SF Mono','Geist Mono','JetBrains Mono',Menlo,Consolas,monospace}
+  .pulse{animation:pulse 2.6s ease-in-out infinite}
+  .blink{animation:blink 1.4s step-end infinite}
+  .drift{animation:drift 14s ease-in-out infinite alternate}
+  .drift2{animation:drift2 18s ease-in-out infinite alternate}
+  .spin{transform-origin:center;animation:spin 40s linear infinite}
+  .spinr{transform-origin:center;animation:spinr 60s linear infinite}
+  .scan{animation:scan 9s linear infinite}
+  @keyframes pulse{0%,100%{opacity:1}50%{opacity:.25}}
+  @keyframes blink{0%,55%{opacity:1}56%,100%{opacity:0}}
+  @keyframes drift{from{transform:translate(0,0)}to{transform:translate(-60px,24px)}}
+  @keyframes drift2{from{transform:translate(0,0)}to{transform:translate(50px,-30px)}}
+  @keyframes spin{to{transform:rotate(360deg)}}
+  @keyframes spinr{to{transform:rotate(-360deg)}}
+  @keyframes scan{from{transform:translateY(-120%)}to{transform:translateY(120%)}}
 </style>
-<defs><clipPath id="dFrame"><rect width="1000" height="364" rx="16"/></clipPath></defs>
-<g clip-path="url(#dFrame)">
-  <rect width="1000" height="364" fill="#0b0d10"/>
-  <text x="44" y="40" class="mono" font-size="12" fill="#7d8794" letter-spacing="2.6">A DAY AT THE DESK</text>
-  <text x="956" y="40" text-anchor="end" class="mono" font-size="11" fill="#4d5661" letter-spacing="1.4">IST · SUBJECT TO DEADLINES</text>
-  <line x1="44" y1="56" x2="956" y2="56" stroke="#1c2128"/>
-  <line x1="214.0" y1="87.0" x2="214.0" y2="80.0" stroke="#5f6875" stroke-width="1.4"/><text x="214.0" y="70.0" text-anchor="middle" class="mono" font-size="10" fill="#5f6875">00</text><line x1="243.8" y1="90.9" x2="244.8" y2="87.1" stroke="#242b34" stroke-width="1.4"/><line x1="271.5" y1="102.4" x2="273.5" y2="98.9" stroke="#242b34" stroke-width="1.4"/><line x1="295.3" y1="120.7" x2="298.1" y2="117.9" stroke="#242b34" stroke-width="1.4"/><line x1="313.6" y1="144.5" x2="317.1" y2="142.5" stroke="#242b34" stroke-width="1.4"/><line x1="325.1" y1="172.2" x2="328.9" y2="171.2" stroke="#242b34" stroke-width="1.4"/><line x1="329.0" y1="202.0" x2="336.0" y2="202.0" stroke="#5f6875" stroke-width="1.4"/><text x="350.0" y="206.0" text-anchor="middle" class="mono" font-size="10" fill="#5f6875">06</text><line x1="325.1" y1="231.8" x2="328.9" y2="232.8" stroke="#242b34" stroke-width="1.4"/><line x1="313.6" y1="259.5" x2="317.1" y2="261.5" stroke="#242b34" stroke-width="1.4"/><line x1="295.3" y1="283.3" x2="298.1" y2="286.1" stroke="#242b34" stroke-width="1.4"/><line x1="271.5" y1="301.6" x2="273.5" y2="305.1" stroke="#242b34" stroke-width="1.4"/><line x1="243.8" y1="313.1" x2="244.8" y2="316.9" stroke="#242b34" stroke-width="1.4"/><line x1="214.0" y1="317.0" x2="214.0" y2="324.0" stroke="#5f6875" stroke-width="1.4"/><text x="214.0" y="342.0" text-anchor="middle" class="mono" font-size="10" fill="#5f6875">12</text><line x1="184.2" y1="313.1" x2="183.2" y2="316.9" stroke="#242b34" stroke-width="1.4"/><line x1="156.5" y1="301.6" x2="154.5" y2="305.1" stroke="#242b34" stroke-width="1.4"/><line x1="132.7" y1="283.3" x2="129.9" y2="286.1" stroke="#242b34" stroke-width="1.4"/><line x1="114.4" y1="259.5" x2="110.9" y2="261.5" stroke="#242b34" stroke-width="1.4"/><line x1="102.9" y1="231.8" x2="99.1" y2="232.8" stroke="#242b34" stroke-width="1.4"/><line x1="99.0" y1="202.0" x2="92.0" y2="202.0" stroke="#5f6875" stroke-width="1.4"/><text x="78.0" y="206.0" text-anchor="middle" class="mono" font-size="10" fill="#5f6875">18</text><line x1="102.9" y1="172.2" x2="99.1" y2="171.2" stroke="#242b34" stroke-width="1.4"/><line x1="114.4" y1="144.5" x2="110.9" y2="142.5" stroke="#242b34" stroke-width="1.4"/><line x1="132.7" y1="120.7" x2="129.9" y2="117.9" stroke="#242b34" stroke-width="1.4"/><line x1="156.5" y1="102.4" x2="154.5" y2="98.9" stroke="#242b34" stroke-width="1.4"/><line x1="184.2" y1="90.9" x2="183.2" y2="87.1" stroke="#242b34" stroke-width="1.4"/>
-  <circle cx="214" cy="202" r="94" fill="none" stroke="#141920" stroke-width="32"/>
-  <circle cx="214" cy="202" r="94" fill="none" stroke="#e2857f" stroke-width="32"
-    stroke-dasharray="0 590.62" stroke-dashoffset="-0.00" transform="rotate(-90 214 202)">
-    <animate attributeName="stroke-dasharray" values="0 590.62;49.22 541.40" begin="0.30s" dur="0.85s" fill="freeze"/></circle><circle cx="214" cy="202" r="94" fill="none" stroke="#3b4250" stroke-width="32"
-    stroke-dasharray="0 590.62" stroke-dashoffset="-49.22" transform="rotate(-90 214 202)">
-    <animate attributeName="stroke-dasharray" values="0 590.62;147.65 442.96" begin="0.45s" dur="0.85s" fill="freeze"/></circle><circle cx="214" cy="202" r="94" fill="none" stroke="#7fb8f0" stroke-width="32"
-    stroke-dasharray="0 590.62" stroke-dashoffset="-196.87" transform="rotate(-90 214 202)">
-    <animate attributeName="stroke-dasharray" values="0 590.62;123.05 467.57" begin="0.60s" dur="0.85s" fill="freeze"/></circle><circle cx="214" cy="202" r="94" fill="none" stroke="#e8d07a" stroke-width="32"
-    stroke-dasharray="0 590.62" stroke-dashoffset="-319.92" transform="rotate(-90 214 202)">
-    <animate attributeName="stroke-dasharray" values="0 590.62;24.61 566.01" begin="0.75s" dur="0.85s" fill="freeze"/></circle><circle cx="214" cy="202" r="94" fill="none" stroke="#79d4a7" stroke-width="32"
-    stroke-dasharray="0 590.62" stroke-dashoffset="-344.53" transform="rotate(-90 214 202)">
-    <animate attributeName="stroke-dasharray" values="0 590.62;73.83 516.79" begin="0.90s" dur="0.85s" fill="freeze"/></circle><circle cx="214" cy="202" r="94" fill="none" stroke="#b89bf0" stroke-width="32"
-    stroke-dasharray="0 590.62" stroke-dashoffset="-418.36" transform="rotate(-90 214 202)">
-    <animate attributeName="stroke-dasharray" values="0 590.62;49.22 541.40" begin="1.05s" dur="0.85s" fill="freeze"/></circle><circle cx="214" cy="202" r="94" fill="none" stroke="#e0b170" stroke-width="32"
-    stroke-dasharray="0 590.62" stroke-dashoffset="-467.57" transform="rotate(-90 214 202)">
-    <animate attributeName="stroke-dasharray" values="0 590.62;123.05 467.57" begin="1.20s" dur="0.85s" fill="freeze"/></circle>
-  <text x="214" y="200" text-anchor="middle" class="sans" font-size="30" font-weight="700" fill="#f0eae0">24h</text>
-  <text x="214" y="222" text-anchor="middle" class="mono" font-size="10" fill="#5f6875" letter-spacing="1.4">ROUGHLY</text>
-  <g opacity="0"><animate attributeName="opacity" values="0;1" begin="1.00s" dur="0.5s" fill="freeze"/>
-  <rect x="430" y="89" width="12" height="12" rx="3" fill="#e2857f"/>
-  <text x="452" y="100" class="sans" font-size="14.5" fill="#e8e2d8">Codeforces, late problems</text>
-  <text x="884" y="100" text-anchor="end" class="mono" font-size="12" fill="#5f6875">00:00</text>
-  <text x="956" y="100" text-anchor="end" class="mono" font-size="12.5" fill="#e2857f">2h</text></g><g opacity="0"><animate attributeName="opacity" values="0;1" begin="1.10s" dur="0.5s" fill="freeze"/>
-  <rect x="430" y="123" width="12" height="12" rx="3" fill="#3b4250"/>
-  <text x="452" y="134" class="sans" font-size="14.5" fill="#e8e2d8">Sleep, allegedly</text>
-  <text x="884" y="134" text-anchor="end" class="mono" font-size="12" fill="#5f6875">02:00</text>
-  <text x="956" y="134" text-anchor="end" class="mono" font-size="12.5" fill="#3b4250">6h</text></g><g opacity="0"><animate attributeName="opacity" values="0;1" begin="1.20s" dur="0.5s" fill="freeze"/>
-  <rect x="430" y="157" width="12" height="12" rx="3" fill="#7fb8f0"/>
-  <text x="452" y="168" class="sans" font-size="14.5" fill="#e8e2d8">Lectures and labs</text>
-  <text x="884" y="168" text-anchor="end" class="mono" font-size="12" fill="#5f6875">08:00</text>
-  <text x="956" y="168" text-anchor="end" class="mono" font-size="12.5" fill="#7fb8f0">5h</text></g><g opacity="0"><animate attributeName="opacity" values="0;1" begin="1.30s" dur="0.5s" fill="freeze"/>
-  <rect x="430" y="191" width="12" height="12" rx="3" fill="#e8d07a"/>
-  <text x="452" y="202" class="sans" font-size="14.5" fill="#e8e2d8">Mess, chai, walking</text>
-  <text x="884" y="202" text-anchor="end" class="mono" font-size="12" fill="#5f6875">13:00</text>
-  <text x="956" y="202" text-anchor="end" class="mono" font-size="12.5" fill="#e8d07a">1h</text></g><g opacity="0"><animate attributeName="opacity" values="0;1" begin="1.40s" dur="0.5s" fill="freeze"/>
-  <rect x="430" y="225" width="12" height="12" rx="3" fill="#79d4a7"/>
-  <text x="452" y="236" class="sans" font-size="14.5" fill="#e8e2d8">KDAG and projects</text>
-  <text x="884" y="236" text-anchor="end" class="mono" font-size="12" fill="#5f6875">14:00</text>
-  <text x="956" y="236" text-anchor="end" class="mono" font-size="12.5" fill="#79d4a7">3h</text></g><g opacity="0"><animate attributeName="opacity" values="0;1" begin="1.50s" dur="0.5s" fill="freeze"/>
-  <rect x="430" y="259" width="12" height="12" rx="3" fill="#b89bf0"/>
-  <text x="452" y="270" class="sans" font-size="14.5" fill="#e8e2d8">Gym, music, offline</text>
-  <text x="884" y="270" text-anchor="end" class="mono" font-size="12" fill="#5f6875">17:00</text>
-  <text x="956" y="270" text-anchor="end" class="mono" font-size="12.5" fill="#b89bf0">2h</text></g><g opacity="0"><animate attributeName="opacity" values="0;1" begin="1.60s" dur="0.5s" fill="freeze"/>
-  <rect x="430" y="293" width="12" height="12" rx="3" fill="#e0b170"/>
-  <text x="452" y="304" class="sans" font-size="14.5" fill="#e8e2d8">Research and backtests</text>
-  <text x="884" y="304" text-anchor="end" class="mono" font-size="12" fill="#5f6875">19:00</text>
-  <text x="956" y="304" text-anchor="end" class="mono" font-size="12.5" fill="#e0b170">5h</text></g>
+<defs>
+  <clipPath id="df"><rect width="1000" height="320" rx="18"/></clipPath>
+  <filter id="dglow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="dsoft" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="55"/></filter>
+  <filter id="dsoft2" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="28"/></filter>
+  <pattern id="ddots" width="22" height="22" patternUnits="userSpaceOnUse">
+    <circle cx="1" cy="1" r="1" fill="#202723"/>
+  </pattern>
+  <linearGradient id="dsage" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#5A6A60"/><stop offset="1" stop-color="#A6BDAD"/>
+  </linearGradient>
+  <linearGradient id="dsagev" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#A6BDAD"/><stop offset="1" stop-color="#5A6A60"/>
+  </linearGradient>
+  <linearGradient id="dinkfade" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#EEF1ED"/><stop offset="1" stop-color="#A6BDAD"/>
+  </linearGradient>
+  <linearGradient id="dhair" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#788A7F" stop-opacity="0"/><stop offset=".5" stop-color="#A6BDAD"/><stop offset="1" stop-color="#788A7F" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="dfadeL" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#0B0E0D"/><stop offset="1" stop-color="#0B0E0D" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="dfadeR" x1="1" y1="0" x2="0" y2="0">
+    <stop offset="0" stop-color="#0B0E0D"/><stop offset="1" stop-color="#0B0E0D" stop-opacity="0"/>
+  </linearGradient>
+</defs>
+<g clip-path="url(#df)">
+<rect width="1000" height="320" fill="#0B0E0D"/>
+<rect width="1000" height="320" fill="url(#ddots)" opacity=".55"/>
+<ellipse cx="230" cy="170" rx="150" ry="150" fill="#5A6A60" opacity="0.22" filter="url(#dsoft)" class="drift2"/>
+<text x="56" y="44" class="mono" font-size="10.5" fill="#788A7F" letter-spacing="2.2">A DAY AT THE DESK  ·  24H</text>
+<text x="944" y="44" class="mono" font-size="9.5" fill="#7E8781" text-anchor="end" letter-spacing="2">IST  ·  SUBJECT TO DEADLINES</text>
+<circle cx="230" cy="178" r="92" fill="none" stroke="#A6BDAD" stroke-width="20" stroke-dasharray="0 578.1" stroke-dashoffset="0.0" transform="rotate(-90 230 178)" opacity=".92"><animate attributeName="stroke-dasharray" values="0 578.1;45.7 532.4" begin="0.30s" dur=".7s" fill="freeze"/></circle>
+<circle cx="230" cy="178" r="92" fill="none" stroke="#202723" stroke-width="20" stroke-dasharray="0 578.1" stroke-dashoffset="-48.2" transform="rotate(-90 230 178)" opacity=".92"><animate attributeName="stroke-dasharray" values="0 578.1;142.0 436.0" begin="0.48s" dur=".7s" fill="freeze"/></circle>
+<circle cx="230" cy="178" r="92" fill="none" stroke="#5A6A60" stroke-width="20" stroke-dasharray="0 578.1" stroke-dashoffset="-192.7" transform="rotate(-90 230 178)" opacity=".92"><animate attributeName="stroke-dasharray" values="0 578.1;117.9 460.1" begin="0.66s" dur=".7s" fill="freeze"/></circle>
+<circle cx="230" cy="178" r="92" fill="none" stroke="#788A7F" stroke-width="20" stroke-dasharray="0 578.1" stroke-dashoffset="-313.1" transform="rotate(-90 230 178)" opacity=".92"><animate attributeName="stroke-dasharray" values="0 578.1;21.6 556.5" begin="0.84s" dur=".7s" fill="freeze"/></circle>
+<circle cx="230" cy="178" r="92" fill="none" stroke="#A6BDAD" stroke-width="20" stroke-dasharray="0 578.1" stroke-dashoffset="-337.2" transform="rotate(-90 230 178)" opacity=".92"><animate attributeName="stroke-dasharray" values="0 578.1;69.8 508.3" begin="1.02s" dur=".7s" fill="freeze"/></circle>
+<circle cx="230" cy="178" r="92" fill="none" stroke="#7E8781" stroke-width="20" stroke-dasharray="0 578.1" stroke-dashoffset="-409.5" transform="rotate(-90 230 178)" opacity=".92"><animate attributeName="stroke-dasharray" values="0 578.1;45.7 532.4" begin="1.20s" dur=".7s" fill="freeze"/></circle>
+<circle cx="230" cy="178" r="92" fill="none" stroke="#EEF1ED" stroke-width="20" stroke-dasharray="0 578.1" stroke-dashoffset="-457.6" transform="rotate(-90 230 178)" opacity=".92"><animate attributeName="stroke-dasharray" values="0 578.1;117.9 460.1" begin="1.38s" dur=".7s" fill="freeze"/></circle>
+<circle cx="230" cy="178" r="76.0" fill="none" stroke="#202723" stroke-dasharray="2 6"/>
+<text x="230.0" y="119.5" class="mono" font-size="9.5" fill="#7E8781" text-anchor="middle" letter-spacing="1">00</text>
+<text x="292.0" y="181.5" class="mono" font-size="9.5" fill="#7E8781" text-anchor="middle" letter-spacing="1">06</text>
+<text x="230.0" y="243.5" class="mono" font-size="9.5" fill="#7E8781" text-anchor="middle" letter-spacing="1">12</text>
+<text x="168.0" y="181.5" class="mono" font-size="9.5" fill="#7E8781" text-anchor="middle" letter-spacing="1">18</text>
+<text x="230" y="184" class="sans" font-size="16" fill="#EEF1ED" font-weight="700" text-anchor="middle" letter-spacing="-.5">24h</text>
+<g opacity="0"><animate attributeName="opacity" values="0;1" begin="0.3s" dur="0.5s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 6" to="0 0" begin="0.3s" dur="0.5s" fill="freeze"/>
+<rect x="420" y="74" width="10" height="10" rx="2.5" fill="#A6BDAD"/><text x="442" y="84" class="mono" font-size="11" fill="#788A7F" letter-spacing="1">00:00</text>
+<text x="500" y="84" class="sans" font-size="13.5" fill="#EEF1ED" font-weight="500">Codeforces, late problems</text>
+<text x="944" y="84" class="mono" font-size="12" fill="#C2C9C3" text-anchor="end">2h</text>
+<line x1="420" y1="94" x2="944" y2="94" stroke="#202723" opacity=".7"/></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1" begin="0.42s" dur="0.5s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 6" to="0 0" begin="0.42s" dur="0.5s" fill="freeze"/>
+<rect x="420" y="104" width="10" height="10" rx="2.5" fill="#202723"/><text x="442" y="114" class="mono" font-size="11" fill="#788A7F" letter-spacing="1">02:00</text>
+<text x="500" y="114" class="sans" font-size="13.5" fill="#EEF1ED" font-weight="500">Sleep, allegedly</text>
+<text x="944" y="114" class="mono" font-size="12" fill="#C2C9C3" text-anchor="end">6h</text>
+<line x1="420" y1="124" x2="944" y2="124" stroke="#202723" opacity=".7"/></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1" begin="0.54s" dur="0.5s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 6" to="0 0" begin="0.54s" dur="0.5s" fill="freeze"/>
+<rect x="420" y="134" width="10" height="10" rx="2.5" fill="#5A6A60"/><text x="442" y="144" class="mono" font-size="11" fill="#788A7F" letter-spacing="1">08:00</text>
+<text x="500" y="144" class="sans" font-size="13.5" fill="#EEF1ED" font-weight="500">Lectures and labs</text>
+<text x="944" y="144" class="mono" font-size="12" fill="#C2C9C3" text-anchor="end">5h</text>
+<line x1="420" y1="154" x2="944" y2="154" stroke="#202723" opacity=".7"/></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1" begin="0.6599999999999999s" dur="0.5s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 6" to="0 0" begin="0.6599999999999999s" dur="0.5s" fill="freeze"/>
+<rect x="420" y="164" width="10" height="10" rx="2.5" fill="#788A7F"/><text x="442" y="174" class="mono" font-size="11" fill="#788A7F" letter-spacing="1">13:00</text>
+<text x="500" y="174" class="sans" font-size="13.5" fill="#EEF1ED" font-weight="500">Mess, chai, walking</text>
+<text x="944" y="174" class="mono" font-size="12" fill="#C2C9C3" text-anchor="end">1h</text>
+<line x1="420" y1="184" x2="944" y2="184" stroke="#202723" opacity=".7"/></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1" begin="0.78s" dur="0.5s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 6" to="0 0" begin="0.78s" dur="0.5s" fill="freeze"/>
+<rect x="420" y="194" width="10" height="10" rx="2.5" fill="#A6BDAD"/><text x="442" y="204" class="mono" font-size="11" fill="#788A7F" letter-spacing="1">14:00</text>
+<text x="500" y="204" class="sans" font-size="13.5" fill="#EEF1ED" font-weight="500">Amoh, KDAG, projects</text>
+<text x="944" y="204" class="mono" font-size="12" fill="#C2C9C3" text-anchor="end">3h</text>
+<line x1="420" y1="214" x2="944" y2="214" stroke="#202723" opacity=".7"/></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1" begin="0.8999999999999999s" dur="0.5s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 6" to="0 0" begin="0.8999999999999999s" dur="0.5s" fill="freeze"/>
+<rect x="420" y="224" width="10" height="10" rx="2.5" fill="#7E8781"/><text x="442" y="234" class="mono" font-size="11" fill="#788A7F" letter-spacing="1">17:00</text>
+<text x="500" y="234" class="sans" font-size="13.5" fill="#EEF1ED" font-weight="500">Gym, music, offline</text>
+<text x="944" y="234" class="mono" font-size="12" fill="#C2C9C3" text-anchor="end">2h</text>
+<line x1="420" y1="244" x2="944" y2="244" stroke="#202723" opacity=".7"/></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1" begin="1.02s" dur="0.5s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 6" to="0 0" begin="1.02s" dur="0.5s" fill="freeze"/>
+<rect x="420" y="254" width="10" height="10" rx="2.5" fill="#EEF1ED"/><text x="442" y="264" class="mono" font-size="11" fill="#788A7F" letter-spacing="1">19:00</text>
+<text x="500" y="264" class="sans" font-size="13.5" fill="#EEF1ED" font-weight="500">Research and backtests</text>
+<text x="944" y="264" class="mono" font-size="12" fill="#C2C9C3" text-anchor="end">5h</text>
+<line x1="420" y1="274" x2="944" y2="274" stroke="#202723" opacity=".7"/></g>
 </g>
-<rect x="0.5" y="0.5" width="999" height="363" rx="16" fill="none" stroke="#1c2128"/>
+<rect x=".5" y=".5" width="999" height="319" rx="18" fill="none" stroke="#202723"/>
 </svg>
