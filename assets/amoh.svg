@@ -4,56 +4,57 @@
   .mono{font-family:ui-monospace,'SF Mono','JetBrains Mono','Cascadia Code',Menlo,Consolas,monospace}
   .blink{animation:blink 1.2s step-end infinite}
   @keyframes blink{0%,55%{opacity:1}56%,100%{opacity:0}}
+  @media (prefers-reduced-motion: reduce){ .blink{animation:none} }
 </style>
 <defs>
   <clipPath id="af"><rect width="1000" height="260" rx="0"/></clipPath>
-  <pattern id="adots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#1F232B"/></pattern>
+  <pattern id="adots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#1F2533"/></pattern>
 </defs>
 <g clip-path="url(#af)">
-<rect width="1000" height="260" fill="#0A0B0E"/>
+<rect width="1000" height="260" fill="#0D1117"/>
 <rect width="1000" height="260" fill="url(#adots)" opacity=".45"/>
-<rect x="39.5" y="0" width="1" height="260" fill="#2A2F39"/>
-<rect x="36" y="48" width="8" height="8" fill="#FF7A1A"/>
-<text x="66" y="56" class="mono" font-size="11" fill="#FF7A1A" font-weight="700" letter-spacing="2">02</text>
-<text x="88" y="56.5" class="mono" font-size="13" fill="#F4F5F7" font-weight="700" letter-spacing="3">BUILDING</text>
-<text x="944" y="56" class="mono" font-size="10" fill="#6A7280" text-anchor="end" letter-spacing="2.4">AMOH.AI  ·  2026</text>
-<line x1="88" y1="74" x2="944" y2="74" stroke="#1F232B" opacity="1"/>
+<rect x="39.5" y="0" width="1" height="260" fill="#2B3242"/>
+<rect x="36" y="48" width="8" height="8" fill="#A8D4FF"/>
+<text x="66" y="56" class="mono" font-size="11" fill="#A8D4FF" font-weight="700" letter-spacing="2">02</text>
+<text x="88" y="56.5" class="mono" font-size="13" fill="#E4EBF5" font-weight="700" letter-spacing="3">BUILDING</text>
+<text x="944" y="56" class="mono" font-size="10" fill="#79819A" text-anchor="end" letter-spacing="2.4">AMOH.AI  ·  2026</text>
+<line x1="88" y1="74" x2="944" y2="74" stroke="#1F2533" opacity="1"/>
 <g opacity="0"><animate attributeName="opacity" values="0;1" begin="0.2s" dur="0.55s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" begin="0.2s" dur="0.55s" fill="freeze"/>
 <rect x="88.0" y="98" width="20" height="20" rx="4.4" fill="#5A6A60"/><rect x="116.0" y="98" width="20" height="20" rx="4.4" fill="#788A7F"/><rect x="144.0" y="98" width="20" height="20" rx="4.4" fill="#A6BDAD"/>
-<text x="176" y="115" class="sans" font-size="22" fill="#F4F5F7" font-weight="600" letter-spacing="-.5">Amoh</text>
+<text x="176" y="115" class="sans" font-size="22" fill="#E4EBF5" font-weight="600" letter-spacing="-.5">Amoh</text>
 </g>
 <g opacity="0"><animate attributeName="opacity" values="0;1" begin="0.4s" dur="0.7s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 10" to="0 0" begin="0.4s" dur="0.7s" fill="freeze"/>
-<text x="88" y="158" class="sans" font-size="30" fill="#F4F5F7" font-weight="700" letter-spacing="-1.1">The medical AI research lab.</text>
+<text x="88" y="158" class="sans" font-size="30" fill="#E4EBF5" font-weight="700" letter-spacing="-1.1">The medical AI research lab.</text>
 </g>
 <g opacity="0"><animate attributeName="opacity" values="0;1" begin="0.55s" dur="0.55s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" begin="0.55s" dur="0.55s" fill="freeze"/>
-<text x="88" y="182" class="sans" font-size="14" fill="#AEB4BF">RL environments and data for models that do clinical work.</text>
+<text x="88" y="182" class="sans" font-size="14" fill="#ADB5C7">RL environments and data for models that do clinical work.</text>
 </g>
 <g opacity="0"><animate attributeName="opacity" values="0;1" begin="0.7s" dur="0.55s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" begin="0.7s" dur="0.55s" fill="freeze"/>
-<text x="88" y="206" class="sans" font-size="12" fill="#6A7280">Frontier models pass medical exams and still stall on the actual work. Amoh trains them on hard</text>
-<text x="88" y="222" class="sans" font-size="12" fill="#6A7280">cases from real clinics, verified against what was feasible for each patient. I run operations.</text>
+<text x="88" y="206" class="sans" font-size="12" fill="#79819A">Frontier models pass medical exams and still stall on the actual work. Amoh trains them on hard</text>
+<text x="88" y="222" class="sans" font-size="12" fill="#79819A">cases from real clinics, verified against what was feasible for each patient. I run operations.</text>
 </g>
 <g opacity="0"><animate attributeName="opacity" values="0;1" begin="0.5s" dur="0.55s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" begin="0.5s" dur="0.55s" fill="freeze"/>
-<text x="700" y="106" class="mono" font-size="10" fill="#FF7A1A" font-weight="700" letter-spacing="2">01</text>
-<text x="730" y="106" class="sans" font-size="12.5" fill="#F4F5F7" font-weight="500">Environments</text>
-<line x1="700" y1="117" x2="944" y2="117" stroke="#1F232B" opacity="1"/>
+<text x="700" y="106" class="mono" font-size="10" fill="#A8D4FF" font-weight="700" letter-spacing="2">01</text>
+<text x="730" y="106" class="sans" font-size="12.5" fill="#E4EBF5" font-weight="500">Environments</text>
+<line x1="700" y1="117" x2="944" y2="117" stroke="#1F2533" opacity="1"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" values="0;1" begin="0.58s" dur="0.55s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" begin="0.58s" dur="0.55s" fill="freeze"/>
-<text x="700" y="136" class="mono" font-size="10" fill="#FF7A1A" font-weight="700" letter-spacing="2">02</text>
-<text x="730" y="136" class="sans" font-size="12.5" fill="#F4F5F7" font-weight="500">Evals and benchmarks</text>
-<line x1="700" y1="147" x2="944" y2="147" stroke="#1F232B" opacity="1"/>
+<text x="700" y="136" class="mono" font-size="10" fill="#A8D4FF" font-weight="700" letter-spacing="2">02</text>
+<text x="730" y="136" class="sans" font-size="12.5" fill="#E4EBF5" font-weight="500">Evals and benchmarks</text>
+<line x1="700" y1="147" x2="944" y2="147" stroke="#1F2533" opacity="1"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" values="0;1" begin="0.66s" dur="0.55s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" begin="0.66s" dur="0.55s" fill="freeze"/>
-<text x="700" y="166" class="mono" font-size="10" fill="#FF7A1A" font-weight="700" letter-spacing="2">03</text>
-<text x="730" y="166" class="sans" font-size="12.5" fill="#F4F5F7" font-weight="500">Feedback and traces</text>
-<line x1="700" y1="177" x2="944" y2="177" stroke="#1F232B" opacity="1"/>
+<text x="700" y="166" class="mono" font-size="10" fill="#A8D4FF" font-weight="700" letter-spacing="2">03</text>
+<text x="730" y="166" class="sans" font-size="12.5" fill="#E4EBF5" font-weight="500">Feedback and traces</text>
+<line x1="700" y1="177" x2="944" y2="177" stroke="#1F2533" opacity="1"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" values="0;1" begin="0.74s" dur="0.55s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" begin="0.74s" dur="0.55s" fill="freeze"/>
-<text x="700" y="196" class="mono" font-size="10" fill="#FF7A1A" font-weight="700" letter-spacing="2">04</text>
-<text x="730" y="196" class="sans" font-size="12.5" fill="#F4F5F7" font-weight="500">Training for health systems</text>
-<line x1="700" y1="207" x2="944" y2="207" stroke="#1F232B" opacity="1"/>
+<text x="700" y="196" class="mono" font-size="10" fill="#A8D4FF" font-weight="700" letter-spacing="2">04</text>
+<text x="730" y="196" class="sans" font-size="12.5" fill="#E4EBF5" font-weight="500">Training for health systems</text>
+<line x1="700" y1="207" x2="944" y2="207" stroke="#1F2533" opacity="1"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" values="0;1" begin="0.9s" dur="0.55s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" begin="0.9s" dur="0.55s" fill="freeze"/>
-<text x="700" y="238" class="mono" font-size="10" fill="#6A7280" letter-spacing="2.4">10+ US CLINIC PARTNERS</text>
+<text x="700" y="238" class="mono" font-size="10" fill="#79819A" letter-spacing="2.4">10+ US CLINIC PARTNERS</text>
 </g>
 </g>
 </svg>

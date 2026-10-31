@@ -1,10 +1,12 @@
 """Design system: graphite neutrals, one accent, flat fills, hairlines. No gradients, no glows."""
 from html import escape
 
+# Ice & Ink. Ground matches GitHub's dark canvas (#0d1117) so panels dissolve into the page.
 P = dict(
-    ground="#0A0B0E", surface="#111318", surface2="#15181F", line="#1F232B", line2="#2A2F39",
-    ink="#F4F5F7", body="#AEB4BF", muted="#6A7280", faint="#3A4049",
-    accent="#FF7A1A", accent2="#C45A0F",
+    ground="#0D1117", surface="#12161F", surface2="#171C27", line="#1F2533", line2="#2B3242",
+    ink="#E4EBF5", body="#ADB5C7", muted="#79819A", faint="#3E4659",
+    accent="#A8D4FF", accent2="#E9D49A",
+    ramp=["#354151", "#5B728B", "#85A7CA", "#A8D4FF"],
 )
 AMOH = ("#5A6A60", "#788A7F", "#A6BDAD")   # the Amoh mark keeps its own colours
 SANS = "-apple-system,'Inter','Segoe UI','Helvetica Neue',Arial,sans-serif"
@@ -19,7 +21,15 @@ STYLE = f"""<style>
   .mono{{font-family:{MONO}}}
   .blink{{animation:blink 1.2s step-end infinite}}
   @keyframes blink{{0%,55%{{opacity:1}}56%,100%{{opacity:0}}}}
+  @media (prefers-reduced-motion: reduce){{ .blink{{animation:none}} }}
 </style>"""
+
+def icon_path(slug):
+    """Simple Icons path data, inlined at build time (no remote references survive inside an <img> SVG)."""
+    import os as _os, re as _re
+    f = _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), "icons", slug + ".svg")
+    m = _re.search(r'<path d="([^"]+)"', open(f).read())
+    return m.group(1) if m else ""
 
 def defs(uid, w, h, rx=0):
     return f"""<defs>

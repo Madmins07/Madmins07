@@ -4,73 +4,74 @@
   .mono{font-family:ui-monospace,'SF Mono','JetBrains Mono','Cascadia Code',Menlo,Consolas,monospace}
   .blink{animation:blink 1.2s step-end infinite}
   @keyframes blink{0%,55%{opacity:1}56%,100%{opacity:0}}
+  @media (prefers-reduced-motion: reduce){ .blink{animation:none} }
 </style>
 <defs>
   <clipPath id="df"><rect width="1000" height="300" rx="0"/></clipPath>
-  <pattern id="ddots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#1F232B"/></pattern>
+  <pattern id="ddots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#1F2533"/></pattern>
 </defs>
 <g clip-path="url(#df)">
-<rect width="1000" height="300" fill="#0A0B0E"/>
+<rect width="1000" height="300" fill="#0D1117"/>
 <rect width="1000" height="300" fill="url(#ddots)" opacity=".45"/>
-<rect x="39.5" y="0" width="1" height="300" fill="#2A2F39"/>
-<rect x="36" y="48" width="8" height="8" fill="#FF7A1A"/>
-<text x="66" y="56" class="mono" font-size="11" fill="#FF7A1A" font-weight="700" letter-spacing="2">08</text>
-<text x="88" y="56.5" class="mono" font-size="13" fill="#F4F5F7" font-weight="700" letter-spacing="3">A DAY AT THE DESK</text>
-<text x="944" y="56" class="mono" font-size="10" fill="#6A7280" text-anchor="end" letter-spacing="2.4">IST  ·  SUBJECT TO DEADLINES</text>
-<line x1="88" y1="74" x2="944" y2="74" stroke="#1F232B" opacity="1"/>
-<circle cx="230" cy="188" r="78" fill="none" stroke="#FF7A1A" stroke-opacity="0.55" stroke-width="18" stroke-dasharray="0 490.1" stroke-dashoffset="0.0" transform="rotate(-90 230 188)"><animate attributeName="stroke-dasharray" values="0 490.1;38.8 451.2" begin="0.30s" dur=".6s" fill="freeze"/></circle>
-<circle cx="230" cy="188" r="78" fill="none" stroke="#3A4049" stroke-opacity="1" stroke-width="18" stroke-dasharray="0 490.1" stroke-dashoffset="-40.8" transform="rotate(-90 230 188)"><animate attributeName="stroke-dasharray" values="0 490.1;120.5 369.6" begin="0.45s" dur=".6s" fill="freeze"/></circle>
-<circle cx="230" cy="188" r="78" fill="none" stroke="#6A7280" stroke-opacity="0.5" stroke-width="18" stroke-dasharray="0 490.1" stroke-dashoffset="-163.4" transform="rotate(-90 230 188)"><animate attributeName="stroke-dasharray" values="0 490.1;100.1 390.0" begin="0.60s" dur=".6s" fill="freeze"/></circle>
-<circle cx="230" cy="188" r="78" fill="none" stroke="#6A7280" stroke-opacity="0.8" stroke-width="18" stroke-dasharray="0 490.1" stroke-dashoffset="-265.5" transform="rotate(-90 230 188)"><animate attributeName="stroke-dasharray" values="0 490.1;18.4 471.7" begin="0.75s" dur=".6s" fill="freeze"/></circle>
-<circle cx="230" cy="188" r="78" fill="none" stroke="#FF7A1A" stroke-opacity="0.8" stroke-width="18" stroke-dasharray="0 490.1" stroke-dashoffset="-285.9" transform="rotate(-90 230 188)"><animate attributeName="stroke-dasharray" values="0 490.1;59.3 430.8" begin="0.90s" dur=".6s" fill="freeze"/></circle>
-<circle cx="230" cy="188" r="78" fill="none" stroke="#6A7280" stroke-opacity="0.35" stroke-width="18" stroke-dasharray="0 490.1" stroke-dashoffset="-347.1" transform="rotate(-90 230 188)"><animate attributeName="stroke-dasharray" values="0 490.1;38.8 451.2" begin="1.05s" dur=".6s" fill="freeze"/></circle>
-<circle cx="230" cy="188" r="78" fill="none" stroke="#FF7A1A" stroke-opacity="1" stroke-width="18" stroke-dasharray="0 490.1" stroke-dashoffset="-388.0" transform="rotate(-90 230 188)"><animate attributeName="stroke-dasharray" values="0 490.1;100.1 390.0" begin="1.20s" dur=".6s" fill="freeze"/></circle>
-<text x="230.0" y="138.5" class="mono" font-size="9" fill="#6A7280" text-anchor="middle" letter-spacing="1">00</text>
-<text x="283.0" y="191.5" class="mono" font-size="9" fill="#6A7280" text-anchor="middle" letter-spacing="1">06</text>
-<text x="230.0" y="244.5" class="mono" font-size="9" fill="#6A7280" text-anchor="middle" letter-spacing="1">12</text>
-<text x="177.0" y="191.5" class="mono" font-size="9" fill="#6A7280" text-anchor="middle" letter-spacing="1">18</text>
-<text x="230" y="194" class="sans" font-size="15" fill="#F4F5F7" font-weight="700" text-anchor="middle" letter-spacing="-.5">24h</text>
+<rect x="39.5" y="0" width="1" height="300" fill="#2B3242"/>
+<rect x="36" y="48" width="8" height="8" fill="#A8D4FF"/>
+<text x="66" y="56" class="mono" font-size="11" fill="#A8D4FF" font-weight="700" letter-spacing="2">08</text>
+<text x="88" y="56.5" class="mono" font-size="13" fill="#E4EBF5" font-weight="700" letter-spacing="3">A DAY AT THE DESK</text>
+<text x="944" y="56" class="mono" font-size="10" fill="#79819A" text-anchor="end" letter-spacing="2.4">IST  ·  SUBJECT TO DEADLINES</text>
+<line x1="88" y1="74" x2="944" y2="74" stroke="#1F2533" opacity="1"/>
+<circle cx="230" cy="188" r="78" fill="none" stroke="#A8D4FF" stroke-opacity="0.55" stroke-width="18" stroke-dasharray="0 490.1" stroke-dashoffset="0.0" transform="rotate(-90 230 188)"><animate attributeName="stroke-dasharray" values="0 490.1;38.8 451.2" begin="0.30s" dur=".6s" fill="freeze"/></circle>
+<circle cx="230" cy="188" r="78" fill="none" stroke="#3E4659" stroke-opacity="1" stroke-width="18" stroke-dasharray="0 490.1" stroke-dashoffset="-40.8" transform="rotate(-90 230 188)"><animate attributeName="stroke-dasharray" values="0 490.1;120.5 369.6" begin="0.45s" dur=".6s" fill="freeze"/></circle>
+<circle cx="230" cy="188" r="78" fill="none" stroke="#79819A" stroke-opacity="0.5" stroke-width="18" stroke-dasharray="0 490.1" stroke-dashoffset="-163.4" transform="rotate(-90 230 188)"><animate attributeName="stroke-dasharray" values="0 490.1;100.1 390.0" begin="0.60s" dur=".6s" fill="freeze"/></circle>
+<circle cx="230" cy="188" r="78" fill="none" stroke="#79819A" stroke-opacity="0.8" stroke-width="18" stroke-dasharray="0 490.1" stroke-dashoffset="-265.5" transform="rotate(-90 230 188)"><animate attributeName="stroke-dasharray" values="0 490.1;18.4 471.7" begin="0.75s" dur=".6s" fill="freeze"/></circle>
+<circle cx="230" cy="188" r="78" fill="none" stroke="#A8D4FF" stroke-opacity="0.8" stroke-width="18" stroke-dasharray="0 490.1" stroke-dashoffset="-285.9" transform="rotate(-90 230 188)"><animate attributeName="stroke-dasharray" values="0 490.1;59.3 430.8" begin="0.90s" dur=".6s" fill="freeze"/></circle>
+<circle cx="230" cy="188" r="78" fill="none" stroke="#79819A" stroke-opacity="0.35" stroke-width="18" stroke-dasharray="0 490.1" stroke-dashoffset="-347.1" transform="rotate(-90 230 188)"><animate attributeName="stroke-dasharray" values="0 490.1;38.8 451.2" begin="1.05s" dur=".6s" fill="freeze"/></circle>
+<circle cx="230" cy="188" r="78" fill="none" stroke="#A8D4FF" stroke-opacity="1" stroke-width="18" stroke-dasharray="0 490.1" stroke-dashoffset="-388.0" transform="rotate(-90 230 188)"><animate attributeName="stroke-dasharray" values="0 490.1;100.1 390.0" begin="1.20s" dur=".6s" fill="freeze"/></circle>
+<text x="230.0" y="138.5" class="mono" font-size="9" fill="#79819A" text-anchor="middle" letter-spacing="1">00</text>
+<text x="283.0" y="191.5" class="mono" font-size="9" fill="#79819A" text-anchor="middle" letter-spacing="1">06</text>
+<text x="230.0" y="244.5" class="mono" font-size="9" fill="#79819A" text-anchor="middle" letter-spacing="1">12</text>
+<text x="177.0" y="191.5" class="mono" font-size="9" fill="#79819A" text-anchor="middle" letter-spacing="1">18</text>
+<text x="230" y="194" class="sans" font-size="15" fill="#E4EBF5" font-weight="700" text-anchor="middle" letter-spacing="-.5">24h</text>
 <g opacity="0"><animate attributeName="opacity" values="0;1" begin="0.3s" dur="0.5s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 6" to="0 0" begin="0.3s" dur="0.5s" fill="freeze"/>
-<rect x="400" y="99" width="9" height="9" fill="#FF7A1A" fill-opacity="0.55"/><text x="420" y="108" class="mono" font-size="10.5" fill="#6A7280" letter-spacing="1">00:00</text>
-<text x="476" y="108" class="sans" font-size="13" fill="#F4F5F7" font-weight="500">Codeforces, late problems</text>
-<text x="944" y="108" class="mono" font-size="11.5" fill="#AEB4BF" text-anchor="end">2h</text>
-<line x1="400" y1="117" x2="944" y2="117" stroke="#1F232B" opacity="0.8"/>
+<rect x="400" y="99" width="9" height="9" fill="#A8D4FF" fill-opacity="0.55"/><text x="420" y="108" class="mono" font-size="10.5" fill="#79819A" letter-spacing="1">00:00</text>
+<text x="476" y="108" class="sans" font-size="13" fill="#E4EBF5" font-weight="500">Codeforces, late problems</text>
+<text x="944" y="108" class="mono" font-size="11.5" fill="#ADB5C7" text-anchor="end">2h</text>
+<line x1="400" y1="117" x2="944" y2="117" stroke="#1F2533" opacity="0.8"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" values="0;1" begin="0.4s" dur="0.5s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 6" to="0 0" begin="0.4s" dur="0.5s" fill="freeze"/>
-<rect x="400" y="126" width="9" height="9" fill="#3A4049" fill-opacity="1"/><text x="420" y="135" class="mono" font-size="10.5" fill="#6A7280" letter-spacing="1">02:00</text>
-<text x="476" y="135" class="sans" font-size="13" fill="#F4F5F7" font-weight="500">Sleep, allegedly</text>
-<text x="944" y="135" class="mono" font-size="11.5" fill="#AEB4BF" text-anchor="end">6h</text>
-<line x1="400" y1="144" x2="944" y2="144" stroke="#1F232B" opacity="0.8"/>
+<rect x="400" y="126" width="9" height="9" fill="#3E4659" fill-opacity="1"/><text x="420" y="135" class="mono" font-size="10.5" fill="#79819A" letter-spacing="1">02:00</text>
+<text x="476" y="135" class="sans" font-size="13" fill="#E4EBF5" font-weight="500">Sleep, allegedly</text>
+<text x="944" y="135" class="mono" font-size="11.5" fill="#ADB5C7" text-anchor="end">6h</text>
+<line x1="400" y1="144" x2="944" y2="144" stroke="#1F2533" opacity="0.8"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" values="0;1" begin="0.5s" dur="0.5s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 6" to="0 0" begin="0.5s" dur="0.5s" fill="freeze"/>
-<rect x="400" y="153" width="9" height="9" fill="#6A7280" fill-opacity="0.5"/><text x="420" y="162" class="mono" font-size="10.5" fill="#6A7280" letter-spacing="1">08:00</text>
-<text x="476" y="162" class="sans" font-size="13" fill="#F4F5F7" font-weight="500">Lectures and labs</text>
-<text x="944" y="162" class="mono" font-size="11.5" fill="#AEB4BF" text-anchor="end">5h</text>
-<line x1="400" y1="171" x2="944" y2="171" stroke="#1F232B" opacity="0.8"/>
+<rect x="400" y="153" width="9" height="9" fill="#79819A" fill-opacity="0.5"/><text x="420" y="162" class="mono" font-size="10.5" fill="#79819A" letter-spacing="1">08:00</text>
+<text x="476" y="162" class="sans" font-size="13" fill="#E4EBF5" font-weight="500">Lectures and labs</text>
+<text x="944" y="162" class="mono" font-size="11.5" fill="#ADB5C7" text-anchor="end">5h</text>
+<line x1="400" y1="171" x2="944" y2="171" stroke="#1F2533" opacity="0.8"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" values="0;1" begin="0.6000000000000001s" dur="0.5s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 6" to="0 0" begin="0.6000000000000001s" dur="0.5s" fill="freeze"/>
-<rect x="400" y="180" width="9" height="9" fill="#6A7280" fill-opacity="0.8"/><text x="420" y="189" class="mono" font-size="10.5" fill="#6A7280" letter-spacing="1">13:00</text>
-<text x="476" y="189" class="sans" font-size="13" fill="#F4F5F7" font-weight="500">Mess, chai, walking</text>
-<text x="944" y="189" class="mono" font-size="11.5" fill="#AEB4BF" text-anchor="end">1h</text>
-<line x1="400" y1="198" x2="944" y2="198" stroke="#1F232B" opacity="0.8"/>
+<rect x="400" y="180" width="9" height="9" fill="#79819A" fill-opacity="0.8"/><text x="420" y="189" class="mono" font-size="10.5" fill="#79819A" letter-spacing="1">13:00</text>
+<text x="476" y="189" class="sans" font-size="13" fill="#E4EBF5" font-weight="500">Mess, chai, walking</text>
+<text x="944" y="189" class="mono" font-size="11.5" fill="#ADB5C7" text-anchor="end">1h</text>
+<line x1="400" y1="198" x2="944" y2="198" stroke="#1F2533" opacity="0.8"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" values="0;1" begin="0.7s" dur="0.5s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 6" to="0 0" begin="0.7s" dur="0.5s" fill="freeze"/>
-<rect x="400" y="207" width="9" height="9" fill="#FF7A1A" fill-opacity="0.8"/><text x="420" y="216" class="mono" font-size="10.5" fill="#6A7280" letter-spacing="1">14:00</text>
-<text x="476" y="216" class="sans" font-size="13" fill="#F4F5F7" font-weight="500">Amoh, KDAG, projects</text>
-<text x="944" y="216" class="mono" font-size="11.5" fill="#AEB4BF" text-anchor="end">3h</text>
-<line x1="400" y1="225" x2="944" y2="225" stroke="#1F232B" opacity="0.8"/>
+<rect x="400" y="207" width="9" height="9" fill="#A8D4FF" fill-opacity="0.8"/><text x="420" y="216" class="mono" font-size="10.5" fill="#79819A" letter-spacing="1">14:00</text>
+<text x="476" y="216" class="sans" font-size="13" fill="#E4EBF5" font-weight="500">Amoh, KDAG, projects</text>
+<text x="944" y="216" class="mono" font-size="11.5" fill="#ADB5C7" text-anchor="end">3h</text>
+<line x1="400" y1="225" x2="944" y2="225" stroke="#1F2533" opacity="0.8"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" values="0;1" begin="0.8s" dur="0.5s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 6" to="0 0" begin="0.8s" dur="0.5s" fill="freeze"/>
-<rect x="400" y="234" width="9" height="9" fill="#6A7280" fill-opacity="0.35"/><text x="420" y="243" class="mono" font-size="10.5" fill="#6A7280" letter-spacing="1">17:00</text>
-<text x="476" y="243" class="sans" font-size="13" fill="#F4F5F7" font-weight="500">Gym, music, offline</text>
-<text x="944" y="243" class="mono" font-size="11.5" fill="#AEB4BF" text-anchor="end">2h</text>
-<line x1="400" y1="252" x2="944" y2="252" stroke="#1F232B" opacity="0.8"/>
+<rect x="400" y="234" width="9" height="9" fill="#79819A" fill-opacity="0.35"/><text x="420" y="243" class="mono" font-size="10.5" fill="#79819A" letter-spacing="1">17:00</text>
+<text x="476" y="243" class="sans" font-size="13" fill="#E4EBF5" font-weight="500">Gym, music, offline</text>
+<text x="944" y="243" class="mono" font-size="11.5" fill="#ADB5C7" text-anchor="end">2h</text>
+<line x1="400" y1="252" x2="944" y2="252" stroke="#1F2533" opacity="0.8"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" values="0;1" begin="0.9000000000000001s" dur="0.5s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 6" to="0 0" begin="0.9000000000000001s" dur="0.5s" fill="freeze"/>
-<rect x="400" y="261" width="9" height="9" fill="#FF7A1A" fill-opacity="1"/><text x="420" y="270" class="mono" font-size="10.5" fill="#6A7280" letter-spacing="1">19:00</text>
-<text x="476" y="270" class="sans" font-size="13" fill="#F4F5F7" font-weight="500">Research and backtests</text>
-<text x="944" y="270" class="mono" font-size="11.5" fill="#AEB4BF" text-anchor="end">5h</text>
-<line x1="400" y1="279" x2="944" y2="279" stroke="#1F232B" opacity="0.8"/>
+<rect x="400" y="261" width="9" height="9" fill="#A8D4FF" fill-opacity="1"/><text x="420" y="270" class="mono" font-size="10.5" fill="#79819A" letter-spacing="1">19:00</text>
+<text x="476" y="270" class="sans" font-size="13" fill="#E4EBF5" font-weight="500">Research and backtests</text>
+<text x="944" y="270" class="mono" font-size="11.5" fill="#ADB5C7" text-anchor="end">5h</text>
+<line x1="400" y1="279" x2="944" y2="279" stroke="#1F2533" opacity="0.8"/>
 </g>
 </g>
 </svg>

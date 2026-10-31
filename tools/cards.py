@@ -86,41 +86,50 @@ def codeforces(S):
 def activity(S):
     u, h = "v", H["activity"]
     T, K, L = S.get("totals", {}), S.get("streak", {}), S.get("languages", [])
-    s = open_svg(W, h, f"Activity: {T.get('contributions_year','')} contributions in the last year, {T.get('commits_year','')} commits, streak {K.get('current','')} days", u)
+    s = open_svg(W, h, f"Activity: {T.get('contributions_year','')} contributions in the last year as an isometric calendar, {T.get('commits_year','')} commits, streak {K.get('current','')} days", u)
     s += section(u, h, "07", "ACTIVITY", f"GITHUB  ·  {T.get('repos', '–')} REPOS  ·  {T.get('stars', '–')} STARS  ·  LAST 365 DAYS  ·  {S.get('generated','')}")
     weeks = S.get("weeks", [])
-    cell, gap = 10, 3; hx, hy = LEFT, 112
+    tw, th = 14, 7; ox, oy = 150, 118
     if weeks:
         mx = max((c for w in weeks for _, c in w), default=1) or 1
-        last_month = None; last_label_x = -100
+        cells_ = []
         for wi, w in enumerate(weeks):
-            for di, (date, c) in enumerate(w):
-                x, y = hx + wi * (cell + gap), hy + di * (cell + gap)
-                if c == 0: s += f'<rect x="{x}" y="{y}" width="{cell}" height="{cell}" fill="{P["surface2"]}"/>'
-                else:
-                    op = .3 + .7 * min(1, (c / mx) ** .5)
-                    s += f'<rect x="{x}" y="{y}" width="{cell}" height="{cell}" fill="{P["accent"]}" fill-opacity="{op:.2f}" opacity="0"><animate attributeName="opacity" values="0;1" begin="{.3+wi*.02:.2f}s" dur=".4s" fill="freeze"/></rect>'
+            for di, (date, c) in enumerate(w): cells_.append((wi + di, wi, di, c))
+        cells_.sort()
+        last_month = None
+        for wi, w in enumerate(weeks):
             m = w[-1][0][:7]
-            lx = hx + wi * (cell + gap)
-            if m != last_month and lx - last_label_x >= 28:
-                last_month = m; last_label_x = lx
-                s += text(lx, hy - 8, dt.datetime.strptime(m, "%Y-%m").strftime("%b").upper(), 8, P["muted"], "mono", ls="1")
+            if m != last_month:
+                last_month = m
+                lx, ly = ox + (wi + 1.6) * tw / 2, oy + (wi - 1.6) * th / 2
+                s += text(lx, ly, dt.datetime.strptime(m, "%Y-%m").strftime("%b").upper(), 7.5, P["muted"], "mono", anchor="middle", ls="1")
+        for _, wi, di, c in cells_:
+            x = ox + (wi - di) * tw / 2; y = oy + (wi + di) * th / 2
+            top = f"M{x:.1f} {y:.1f} L{x+tw/2:.1f} {y+th/2:.1f} L{x:.1f} {y+th:.1f} L{x-tw/2:.1f} {y+th/2:.1f} Z"
+            if c == 0:
+                s += f'<path d="{top}" fill="{P["surface2"]}" stroke="{P["ground"]}" stroke-width=".6"/>'
+            else:
+                z = 5 + 34 * (c / mx) ** .5
+                g = f'<g opacity="0"><set attributeName="opacity" to="1" begin="{.3+wi*.025:.2f}s" fill="freeze"/>'
+                g += f'<path d="M{x-tw/2:.1f} {y+th/2:.1f} L{x:.1f} {y+th:.1f} L{x:.1f} {y+th-z:.1f} L{x-tw/2:.1f} {y+th/2-z:.1f} Z" fill="{P["ramp"][1]}"/>'
+                g += f'<path d="M{x:.1f} {y+th:.1f} L{x+tw/2:.1f} {y+th/2:.1f} L{x+tw/2:.1f} {y+th/2-z:.1f} L{x:.1f} {y+th-z:.1f} Z" fill="{P["ramp"][2]}"/>'
+                g += f'<path d="M{x:.1f} {y-z:.1f} L{x+tw/2:.1f} {y+th/2-z:.1f} L{x:.1f} {y+th-z:.1f} L{x-tw/2:.1f} {y+th/2-z:.1f} Z" fill="{P["accent"]}"/>'
+                s += g + "</g>"
         s += "\n"
     nums = [("CONTRIBUTIONS", T.get("contributions_year", "–")), ("COMMITS", T.get("commits_year", "–")), ("STREAK", f"{K.get('current', '–')}d"), ("LONGEST", f"{K.get('longest', '–')}d")]
     for i, (k, v) in enumerate(nums):
-        y = 104 + i * 46
-        s += reveal(label(820, y, k, size=9) + text(820, y + 24, v, 22, P["ink"], "mono", "700", ls="-.5") + hline(820, RIGHT, y + 32), .3 + i * .08)
-    # languages bar
-    s += label(LEFT, 226, "LANGUAGES BY BYTES", P["muted"])
-    bx, bw, by = LEFT, 690, 238; xx = bx
+        y = 104 + i * 50
+        s += reveal(label(800, y, k, size=9) + text(800, y + 26, v, 24, P["ink"] if i else P["accent"], "mono", "700", ls="-.5") + hline(800, RIGHT, y + 36), .3 + i * .08)
+    s += label(LEFT, h - 56, "LANGUAGES BY BYTES", P["muted"])
+    bx, bw, by = LEFT, 660, h - 44; xx = bx
     for i, (n, pct) in enumerate(L):
         w_ = bw * pct / 100
-        s += grow(xx, by, max(w_ - 2, 0), 8, P["accent"], .6 + i * .1) .replace('fill="#FF7A1A"', f'fill="{P["accent"]}" fill-opacity="{1 - i * .15:.2f}"')
+        s += f'<rect x="{xx:.1f}" y="{by}" width="0" height="7" fill="{P["ramp"][3 - min(i, 3)]}"><animate attributeName="width" values="0;{max(w_-2,0):.1f}" begin="{.6+i*.1:.2f}s" dur=".8s" fill="freeze"/></rect>'
         xx += w_
     x = LEFT
     for i, (n, pct) in enumerate(L):
         lab_ = f"{n}  {pct}%"
-        s += reveal(f'<rect x="{x}" y="{262}" width="8" height="8" fill="{P["accent"]}" fill-opacity="{1 - i * .15:.2f}"/>' + text(x + 14, 270, lab_, 10, P["body"], "mono"), .8 + i * .05)
+        s += reveal(f'<rect x="{x}" y="{h-26}" width="8" height="8" fill="{P["ramp"][3 - min(i, 3)]}"/>' + text(x + 14, h - 18, lab_, 10, P["body"], "mono"), .8 + i * .05)
         x += 14 + len(lab_) * 6.3 + 22
     return s + close_svg(W, h)
 

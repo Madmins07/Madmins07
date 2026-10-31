@@ -1,0 +1,54 @@
+<svg width="1000" height="420" viewBox="0 0 1000 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Connect Four against a minimax bot. Game 1, move 0. Your Move. Pick A Column Below.">
+<style>
+  .sans{font-family:-apple-system,'Inter','Segoe UI','Helvetica Neue',Arial,sans-serif}
+  .mono{font-family:ui-monospace,'SF Mono','JetBrains Mono','Cascadia Code',Menlo,Consolas,monospace}
+  .blink{animation:blink 1.2s step-end infinite}
+  @keyframes blink{0%,55%{opacity:1}56%,100%{opacity:0}}
+  @media (prefers-reduced-motion: reduce){ .blink{animation:none} }
+</style>
+<defs>
+  <clipPath id="gf"><rect width="1000" height="420" rx="0"/></clipPath>
+  <pattern id="gdots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#1F2533"/></pattern>
+</defs>
+<g clip-path="url(#gf)">
+<rect width="1000" height="420" fill="#0D1117"/>
+<rect width="1000" height="420" fill="url(#gdots)" opacity=".45"/>
+<rect x="39.5" y="0" width="1" height="420" fill="#2B3242"/>
+<rect x="36" y="48" width="8" height="8" fill="#A8D4FF"/>
+<text x="66" y="56" class="mono" font-size="11" fill="#A8D4FF" font-weight="700" letter-spacing="2">10</text>
+<text x="88" y="56.5" class="mono" font-size="13" fill="#E4EBF5" font-weight="700" letter-spacing="3">CONNECT FOUR  ·  VS THE BOT</text>
+<text x="944" y="56" class="mono" font-size="10" fill="#79819A" text-anchor="end" letter-spacing="2.4">GAME 001  ·  MOVE 00  ·  YOUR MOVE. PICK A COLUMN BELOW.</text>
+<line x1="88" y1="74" x2="944" y2="74" stroke="#1F2533" opacity="1"/>
+<rect x="82" y="98" width="320" height="276" fill="#12161F" stroke="#1F2533"/>
+<text x="110.0" y="90" class="mono" font-size="10" fill="#79819A" text-anchor="middle" letter-spacing="1">1</text>
+<circle cx="110.0" cy="346.0" r="17" fill="#0D1117" stroke="#2B3242" stroke-width="1.2"/><circle cx="110.0" cy="302.0" r="17" fill="#0D1117" stroke="#2B3242" stroke-width="1.2"/><circle cx="110.0" cy="258.0" r="17" fill="#0D1117" stroke="#2B3242" stroke-width="1.2"/><circle cx="110.0" cy="214.0" r="17" fill="#0D1117" stroke="#2B3242" stroke-width="1.2"/><circle cx="110.0" cy="170.0" r="17" fill="#0D1117" stroke="#2B3242" stroke-width="1.2"/><circle cx="110.0" cy="126.0" r="17" fill="#0D1117" stroke="#2B3242" stroke-width="1.2"/><text x="154.0" y="90" class="mono" font-size="10" fill="#79819A" text-anchor="middle" letter-spacing="1">2</text>
+<circle cx="154.0" cy="346.0" r="17" fill="#0D1117" stroke="#2B3242" stroke-width="1.2"/><circle cx="154.0" cy="302.0" r="17" fill="#0D1117" stroke="#2B3242" stroke-width="1.2"/><circle cx="154.0" cy="258.0" r="17" fill="#0D1117" stroke="#2B3242" stroke-width="1.2"/><circle cx="154.0" cy="214.0" r="17" fill="#0D1117" stroke="#2B3242" stroke-width="1.2"/><circle cx="154.0" cy="170.0" r="17" fill="#0D1117" stroke="#2B3242" stroke-width="1.2"/><circle cx="154.0" cy="126.0" r="17" fill="#0D1117" stroke="#2B3242" stroke-width="1.2"/><text x="198.0" y="90" class="mono" font-size="10" fill="#79819A" text-anchor="middle" letter-spacing="1">3</text>
+<circle cx="198.0" cy="346.0" r="17" fill="#0D1117" stroke="#2B3242" stroke-width="1.2"/><circle cx="198.0" cy="302.0" r="17" fill="#0D1117" stroke="#2B3242" stroke-width="1.2"/><circle cx="198.0" cy="258.0" r="17" fill="#0D1117" stroke="#2B3242" stroke-width="1.2"/><circle cx="198.0" cy="214.0" r="17" fill="#0D1117" stroke="#2B3242" stroke-width="1.2"/><circle cx="198.0" cy="170.0" r="17" fill="#0D1117" stroke="#2B3242" stroke-width="1.2"/><circle cx="198.0" cy="126.0" r="17" fill="#0D1117" stroke="#2B3242" stroke-width="1.2"/><text x="242.0" y="90" class="mono" font-size="10" fill="#79819A" text-anchor="middle" letter-spacing="1">4</text>
+<circle cx="242.0" cy="346.0" r="17" fill="#0D1117" stroke="#2B3242" stroke-width="1.2"/><circle cx="242.0" cy="302.0" r="17" fill="#0D1117" stroke="#2B3242" stroke-width="1.2"/><circle cx="242.0" cy="258.0" r="17" fill="#0D1117" stroke="#2B3242" stroke-width="1.2"/><circle cx="242.0" cy="214.0" r="17" fill="#0D1117" stroke="#2B3242" stroke-width="1.2"/><circle cx="242.0" cy="170.0" r="17" fill="#0D1117" stroke="#2B3242" stroke-width="1.2"/><circle cx="242.0" cy="126.0" r="17" fill="#0D1117" stroke="#2B3242" stroke-width="1.2"/><text x="286.0" y="90" class="mono" font-size="10" fill="#79819A" text-anchor="middle" letter-spacing="1">5</text>
+<circle cx="286.0" cy="346.0" r="17" fill="#0D1117" stroke="#2B3242" stroke-width="1.2"/><circle cx="286.0" cy="302.0" r="17" fill="#0D1117" stroke="#2B3242" stroke-width="1.2"/><circle cx="286.0" cy="258.0" r="17" fill="#0D1117" stroke="#2B3242" stroke-width="1.2"/><circle cx="286.0" cy="214.0" r="17" fill="#0D1117" stroke="#2B3242" stroke-width="1.2"/><circle cx="286.0" cy="170.0" r="17" fill="#0D1117" stroke="#2B3242" stroke-width="1.2"/><circle cx="286.0" cy="126.0" r="17" fill="#0D1117" stroke="#2B3242" stroke-width="1.2"/><text x="330.0" y="90" class="mono" font-size="10" fill="#79819A" text-anchor="middle" letter-spacing="1">6</text>
+<circle cx="330.0" cy="346.0" r="17" fill="#0D1117" stroke="#2B3242" stroke-width="1.2"/><circle cx="330.0" cy="302.0" r="17" fill="#0D1117" stroke="#2B3242" stroke-width="1.2"/><circle cx="330.0" cy="258.0" r="17" fill="#0D1117" stroke="#2B3242" stroke-width="1.2"/><circle cx="330.0" cy="214.0" r="17" fill="#0D1117" stroke="#2B3242" stroke-width="1.2"/><circle cx="330.0" cy="170.0" r="17" fill="#0D1117" stroke="#2B3242" stroke-width="1.2"/><circle cx="330.0" cy="126.0" r="17" fill="#0D1117" stroke="#2B3242" stroke-width="1.2"/><text x="374.0" y="90" class="mono" font-size="10" fill="#79819A" text-anchor="middle" letter-spacing="1">7</text>
+<circle cx="374.0" cy="346.0" r="17" fill="#0D1117" stroke="#2B3242" stroke-width="1.2"/><circle cx="374.0" cy="302.0" r="17" fill="#0D1117" stroke="#2B3242" stroke-width="1.2"/><circle cx="374.0" cy="258.0" r="17" fill="#0D1117" stroke="#2B3242" stroke-width="1.2"/><circle cx="374.0" cy="214.0" r="17" fill="#0D1117" stroke="#2B3242" stroke-width="1.2"/><circle cx="374.0" cy="170.0" r="17" fill="#0D1117" stroke="#2B3242" stroke-width="1.2"/><circle cx="374.0" cy="126.0" r="17" fill="#0D1117" stroke="#2B3242" stroke-width="1.2"/>
+<circle cx="96" cy="392" r="6" fill="#A8D4FF"/><text x="110" y="396" class="mono" font-size="11" fill="#ADB5C7">you, the visitors</text>
+<circle cx="266" cy="392" r="6" fill="#E9D49A"/><text x="280" y="396" class="mono" font-size="11" fill="#ADB5C7">the bot, minimax depth 7</text>
+<text x="460" y="104" class="mono" font-size="10" fill="#79819A" letter-spacing="2.4">HOW TO PLAY</text>
+<text x="460" y="124" class="sans" font-size="11" fill="#ADB5C7">Click a column number under the board. It opens a pre-filled issue; press Create.</text>
+<text x="460" y="140" class="sans" font-size="11" fill="#ADB5C7">A GitHub Action plays your move, the bot answers, and the board redraws in ~20 s.</text>
+<text x="460" y="156" class="sans" font-size="11" fill="#ADB5C7">Four in a row wins. Anyone can move; you can play a whole game alone.</text>
+<text x="460" y="194" class="mono" font-size="10" fill="#79819A" letter-spacing="2.4">LAST MOVES</text>
+<text x="460" y="214" class="mono" font-size="11" fill="#79819A">no moves yet. be the first.</text>
+<text x="460" y="314" class="mono" font-size="10" fill="#79819A" letter-spacing="2.4">RECORD</text>
+<text x="460" y="338" class="mono" font-size="22" fill="#E4EBF5" font-weight="700">0</text>
+<text x="462" y="354" class="mono" font-size="9" fill="#79819A" letter-spacing="2.4">GAMES</text>
+<text x="550" y="338" class="mono" font-size="22" fill="#A8D4FF" font-weight="700">0</text>
+<text x="552" y="354" class="mono" font-size="9" fill="#79819A" letter-spacing="2.4">VISITORS</text>
+<text x="650" y="338" class="mono" font-size="22" fill="#E9D49A" font-weight="700">0</text>
+<text x="652" y="354" class="mono" font-size="9" fill="#79819A" letter-spacing="2.4">BOT</text>
+<text x="730" y="338" class="mono" font-size="22" fill="#ADB5C7" font-weight="700">0</text>
+<text x="732" y="354" class="mono" font-size="9" fill="#79819A" letter-spacing="2.4">DRAWS</text>
+<text x="760" y="194" class="mono" font-size="10" fill="#79819A" letter-spacing="2.4">LEADERBOARD  ·  WINS / MOVES</text>
+<text x="760" y="214" class="mono" font-size="10" fill="#79819A">01</text>
+<text x="790" y="214" class="mono" font-size="11" fill="#E4EBF5">nobody yet</text>
+<text x="944" y="214" class="mono" font-size="10.5" fill="#ADB5C7" text-anchor="end">0 / 0</text>
+<text x="460" y="386" class="sans" font-size="10.5" fill="#79819A">Stale boards are rejected, refresh and retry.  ·  The bot never resigns. Neither should you.</text>
+</g>
+</svg>

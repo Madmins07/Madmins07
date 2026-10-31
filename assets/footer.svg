@@ -4,21 +4,22 @@
   .mono{font-family:ui-monospace,'SF Mono','JetBrains Mono','Cascadia Code',Menlo,Consolas,monospace}
   .blink{animation:blink 1.2s step-end infinite}
   @keyframes blink{0%,55%{opacity:1}56%,100%{opacity:0}}
+  @media (prefers-reduced-motion: reduce){ .blink{animation:none} }
 </style>
 <defs>
   <clipPath id="ff"><rect width="1000" height="130" rx="0"/></clipPath>
-  <pattern id="fdots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#1F232B"/></pattern>
+  <pattern id="fdots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#1F2533"/></pattern>
 </defs>
 <g clip-path="url(#ff)">
-<rect width="1000" height="130" fill="#0A0B0E"/>
+<rect width="1000" height="130" fill="#0D1117"/>
 <rect width="1000" height="130" fill="url(#fdots)" opacity=".45"/>
-<rect x="39.5" y="0" width="1" height="54" fill="#2A2F39"/><rect x="36" y="50" width="8" height="8" fill="#FF7A1A"/>
+<rect x="39.5" y="0" width="1" height="54" fill="#2B3242"/><rect x="36" y="50" width="8" height="8" fill="#A8D4FF"/>
 <g opacity="0"><animate attributeName="opacity" values="0;1" begin="0.2s" dur="0.7s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" begin="0.2s" dur="0.7s" fill="freeze"/>
-<text x="88" y="60" class="sans" font-size="20" fill="#F4F5F7" font-weight="600" letter-spacing="-.5" font-style="italic">the market closes. curiosity doesn&#x27;t.</text>
+<text x="88" y="60" class="sans" font-size="20" fill="#E4EBF5" font-weight="600" letter-spacing="-.5" font-style="italic">the market closes. curiosity doesn&#x27;t.</text>
 </g>
 <g opacity="0"><animate attributeName="opacity" values="0;1" begin="0.5s" dur="0.55s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" begin="0.5s" dur="0.55s" fill="freeze"/>
-<text x="88" y="96" class="mono" font-size="10" fill="#6A7280" letter-spacing="2.4">SESSION PERSISTS  ·  KOLKATA, IN</text>
-<text x="944" y="96" class="mono" font-size="10" fill="#6A7280" text-anchor="end" letter-spacing="2.4">MADMINS07  ·  PANELS RENDER NIGHTLY</text>
+<text x="88" y="96" class="mono" font-size="10" fill="#79819A" letter-spacing="2.4">SESSION PERSISTS  ·  KOLKATA, IN</text>
+<text x="944" y="96" class="mono" font-size="10" fill="#79819A" text-anchor="end" letter-spacing="2.4">MADMINS07  ·  PANELS RENDER NIGHTLY</text>
 </g>
 </g>
 </svg>

@@ -4,78 +4,79 @@
   .mono{font-family:ui-monospace,'SF Mono','JetBrains Mono','Cascadia Code',Menlo,Consolas,monospace}
   .blink{animation:blink 1.2s step-end infinite}
   @keyframes blink{0%,55%{opacity:1}56%,100%{opacity:0}}
+  @media (prefers-reduced-motion: reduce){ .blink{animation:none} }
 </style>
 <defs>
   <clipPath id="pf"><rect width="1000" height="320" rx="0"/></clipPath>
-  <pattern id="pdots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#1F232B"/></pattern>
+  <pattern id="pdots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#1F2533"/></pattern>
 </defs>
 <g clip-path="url(#pf)">
-<rect width="1000" height="320" fill="#0A0B0E"/>
+<rect width="1000" height="320" fill="#0D1117"/>
 <rect width="1000" height="320" fill="url(#pdots)" opacity=".45"/>
-<rect x="39.5" y="0" width="1" height="320" fill="#2A2F39"/>
-<rect x="36" y="48" width="8" height="8" fill="#FF7A1A"/>
-<text x="66" y="56" class="mono" font-size="11" fill="#FF7A1A" font-weight="700" letter-spacing="2">09</text>
-<text x="88" y="56.5" class="mono" font-size="13" fill="#F4F5F7" font-weight="700" letter-spacing="3">POSITIONS</text>
-<text x="944" y="56" class="mono" font-size="10" fill="#6A7280" text-anchor="end" letter-spacing="2.4">MARKED TO MARKET  ·  NOT INVESTMENT ADVICE</text>
-<line x1="88" y1="74" x2="944" y2="74" stroke="#1F232B" opacity="1"/>
-<text x="88" y="96" class="mono" font-size="10" fill="#6A7280" letter-spacing="2.4">SIDE</text>
-<text x="178" y="96" class="mono" font-size="10" fill="#6A7280" letter-spacing="2.4">POSITION</text>
-<text x="944" y="96" class="mono" font-size="10" fill="#6A7280" text-anchor="end" letter-spacing="2.4">P&amp;L</text>
+<rect x="39.5" y="0" width="1" height="320" fill="#2B3242"/>
+<rect x="36" y="48" width="8" height="8" fill="#A8D4FF"/>
+<text x="66" y="56" class="mono" font-size="11" fill="#A8D4FF" font-weight="700" letter-spacing="2">09</text>
+<text x="88" y="56.5" class="mono" font-size="13" fill="#E4EBF5" font-weight="700" letter-spacing="3">POSITIONS</text>
+<text x="944" y="56" class="mono" font-size="10" fill="#79819A" text-anchor="end" letter-spacing="2.4">MARKED TO MARKET  ·  NOT INVESTMENT ADVICE</text>
+<line x1="88" y1="74" x2="944" y2="74" stroke="#1F2533" opacity="1"/>
+<text x="88" y="96" class="mono" font-size="10" fill="#79819A" letter-spacing="2.4">SIDE</text>
+<text x="178" y="96" class="mono" font-size="10" fill="#79819A" letter-spacing="2.4">POSITION</text>
+<text x="944" y="96" class="mono" font-size="10" fill="#79819A" text-anchor="end" letter-spacing="2.4">P&amp;L</text>
 <g opacity="0"><animate attributeName="opacity" values="0;1" begin="0.2s" dur="0.45s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="0.2s" dur="0.45s" fill="freeze"/>
-<text x="88" y="124" class="mono" font-size="10" fill="#FF7A1A" font-weight="700" letter-spacing="1.6">LONG</text>
-<text x="178" y="124" class="sans" font-size="13.5" fill="#F4F5F7" font-weight="600">Amoh</text>
-<text x="219.6" y="124" class="sans" font-size="11" fill="#6A7280">position size: all in</text>
-<text x="944" y="124" class="mono" font-size="12" fill="#FF7A1A" font-weight="600" text-anchor="end">▲ open</text>
-<line x1="88" y1="132" x2="944" y2="132" stroke="#1F232B" opacity="0.8"/>
+<text x="88" y="124" class="mono" font-size="10" fill="#A8D4FF" font-weight="700" letter-spacing="1.6">LONG</text>
+<text x="178" y="124" class="sans" font-size="13.5" fill="#E4EBF5" font-weight="600">Amoh</text>
+<text x="219.6" y="124" class="sans" font-size="11" fill="#79819A">position size: all in</text>
+<text x="944" y="124" class="mono" font-size="12" fill="#A8D4FF" font-weight="600" text-anchor="end">▲ open</text>
+<line x1="88" y1="132" x2="944" y2="132" stroke="#1F2533" opacity="0.8"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" values="0;1" begin="0.28s" dur="0.45s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="0.28s" dur="0.45s" fill="freeze"/>
-<text x="88" y="149" class="mono" font-size="10" fill="#FF7A1A" font-weight="700" letter-spacing="1.6">LONG</text>
-<text x="178" y="149" class="sans" font-size="13.5" fill="#F4F5F7" font-weight="600">Stochastic calculus</text>
-<text x="330.6" y="149" class="sans" font-size="11" fill="#6A7280">Shreve, volume I, second read</text>
-<text x="944" y="149" class="mono" font-size="12" fill="#FF7A1A" font-weight="600" text-anchor="end">▲ +412.6%</text>
-<line x1="88" y1="157" x2="944" y2="157" stroke="#1F232B" opacity="0.8"/>
+<text x="88" y="149" class="mono" font-size="10" fill="#A8D4FF" font-weight="700" letter-spacing="1.6">LONG</text>
+<text x="178" y="149" class="sans" font-size="13.5" fill="#E4EBF5" font-weight="600">Stochastic calculus</text>
+<text x="330.6" y="149" class="sans" font-size="11" fill="#79819A">Shreve, volume I, second read</text>
+<text x="944" y="149" class="mono" font-size="12" fill="#A8D4FF" font-weight="600" text-anchor="end">▲ +412.6%</text>
+<line x1="88" y1="157" x2="944" y2="157" stroke="#1F2533" opacity="0.8"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" values="0;1" begin="0.36s" dur="0.45s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="0.36s" dur="0.45s" fill="freeze"/>
-<text x="88" y="174" class="mono" font-size="10" fill="#FF7A1A" font-weight="700" letter-spacing="1.6">LONG</text>
-<text x="178" y="174" class="sans" font-size="13.5" fill="#F4F5F7" font-weight="600">The Codeforces grind</text>
-<text x="338.0" y="174" class="sans" font-size="11" fill="#6A7280">rating goes up, eventually</text>
-<text x="944" y="174" class="mono" font-size="12" fill="#FF7A1A" font-weight="600" text-anchor="end">▲ +128.4%</text>
-<line x1="88" y1="182" x2="944" y2="182" stroke="#1F232B" opacity="0.8"/>
+<text x="88" y="174" class="mono" font-size="10" fill="#A8D4FF" font-weight="700" letter-spacing="1.6">LONG</text>
+<text x="178" y="174" class="sans" font-size="13.5" fill="#E4EBF5" font-weight="600">The Codeforces grind</text>
+<text x="338.0" y="174" class="sans" font-size="11" fill="#79819A">rating goes up, eventually</text>
+<text x="944" y="174" class="mono" font-size="12" fill="#A8D4FF" font-weight="600" text-anchor="end">▲ +128.4%</text>
+<line x1="88" y1="182" x2="944" y2="182" stroke="#1F2533" opacity="0.8"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" values="0;1" begin="0.44s" dur="0.45s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="0.44s" dur="0.45s" fill="freeze"/>
-<text x="88" y="199" class="mono" font-size="10" fill="#FF7A1A" font-weight="700" letter-spacing="1.6">LONG</text>
-<text x="178" y="199" class="sans" font-size="13.5" fill="#F4F5F7" font-weight="600">Chai at 2 a.m.</text>
-<text x="293.6" y="199" class="sans" font-size="11" fill="#6A7280">the only reliable alpha</text>
-<text x="944" y="199" class="mono" font-size="12" fill="#FF7A1A" font-weight="600" text-anchor="end">▲ +96.2%</text>
-<line x1="88" y1="207" x2="944" y2="207" stroke="#1F232B" opacity="0.8"/>
+<text x="88" y="199" class="mono" font-size="10" fill="#A8D4FF" font-weight="700" letter-spacing="1.6">LONG</text>
+<text x="178" y="199" class="sans" font-size="13.5" fill="#E4EBF5" font-weight="600">Chai at 2 a.m.</text>
+<text x="293.6" y="199" class="sans" font-size="11" fill="#79819A">the only reliable alpha</text>
+<text x="944" y="199" class="mono" font-size="12" fill="#A8D4FF" font-weight="600" text-anchor="end">▲ +96.2%</text>
+<line x1="88" y1="207" x2="944" y2="207" stroke="#1F2533" opacity="0.8"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" values="0;1" begin="0.52s" dur="0.45s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="0.52s" dur="0.45s" fill="freeze"/>
-<text x="88" y="224" class="mono" font-size="10" fill="#FF7A1A" font-weight="700" letter-spacing="1.6">LONG</text>
-<text x="178" y="224" class="sans" font-size="13.5" fill="#F4F5F7" font-weight="600">K-pop during backtests</text>
-<text x="352.8" y="224" class="sans" font-size="11" fill="#6A7280">inexplicable, but it works</text>
-<text x="944" y="224" class="mono" font-size="12" fill="#FF7A1A" font-weight="600" text-anchor="end">▲ +64.8%</text>
-<line x1="88" y1="232" x2="944" y2="232" stroke="#1F232B" opacity="0.8"/>
+<text x="88" y="224" class="mono" font-size="10" fill="#A8D4FF" font-weight="700" letter-spacing="1.6">LONG</text>
+<text x="178" y="224" class="sans" font-size="13.5" fill="#E4EBF5" font-weight="600">K-pop during backtests</text>
+<text x="352.8" y="224" class="sans" font-size="11" fill="#79819A">inexplicable, but it works</text>
+<text x="944" y="224" class="mono" font-size="12" fill="#A8D4FF" font-weight="600" text-anchor="end">▲ +64.8%</text>
+<line x1="88" y1="232" x2="944" y2="232" stroke="#1F2533" opacity="0.8"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" values="0;1" begin="0.6000000000000001s" dur="0.45s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="0.6000000000000001s" dur="0.45s" fill="freeze"/>
-<text x="88" y="249" class="mono" font-size="10" fill="#6A7280" font-weight="700" letter-spacing="1.6">SHORT</text>
-<text x="178" y="249" class="sans" font-size="13.5" fill="#F4F5F7" font-weight="600">8 a.m. lectures</text>
-<text x="301.0" y="249" class="sans" font-size="11" fill="#6A7280">structurally impaired</text>
-<text x="944" y="249" class="mono" font-size="12" fill="#6A7280" font-weight="600" text-anchor="end">▼ -71.3%</text>
-<line x1="88" y1="257" x2="944" y2="257" stroke="#1F232B" opacity="0.8"/>
+<text x="88" y="249" class="mono" font-size="10" fill="#79819A" font-weight="700" letter-spacing="1.6">SHORT</text>
+<text x="178" y="249" class="sans" font-size="13.5" fill="#E4EBF5" font-weight="600">8 a.m. lectures</text>
+<text x="301.0" y="249" class="sans" font-size="11" fill="#79819A">structurally impaired</text>
+<text x="944" y="249" class="mono" font-size="12" fill="#79819A" font-weight="600" text-anchor="end">▼ -71.3%</text>
+<line x1="88" y1="257" x2="944" y2="257" stroke="#1F2533" opacity="0.8"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" values="0;1" begin="0.6799999999999999s" dur="0.45s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="0.6799999999999999s" dur="0.45s" fill="freeze"/>
-<text x="88" y="274" class="mono" font-size="10" fill="#6A7280" font-weight="700" letter-spacing="1.6">SHORT</text>
-<text x="178" y="274" class="sans" font-size="13.5" fill="#F4F5F7" font-weight="600">Notebook outputs in git</text>
-<text x="360.20000000000005" y="274" class="sans" font-size="11" fill="#6A7280">most of my repos, regrettably</text>
-<text x="944" y="274" class="mono" font-size="12" fill="#6A7280" font-weight="600" text-anchor="end">▼ -44.9%</text>
-<line x1="88" y1="282" x2="944" y2="282" stroke="#1F232B" opacity="0.8"/>
+<text x="88" y="274" class="mono" font-size="10" fill="#79819A" font-weight="700" letter-spacing="1.6">SHORT</text>
+<text x="178" y="274" class="sans" font-size="13.5" fill="#E4EBF5" font-weight="600">Notebook outputs in git</text>
+<text x="360.20000000000005" y="274" class="sans" font-size="11" fill="#79819A">most of my repos, regrettably</text>
+<text x="944" y="274" class="mono" font-size="12" fill="#79819A" font-weight="600" text-anchor="end">▼ -44.9%</text>
+<line x1="88" y1="282" x2="944" y2="282" stroke="#1F2533" opacity="0.8"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" values="0;1" begin="0.76s" dur="0.45s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="0.76s" dur="0.45s" fill="freeze"/>
-<text x="88" y="299" class="mono" font-size="10" fill="#6A7280" font-weight="700" letter-spacing="1.6">SHORT</text>
-<text x="178" y="299" class="sans" font-size="13.5" fill="#F4F5F7" font-weight="600">Sleep, in exam week</text>
-<text x="330.6" y="299" class="sans" font-size="11" fill="#6A7280">liquidated early</text>
-<text x="944" y="299" class="mono" font-size="12" fill="#6A7280" font-weight="600" text-anchor="end">▼ -88.1%</text>
-<line x1="88" y1="307" x2="944" y2="307" stroke="#1F232B" opacity="0.8"/>
+<text x="88" y="299" class="mono" font-size="10" fill="#79819A" font-weight="700" letter-spacing="1.6">SHORT</text>
+<text x="178" y="299" class="sans" font-size="13.5" fill="#E4EBF5" font-weight="600">Sleep, in exam week</text>
+<text x="330.6" y="299" class="sans" font-size="11" fill="#79819A">liquidated early</text>
+<text x="944" y="299" class="mono" font-size="12" fill="#79819A" font-weight="600" text-anchor="end">▼ -88.1%</text>
+<line x1="88" y1="307" x2="944" y2="307" stroke="#1F2533" opacity="0.8"/>
 </g>
 </g>
 </svg>

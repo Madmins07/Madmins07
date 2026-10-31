@@ -1,0 +1,68 @@
+name: play
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+# No concurrency group on purpose: GitHub keeps only one pending run per group and drops the rest.
+# Moves are serialised with a fetch, replay, push-with-retry loop instead.
+
+jobs:
+  move:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    if: startsWith(github.event.issue.title, 'c4|')
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: acknowledge
+        env:
+          GH_TOKEN: ${{ github.token }}
+          N: ${{ github.event.issue.number }}
+        run: gh api -X POST "repos/$GITHUB_REPOSITORY/issues/$N/reactions" -f content=eyes >/dev/null || true
+
+      - name: play the move, redraw the board, commit
+        id: play
+        env:
+          # Untrusted input is read only from env, never interpolated into the script.
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          ISSUE_USER: ${{ github.event.issue.user.login }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: |
+          set -uo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          status=3
+          for attempt in 1 2 3 4 5; do
+            git fetch --quiet origin main && git reset --quiet --hard origin/main
+            python3 game/play.py > reply.md; status=$?
+            [ "$status" -ne 0 ] && break
+            git add README.md game/state.json assets/board
+            git commit --quiet -m "connect four: move by ${ISSUE_USER} (#${ISSUE_NUMBER})"
+            if git push --quiet origin HEAD:main; then break; fi
+            status=3; sleep $((attempt * 2))
+          done
+          if [ "$status" -eq 3 ]; then echo "Too many moves landed at once. Refresh the board and try again." > reply.md; fi
+          echo "status=$status" >> "$GITHUB_OUTPUT"
+
+      - name: reply and close
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          N: ${{ github.event.issue.number }}
+          STATUS: ${{ steps.play.outputs.status }}
+        run: |
+          [ -s reply.md ] || echo "Something went wrong with this move." > reply.md
+          printf '\n\n[Back to the board](https://github.com/%s#readme)\n' "$GITHUB_REPOSITORY" >> reply.md
+          gh issue comment "$N" --body-file reply.md
+          if [ "$STATUS" = "0" ]; then gh issue close "$N" --reason completed; else gh issue close "$N" --reason "not planned"; fi

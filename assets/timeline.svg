@@ -4,63 +4,64 @@
   .mono{font-family:ui-monospace,'SF Mono','JetBrains Mono','Cascadia Code',Menlo,Consolas,monospace}
   .blink{animation:blink 1.2s step-end infinite}
   @keyframes blink{0%,55%{opacity:1}56%,100%{opacity:0}}
+  @media (prefers-reduced-motion: reduce){ .blink{animation:none} }
 </style>
 <defs>
   <clipPath id="tf"><rect width="1000" height="300" rx="0"/></clipPath>
-  <pattern id="tdots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#1F232B"/></pattern>
+  <pattern id="tdots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#1F2533"/></pattern>
 </defs>
 <g clip-path="url(#tf)">
-<rect width="1000" height="300" fill="#0A0B0E"/>
+<rect width="1000" height="300" fill="#0D1117"/>
 <rect width="1000" height="300" fill="url(#tdots)" opacity=".45"/>
-<rect x="39.5" y="0" width="1" height="300" fill="#2A2F39"/>
-<rect x="36" y="48" width="8" height="8" fill="#FF7A1A"/>
-<text x="66" y="56" class="mono" font-size="11" fill="#FF7A1A" font-weight="700" letter-spacing="2">04</text>
-<text x="88" y="56.5" class="mono" font-size="13" fill="#F4F5F7" font-weight="700" letter-spacing="3">TRACK RECORD</text>
-<text x="944" y="56" class="mono" font-size="10" fill="#6A7280" text-anchor="end" letter-spacing="2.4">2024  →  2027</text>
-<line x1="88" y1="74" x2="944" y2="74" stroke="#1F232B" opacity="1"/>
-<line x1="108" y1="190" x2="924" y2="190" stroke="#2A2F39" opacity="1"/>
-<line x1="108" y1="190" x2="924" y2="190" stroke="#FF7A1A" stroke-width="1.5" stroke-dasharray="816" stroke-dashoffset="816"><animate attributeName="stroke-dashoffset" values="816;0" begin=".3s" dur="1.6s" fill="freeze"/></line>
+<rect x="39.5" y="0" width="1" height="300" fill="#2B3242"/>
+<rect x="36" y="48" width="8" height="8" fill="#A8D4FF"/>
+<text x="66" y="56" class="mono" font-size="11" fill="#A8D4FF" font-weight="700" letter-spacing="2">04</text>
+<text x="88" y="56.5" class="mono" font-size="13" fill="#E4EBF5" font-weight="700" letter-spacing="3">TRACK RECORD</text>
+<text x="944" y="56" class="mono" font-size="10" fill="#79819A" text-anchor="end" letter-spacing="2.4">2024  →  2027</text>
+<line x1="88" y1="74" x2="944" y2="74" stroke="#1F2533" opacity="1"/>
+<line x1="108" y1="190" x2="924" y2="190" stroke="#2B3242" opacity="1"/>
+<line x1="108" y1="190" x2="924" y2="190" stroke="#A8D4FF" stroke-width="1.5" stroke-dasharray="816" stroke-dashoffset="816"><animate attributeName="stroke-dashoffset" values="816;0" begin=".3s" dur="1.6s" fill="freeze"/></line>
 <g opacity="0"><animate attributeName="opacity" values="0;1" begin="0.5s" dur="0.5s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 6" to="0 0" begin="0.5s" dur="0.5s" fill="freeze"/>
-<text x="108.0" y="132" class="mono" font-size="10" fill="#6A7280" text-anchor="middle" letter-spacing="2.4">JUL 2024</text>
-<text x="108.0" y="152" class="sans" font-size="14.5" fill="#F4F5F7" font-weight="700" text-anchor="middle" letter-spacing="-.3">Seventh Triangle</text>
-<text x="108.0" y="168" class="sans" font-size="11" fill="#AEB4BF" text-anchor="middle">R&amp;D Intern</text>
-<line x1="108" y1="176" x2="108" y2="184" stroke="#2A2F39"/></g>
-<rect x="103" y="185" width="10" height="10" fill="#0A0B0E" stroke="#6A7280" stroke-width="1.5" opacity="0"><animate attributeName="opacity" values="0;1" begin="0.40s" dur=".3s" fill="freeze"/></rect>
+<text x="108.0" y="132" class="mono" font-size="10" fill="#79819A" text-anchor="middle" letter-spacing="2.4">JUL 2024</text>
+<text x="108.0" y="152" class="sans" font-size="14.5" fill="#E4EBF5" font-weight="700" text-anchor="middle" letter-spacing="-.3">Seventh Triangle</text>
+<text x="108.0" y="168" class="sans" font-size="11" fill="#ADB5C7" text-anchor="middle">R&amp;D Intern</text>
+<line x1="108" y1="176" x2="108" y2="184" stroke="#2B3242"/></g>
+<rect x="103" y="185" width="10" height="10" fill="#0D1117" stroke="#79819A" stroke-width="1.5" opacity="0"><animate attributeName="opacity" values="0;1" begin="0.40s" dur=".3s" fill="freeze"/></rect>
 <g opacity="0"><animate attributeName="opacity" values="0;1" begin="0.6799999999999999s" dur="0.5s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 6" to="0 0" begin="0.6799999999999999s" dur="0.5s" fill="freeze"/>
-<text x="244.0" y="224" class="mono" font-size="10" fill="#6A7280" text-anchor="middle" letter-spacing="2.4">SEP 2024</text>
-<text x="244.0" y="244" class="sans" font-size="14.5" fill="#F4F5F7" font-weight="700" text-anchor="middle" letter-spacing="-.3">Myntra</text>
-<text x="244.0" y="260" class="sans" font-size="11" fill="#AEB4BF" text-anchor="middle">Strategy Intern</text>
-<line x1="244" y1="196" x2="244" y2="204" stroke="#2A2F39"/></g>
-<rect x="239" y="185" width="10" height="10" fill="#0A0B0E" stroke="#6A7280" stroke-width="1.5" opacity="0"><animate attributeName="opacity" values="0;1" begin="0.58s" dur=".3s" fill="freeze"/></rect>
+<text x="244.0" y="224" class="mono" font-size="10" fill="#79819A" text-anchor="middle" letter-spacing="2.4">SEP 2024</text>
+<text x="244.0" y="244" class="sans" font-size="14.5" fill="#E4EBF5" font-weight="700" text-anchor="middle" letter-spacing="-.3">Myntra</text>
+<text x="244.0" y="260" class="sans" font-size="11" fill="#ADB5C7" text-anchor="middle">Strategy Intern</text>
+<line x1="244" y1="196" x2="244" y2="204" stroke="#2B3242"/></g>
+<rect x="239" y="185" width="10" height="10" fill="#0D1117" stroke="#79819A" stroke-width="1.5" opacity="0"><animate attributeName="opacity" values="0;1" begin="0.58s" dur=".3s" fill="freeze"/></rect>
 <g opacity="0"><animate attributeName="opacity" values="0;1" begin="0.86s" dur="0.5s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 6" to="0 0" begin="0.86s" dur="0.5s" fill="freeze"/>
-<text x="380.0" y="132" class="mono" font-size="10" fill="#6A7280" text-anchor="middle" letter-spacing="2.4">MAY 2025</text>
-<text x="380.0" y="152" class="sans" font-size="14.5" fill="#F4F5F7" font-weight="700" text-anchor="middle" letter-spacing="-.3">PharmEasy</text>
-<text x="380.0" y="168" class="sans" font-size="11" fill="#AEB4BF" text-anchor="middle">Summer Intern</text>
-<line x1="380" y1="176" x2="380" y2="184" stroke="#2A2F39"/></g>
-<rect x="375" y="185" width="10" height="10" fill="#0A0B0E" stroke="#6A7280" stroke-width="1.5" opacity="0"><animate attributeName="opacity" values="0;1" begin="0.76s" dur=".3s" fill="freeze"/></rect>
+<text x="380.0" y="132" class="mono" font-size="10" fill="#79819A" text-anchor="middle" letter-spacing="2.4">MAY 2025</text>
+<text x="380.0" y="152" class="sans" font-size="14.5" fill="#E4EBF5" font-weight="700" text-anchor="middle" letter-spacing="-.3">PharmEasy</text>
+<text x="380.0" y="168" class="sans" font-size="11" fill="#ADB5C7" text-anchor="middle">Summer Intern</text>
+<line x1="380" y1="176" x2="380" y2="184" stroke="#2B3242"/></g>
+<rect x="375" y="185" width="10" height="10" fill="#0D1117" stroke="#79819A" stroke-width="1.5" opacity="0"><animate attributeName="opacity" values="0;1" begin="0.76s" dur=".3s" fill="freeze"/></rect>
 <g opacity="0"><animate attributeName="opacity" values="0;1" begin="1.04s" dur="0.5s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 6" to="0 0" begin="1.04s" dur="0.5s" fill="freeze"/>
-<text x="516.0" y="224" class="mono" font-size="10" fill="#6A7280" text-anchor="middle" letter-spacing="2.4">2025-26</text>
-<text x="516.0" y="244" class="sans" font-size="14.5" fill="#F4F5F7" font-weight="700" text-anchor="middle" letter-spacing="-.3">KDAG</text>
-<text x="516.0" y="260" class="sans" font-size="11" fill="#AEB4BF" text-anchor="middle">Executive Head</text>
-<line x1="516" y1="196" x2="516" y2="204" stroke="#2A2F39"/></g>
-<rect x="511" y="185" width="10" height="10" fill="#0A0B0E" stroke="#6A7280" stroke-width="1.5" opacity="0"><animate attributeName="opacity" values="0;1" begin="0.94s" dur=".3s" fill="freeze"/></rect>
+<text x="516.0" y="224" class="mono" font-size="10" fill="#79819A" text-anchor="middle" letter-spacing="2.4">2025-26</text>
+<text x="516.0" y="244" class="sans" font-size="14.5" fill="#E4EBF5" font-weight="700" text-anchor="middle" letter-spacing="-.3">KDAG</text>
+<text x="516.0" y="260" class="sans" font-size="11" fill="#ADB5C7" text-anchor="middle">Executive Head</text>
+<line x1="516" y1="196" x2="516" y2="204" stroke="#2B3242"/></g>
+<rect x="511" y="185" width="10" height="10" fill="#0D1117" stroke="#79819A" stroke-width="1.5" opacity="0"><animate attributeName="opacity" values="0;1" begin="0.94s" dur=".3s" fill="freeze"/></rect>
 <g opacity="0"><animate attributeName="opacity" values="0;1" begin="1.22s" dur="0.5s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 6" to="0 0" begin="1.22s" dur="0.5s" fill="freeze"/>
-<text x="652.0" y="132" class="mono" font-size="10" fill="#FF7A1A" text-anchor="middle" letter-spacing="2.4">2026</text>
-<text x="652.0" y="152" class="sans" font-size="14.5" fill="#F4F5F7" font-weight="700" text-anchor="middle" letter-spacing="-.3">Amoh</text>
-<text x="652.0" y="168" class="sans" font-size="11" fill="#AEB4BF" text-anchor="middle">Operations</text>
-<line x1="652" y1="176" x2="652" y2="184" stroke="#2A2F39"/></g>
-<rect x="647" y="185" width="10" height="10" fill="#FF7A1A" stroke="#FF7A1A" stroke-width="1.5" opacity="0"><animate attributeName="opacity" values="0;1" begin="1.12s" dur=".3s" fill="freeze"/></rect>
+<text x="652.0" y="132" class="mono" font-size="10" fill="#A8D4FF" text-anchor="middle" letter-spacing="2.4">2026</text>
+<text x="652.0" y="152" class="sans" font-size="14.5" fill="#E4EBF5" font-weight="700" text-anchor="middle" letter-spacing="-.3">Amoh</text>
+<text x="652.0" y="168" class="sans" font-size="11" fill="#ADB5C7" text-anchor="middle">Operations</text>
+<line x1="652" y1="176" x2="652" y2="184" stroke="#2B3242"/></g>
+<rect x="647" y="185" width="10" height="10" fill="#A8D4FF" stroke="#A8D4FF" stroke-width="1.5" opacity="0"><animate attributeName="opacity" values="0;1" begin="1.12s" dur=".3s" fill="freeze"/></rect>
 <g opacity="0"><animate attributeName="opacity" values="0;1" begin="1.4s" dur="0.5s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 6" to="0 0" begin="1.4s" dur="0.5s" fill="freeze"/>
-<text x="788.0" y="224" class="mono" font-size="10" fill="#FF7A1A" text-anchor="middle" letter-spacing="2.4">2026-27</text>
-<text x="788.0" y="244" class="sans" font-size="14.5" fill="#F4F5F7" font-weight="700" text-anchor="middle" letter-spacing="-.3">KDAG</text>
-<text x="788.0" y="260" class="sans" font-size="11" fill="#AEB4BF" text-anchor="middle">Advisor</text>
-<line x1="788" y1="196" x2="788" y2="204" stroke="#2A2F39"/></g>
-<rect x="783" y="185" width="10" height="10" fill="#FF7A1A" stroke="#FF7A1A" stroke-width="1.5" opacity="0"><animate attributeName="opacity" values="0;1" begin="1.30s" dur=".3s" fill="freeze"/></rect>
+<text x="788.0" y="224" class="mono" font-size="10" fill="#A8D4FF" text-anchor="middle" letter-spacing="2.4">2026-27</text>
+<text x="788.0" y="244" class="sans" font-size="14.5" fill="#E4EBF5" font-weight="700" text-anchor="middle" letter-spacing="-.3">KDAG</text>
+<text x="788.0" y="260" class="sans" font-size="11" fill="#ADB5C7" text-anchor="middle">Advisor</text>
+<line x1="788" y1="196" x2="788" y2="204" stroke="#2B3242"/></g>
+<rect x="783" y="185" width="10" height="10" fill="#A8D4FF" stroke="#A8D4FF" stroke-width="1.5" opacity="0"><animate attributeName="opacity" values="0;1" begin="1.30s" dur=".3s" fill="freeze"/></rect>
 <g opacity="0"><animate attributeName="opacity" values="0;1" begin="1.58s" dur="0.5s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 6" to="0 0" begin="1.58s" dur="0.5s" fill="freeze"/>
-<text x="924.0" y="132" class="mono" font-size="10" fill="#FF7A1A" text-anchor="middle" letter-spacing="2.4">2027</text>
-<text x="924.0" y="152" class="sans" font-size="14.5" fill="#F4F5F7" font-weight="700" text-anchor="middle" letter-spacing="-.3">L.E.K. Consulting</text>
-<text x="924.0" y="168" class="sans" font-size="11" fill="#AEB4BF" text-anchor="middle">Summer Associate</text>
-<line x1="924" y1="176" x2="924" y2="184" stroke="#2A2F39"/></g>
-<rect x="919" y="185" width="10" height="10" fill="#0A0B0E" stroke="#FF7A1A" stroke-width="1.5" stroke-dasharray="2 2" opacity="0"><animate attributeName="opacity" values="0;1" begin="1.48s" dur=".3s" fill="freeze"/></rect>
+<text x="924.0" y="132" class="mono" font-size="10" fill="#A8D4FF" text-anchor="middle" letter-spacing="2.4">2027</text>
+<text x="924.0" y="152" class="sans" font-size="14.5" fill="#E4EBF5" font-weight="700" text-anchor="middle" letter-spacing="-.3">L.E.K. Consulting</text>
+<text x="924.0" y="168" class="sans" font-size="11" fill="#ADB5C7" text-anchor="middle">Summer Associate</text>
+<line x1="924" y1="176" x2="924" y2="184" stroke="#2B3242"/></g>
+<rect x="919" y="185" width="10" height="10" fill="#0D1117" stroke="#A8D4FF" stroke-width="1.5" stroke-dasharray="2 2" opacity="0"><animate attributeName="opacity" values="0;1" begin="1.48s" dur=".3s" fill="freeze"/></rect>
 </g>
 </svg>

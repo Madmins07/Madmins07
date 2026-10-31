@@ -1,0 +1,15 @@
+{
+ "game": 1,
+ "human": 0,
+ "bot": 0,
+ "mask": 0,
+ "move": 0,
+ "over": null,
+ "history": [],
+ "players": {},
+ "games": 0,
+ "human_wins": 0,
+ "bot_wins": 0,
+ "draws": 0,
+ "last": null
+}

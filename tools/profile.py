@@ -25,22 +25,34 @@ def header():
 
 def whoami():
     u, h = "w", H["whoami"]
-    s = open_svg(W, h, "whoami. Industrial and Systems Engineering at IIT Kharagpur, class of 2028; operations at Amoh; advisor to the Kharagpur Data Analytics Group. You have a right to the work alone, never to its fruits.", u)
-    s += section(u, h, "01", "WHOAMI")
-    lines = ["I read Industrial & Systems Engineering at IIT Kharagpur, class of 2028, and I run",
-             "operations at Amoh, the medical AI research lab. The rest of my time goes where",
-             "statistics meets markets: forecasting, factor research, optimisation, and the",
-             "occasional 3 a.m. contest problem. Right now: stochastic calculus, econometrics,",
-             "and market microstructure. I advise the Kharagpur Data Analytics Group, having",
-             "run it as Executive Head the year before."]
-    s += reveal("".join(text(LEFT, 106 + i * 20, l, 14, P["body"]) for i, l in enumerate(lines)), .25, .6, 8)
-    s += reveal(f'<rect x="{LEFT}" y="{h-52}" width="2" height="34" fill="{P["accent"]}"/>' +
-                text(LEFT + 14, h - 38, "कर्मण्येवाधिकारस्ते मा फलेषु कदाचन ।", 12.5, P["body"]) +
-                text(LEFT + 14, h - 22, "You have a right to the work alone, never to its fruits.", 11.5, P["muted"], "sans", extra='font-style="italic"'), .7)
-    now = [("READING", "Shreve, Stochastic Calculus I"), ("BUILDING", "Amoh operations"), ("SOLVING", "Codeforces, Div 2 C"), ("LISTENING", "Sukoon")]
-    for i, (k, v) in enumerate(now):
-        y = 106 + i * 30
-        s += reveal(label(700, y, k) + text(RIGHT, y, v, 12.5, P["ink"], "sans", "500", "end") + hline(700, RIGHT, y + 11), .5 + i * .08)
+    s = open_svg(W, h, "whoami, as a terminal session. Madhav Agarwal, Industrial and Systems Engineering at IIT Kharagpur, class of 2028; operations at Amoh; advisor to the Kharagpur Data Analytics Group. Interests: forecasting, factor research, optimisation, stochastic calculus. Now: reading Shreve, building Amoh operations, solving Codeforces Div 2 C. You have a right to the work alone, never to its fruits.", u)
+    s += section(u, h, "01", "WHOAMI", "ZSH  ·  PLAYS ONCE, THEN HOLDS")
+    tx, ty, tw, th = LEFT, 90, RIGHT - LEFT, h - 110
+    s += f'<rect x="{tx}" y="{ty}" width="{tw}" height="{th}" fill="{P["surface"]}" stroke="{P["line"]}"/>'
+    s += f'<rect x="{tx}" y="{ty}" width="{tw}" height="26" fill="{P["surface2"]}"/>'
+    for i, c in enumerate((P["faint"], P["faint"], P["faint"])): s += f'<circle cx="{tx+16+i*16}" cy="{ty+13}" r="4.5" fill="{c}"/>'
+    s += text(tx + tw / 2, ty + 17, "madhav@kgp — zsh — 110×24", 10.5, P["muted"], "mono", anchor="middle")
+    cw, lh, fs = 7.45, 17, 12.4   # mono advance at 12.4px, line height
+    lines = [("cmd", "whoami"), ("out", "Madhav Agarwal  ·  ISE '28, IIT Kharagpur  ·  operations @ Amoh  ·  advisor @ KDAG"),
+             ("cmd", "cat ~/interests"), ("out", "forecasting · factor research · optimisation · stochastic calculus · 3 a.m. contest problems"),
+             ("cmd", "cat ~/now"), ("out", "reading    Shreve, Stochastic Calculus for Finance I"), ("out", "building   Amoh operations"), ("out", "solving    Codeforces, Div 2 C"),
+             ("cmd", "fortune --gita 2.47"), ("out", "कर्मण्येवाधिकारस्ते मा फलेषु कदाचन ।  you have a right to the work alone, never to its fruits."),
+             ("cmd", "")]
+    t = .6; y = ty + 48; prompt = "madhav@kgp ~ % "; pw = len(prompt) * cw
+    for i, (kind, body) in enumerate(lines):
+        if kind == "cmd":
+            s += f'<g opacity="0"><set attributeName="opacity" to="1" begin="{t:.2f}s" fill="freeze"/>' + text(tx + 16, y, prompt, fs, P["accent"], "mono", "600") + "</g>"
+            if body:
+                dur = max(.3, len(body) * .055); cwid = len(body) * cw
+                s += (f'<clipPath id="{u}c{i}"><rect x="{tx+16+pw:.1f}" y="{y-13}" width="0" height="18"><animate attributeName="width" begin="{t+.15:.2f}s" dur="{dur:.2f}s" fill="freeze" calcMode="discrete" keyTimes="' + ";".join(f"{k/len(body):.3f}" for k in range(len(body)+1)) + '" values="' + ";".join(f"{k*cw:.1f}" for k in range(len(body)+1)) + '"/></rect></clipPath>')
+                s += f'<g clip-path="url(#{u}c{i})">' + text(tx + 16 + pw, y, body, fs, P["ink"], "mono") + "</g>"
+                t += .15 + dur + .25
+            else:
+                s += f'<rect x="{tx+16+pw:.1f}" y="{y-12}" width="{cw:.1f}" height="15" fill="{P["ink"]}" opacity="0"><set attributeName="opacity" to="1" begin="{t+.1:.2f}s" fill="freeze"/><animate attributeName="opacity" values="1;0;1" dur="1.1s" begin="{t+.1:.2f}s" repeatCount="indefinite" calcMode="discrete"/></rect>'
+        else:
+            s += f'<g opacity="0"><set attributeName="opacity" to="1" begin="{t:.2f}s" fill="freeze"/>' + text(tx + 16, y, body, fs, P["body"], "mono") + "</g>"
+            t += .12
+        y += lh
     return s + close_svg(W, h)
 
 def amoh():
@@ -61,20 +73,33 @@ def amoh():
 
 def stack():
     u, h = "s", H["stack"]
-    s = open_svg(W, h, "Stack: Python, C++, machine learning, time series, optimisation, statistics, web, tooling", u)
-    s += section(u, h, "03", "STACK", "DEPTH, FIVE DOTS")
+    s = open_svg(W, h, "Stack: Python, C++, machine learning, time series, optimisation, statistics, web, tooling. Icons orbit: Python, C++, Jupyter, TensorFlow, scikit-learn, pandas, NumPy, React, Node, Docker, Streamlit, git, Plotly.", u)
+    s += section(u, h, "03", "STACK", "ORBITS BY DISTANCE FROM DAILY USE  ·  DOTS = DEPTH")
+    cx, cy = 250, 246
+    rings = [(58, 70, ["python", "cplusplus", "jupyter"]), (104, 110, ["tensorflow", "scikitlearn", "pandas", "numpy"]), (148, 160, ["react", "nodedotjs", "docker", "streamlit", "git", "plotly"])]
+    s += f'<circle cx="{cx}" cy="{cy}" r="16" fill="{P["ground"]}" stroke="{P["accent"]}" stroke-width="1.5"/><circle cx="{cx}" cy="{cy}" r="4" fill="{P["accent"]}"/>'
+    for ri, (r, dur, slugs) in enumerate(rings):
+        s += f'<circle cx="{cx}" cy="{cy}" r="{r}" fill="none" stroke="{P["line2"]}" stroke-dasharray="2 5"/>'
+        direction = -1 if ri % 2 else 1
+        s += f'<g><animateTransform attributeName="transform" type="rotate" from="0 {cx} {cy}" to="{360*direction} {cx} {cy}" dur="{dur}s" repeatCount="indefinite"/>'
+        for k, slug in enumerate(slugs):
+            a = 2 * math.pi * k / len(slugs); ix, iy = cx + r * math.cos(a), cy + r * math.sin(a)
+            fill = P["ink"] if ri == 0 else (P["body"] if ri == 1 else P["muted"]); sz = 20 if ri == 0 else 17
+            s += (f'<g transform="translate({ix:.1f},{iy:.1f})"><g><animateTransform attributeName="transform" type="rotate" from="0" to="{-360*direction}" dur="{dur}s" repeatCount="indefinite"/>'
+                  f'<circle r="{sz/2+7}" fill="{P["ground"]}" stroke="{P["line"]}"/><path d="{icon_path(slug)}" fill="{fill}" transform="translate({-sz/2:.1f},{-sz/2:.1f}) scale({sz/24:.3f})"/></g></g>')
+        s += "</g>\n"
     mods = [("PYTHON", "research, modelling, most things", 5), ("C++", "contests, anything that must be fast", 4),
             ("MACHINE LEARNING", "TensorFlow, scikit-learn, XGBoost", 4), ("TIME SERIES", "ARIMA, Prophet, statsmodels", 4),
             ("OPTIMISATION", "PuLP, dynamic and integer programming", 3), ("STATISTICS", "econometrics, stochastic calculus", 3),
             ("WEB", "React, Node, Vite, Docker", 2), ("TOOLING", "pandas, NumPy, Streamlit, git", 4)]
     for i, (name, sub, lvl) in enumerate(mods):
         col, row = i % 2, i // 2
-        x, y = LEFT + col * 430, 108 + row * 46
-        inner = text(x, y, name, 12.5, P["ink"], "mono", "700", ls="1.6") + text(x, y + 17, sub, 11, P["muted"], "sans")
+        x, y = 470 + col * 240, 122 + row * 66
+        inner = text(x, y, name, 11.5, P["ink"], "mono", "700", ls="1.4") + text(x, y + 16, sub, 10, P["muted"], "sans")
         for k in range(5):
-            dx = x + 300 + k * 18
-            inner += (f'<rect x="{dx}" y="{y-8}" width="10" height="10" fill="{P["accent"] if k < lvl else "none"}" stroke="{P["accent"] if k < lvl else P["line2"]}"/>')
-        inner += hline(x, x + 400, y + 28)
+            dx = x + 150 + k * 15
+            inner += f'<rect x="{dx}" y="{y-8}" width="9" height="9" fill="{P["accent"] if k < lvl else "none"}" stroke="{P["accent"] if k < lvl else P["line2"]}"/>'
+        inner += hline(x, x + 224, y + 28)
         s += reveal(inner, .2 + i * .07)
     return s + close_svg(W, h)
 
