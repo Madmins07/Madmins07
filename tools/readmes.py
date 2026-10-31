@@ -3,7 +3,7 @@ sys.path.insert(0, os.path.dirname(__file__))
 from repos import REPOS
 
 U = "Madmins07"
-SH = "style=flat-square&labelColor=0B0E0D"
+SH = "style=flat-square&labelColor=07080D"
 
 def badge(label, msg, color, logo=None):
     l = f"&logo={logo}&logoColor=EEF1ED" if logo else ""
@@ -14,17 +14,18 @@ def dyn(kind, name, color, label=None):
     return f'<img src="https://img.shields.io/github/{kind}/{U}/{name}?{SH}&color={color}{lb}" alt="{kind}"/>'
 
 def head(name, r, extra_badges=""):
+    from common import P
     b = []
-    lang = r["lang"]
-    if lang == "Python": b.append(badge("python", "3.10+", "A6BDAD", "python"))
-    elif lang == "Jupyter": b.append(badge("jupyter", "notebook", "A6BDAD", "jupyter"))
-    elif lang == "C++": b.append(badge("c++", "17", "A6BDAD", "cplusplus"))
-    elif lang == "JavaScript": b.append(badge("node", "18+", "A6BDAD", "nodedotjs"))
-    b.append(dyn("last-commit", name, "788A7F", "updated"))
-    if r["license"]: b.append(dyn("license", name, "5A6A60"))
+    lang = r["lang"]; ac = P[r.get("accent", "cyan")].lstrip("#")
+    if lang == "Python": b.append(badge("python", "3.10+", ac, "python"))
+    elif lang == "Jupyter": b.append(badge("jupyter", "notebook", ac, "jupyter"))
+    elif lang == "C++": b.append(badge("c++", "17", ac, "cplusplus"))
+    elif lang == "JavaScript": b.append(badge("node", "18+", ac, "nodedotjs"))
+    b.append(dyn("last-commit", name, "6F7693", "updated"))
+    if r["license"]: b.append(dyn("license", name, "1C2032"))
     if r["homepage"]:
         host = r["homepage"].split("//")[1].rstrip("/").replace("-", "--")
-        b.append(f'<a href="{r["homepage"]}">{badge("live", host, "EEF1ED")}</a>')
+        b.append(f'<a href="{r["homepage"]}">{badge("live", host, "F3F5FF")}</a>')
     b.append(extra_badges)
     return (f'<div align="center">\n  <img src="assets/banner.svg" alt="{r["title"]}. {r["tagline"]}" width="100%"/>\n</div>\n\n'
             f'<div align="center">\n  ' + "\n  ".join(x for x in b if x) + "\n</div>\n\n")

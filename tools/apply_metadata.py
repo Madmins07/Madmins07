@@ -43,7 +43,7 @@ for name, r in REPOS.items():
     ok += good; fail += not good
     print(f"{'ok  ' if good else 'FAIL'} {name:<28} desc={st} topics={st2} {'' if good else (body.get('message') or body2.get('message'))}")
 
-st, _ = api("PATCH", f"/repos/{OWNER}/{OWNER}", {"description": "Profile README. Obsidian, sage, ink.", "homepage": "https://amoh.ai"})
+st, _ = api("PATCH", f"/repos/{OWNER}/{OWNER}", {"description": "Profile README. One continuous canvas, rendered nightly.", "homepage": "https://amoh.ai"})
 print(f"{'ok  ' if st == 200 else 'FAIL'} {OWNER:<28} desc={st}")
 
 if os.environ.get("PROFILE"):
