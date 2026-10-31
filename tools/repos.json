@@ -1,0 +1,163 @@
+{
+ "cgpa_simulator": {
+  "desc": "Exact-distribution semester CGPA simulator: set per-course grade probabilities, get expected CGPA, percentiles and P(target), computed by convolution over every grade path. React + Express.",
+  "homepage": "https://cgpa-simulator-omega.vercel.app",
+  "topics": [
+   "cgpa",
+   "probability",
+   "simulator",
+   "react",
+   "vite",
+   "express",
+   "recharts",
+   "docker",
+   "iit-kharagpur"
+  ]
+ },
+ "OR2": {
+  "desc": "Multi-objective baggage packing optimiser comparing dynamic programming and integer programming (PuLP), with a Streamlit app. IIT Kharagpur IM21204 Operations Research II.",
+  "homepage": "https://uditangshu-or2-app-hjvctt.streamlit.app",
+  "topics": [
+   "operations-research",
+   "integer-programming",
+   "dynamic-programming",
+   "pulp",
+   "streamlit",
+   "optimization",
+   "knapsack",
+   "iit-kharagpur"
+  ]
+ },
+ "Competitive-Programming": {
+  "desc": "Accepted solutions from Codeforces and LeetCode, in C++ (and one in Python), indexed by problem.",
+  "homepage": "https://codeforces.com/profile/Madmins07",
+  "topics": [
+   "competitive-programming",
+   "codeforces",
+   "leetcode",
+   "cpp",
+   "algorithms",
+   "data-structures"
+  ]
+ },
+ "Quantitative-Finance": {
+  "desc": "Streamlit app that pulls daily prices with yfinance and forecasts one to four years ahead with Prophet, with interactive Plotly charts.",
+  "homepage": "",
+  "topics": [
+   "quantitative-finance",
+   "time-series",
+   "prophet",
+   "yfinance",
+   "streamlit",
+   "forecasting",
+   "python"
+  ]
+ },
+ "Time-series-models": {
+  "desc": "ARIMA forecasting of the USD/INR exchange rate: ADF stationarity testing, ACF/PACF diagnostics, and rolling one-step evaluation.",
+  "homepage": "",
+  "topics": [
+   "time-series",
+   "arima",
+   "statsmodels",
+   "forecasting",
+   "econometrics",
+   "jupyter-notebook",
+   "forex"
+  ]
+ },
+ "Neural_Networks": {
+  "desc": "Dense neural network for MNIST digit classification in TensorFlow/Keras, from data pipeline to evaluation.",
+  "homepage": "",
+  "topics": [
+   "neural-networks",
+   "tensorflow",
+   "keras",
+   "mnist",
+   "deep-learning",
+   "jupyter-notebook"
+  ]
+ },
+ "Regression-Models": {
+  "desc": "Linear regression (house prices) and logistic regression (Titanic) implemented from scratch in NumPy with hand-written gradient descent.",
+  "homepage": "",
+  "topics": [
+   "regression",
+   "linear-regression",
+   "logistic-regression",
+   "numpy",
+   "gradient-descent",
+   "machine-learning",
+   "from-scratch"
+  ]
+ },
+ "Classification_models": {
+  "desc": "Titanic survival prediction compared across logistic regression, naive Bayes, KNN, SVM, decision tree, random forest and XGBoost; plus an SVM baseline on Iris.",
+  "homepage": "",
+  "topics": [
+   "classification",
+   "scikit-learn",
+   "xgboost",
+   "titanic",
+   "machine-learning",
+   "jupyter-notebook"
+  ]
+ },
+ "KDAG_Core_Tasks": {
+  "desc": "KDAG core selection tasks: Levenshtein-distance spelling correction for survey data, and k-means clustering written from scratch for night-time satellite imagery.",
+  "homepage": "",
+  "topics": [
+   "kdag",
+   "levenshtein-distance",
+   "k-means",
+   "clustering",
+   "opencv",
+   "numpy",
+   "iit-kharagpur"
+  ]
+ },
+ "Business_Club_Tasks": {
+  "desc": "Business Club induction task: exploratory data analysis of the Chipotle orders dataset with pandas and NumPy.",
+  "homepage": "",
+  "topics": [
+   "pandas",
+   "exploratory-data-analysis",
+   "data-analysis",
+   "jupyter-notebook"
+  ]
+ },
+ "Microsoft-project": {
+  "desc": "Yahoo Finance scraper in Python (requests + BeautifulSoup): live quotes, top gainers and losers, a CSV-backed portfolio tracker, and a headline fetcher.",
+  "homepage": "",
+  "topics": [
+   "web-scraping",
+   "beautifulsoup",
+   "yahoo-finance",
+   "stock-market",
+   "python",
+   "portfolio"
+  ]
+ },
+ "Python-timepass": {
+  "desc": "Small Tkinter desktop toys built to pass time: a stopwatch and an image viewer.",
+  "homepage": "",
+  "topics": [
+   "python",
+   "tkinter",
+   "gui",
+   "pillow",
+   "mini-projects"
+  ]
+ },
+ "Snake-Game": {
+  "desc": "Snake, twice: a terminal version with curses and a windowed version with pygame.",
+  "homepage": "",
+  "topics": [
+   "snake-game",
+   "pygame",
+   "curses",
+   "python",
+   "game"
+  ]
+ }
+}
