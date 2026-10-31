@@ -1,0 +1,11 @@
+{"generated": "2026-10-31", "selected": ["cgpa_simulator","OR2","Time-series-models","Competitive-Programming","KDAG_Core_Tasks","Quantitative-Finance"],
+ "repos": {
+  "cgpa_simulator": {"description": "Exact-distribution semester CGPA simulator: set per-course grade probabilities, get expected CGPA, percentiles and P(target). React + Express.", "stars": 0, "forks": 0, "language": "JavaScript", "color": "#f1e05a", "pushed": "2026-10-31"},
+  "OR2": {"description": "Multi-objective baggage packing optimiser comparing dynamic programming and integer programming (PuLP), with a Streamlit app.", "stars": 1, "forks": 0, "language": "Python", "color": "#3572A5", "pushed": "2026-10-31"},
+  "Time-series-models": {"description": "ARIMA forecasting of the USD/INR exchange rate: ADF stationarity testing, ACF/PACF diagnostics, rolling evaluation.", "stars": 0, "forks": 0, "language": "Jupyter Notebook", "color": "#DA5B0B", "pushed": "2026-10-31"},
+  "Competitive-Programming": {"description": "Accepted solutions from Codeforces and LeetCode, in C++ (and one in Python), indexed by problem.", "stars": 1, "forks": 0, "language": "C++", "color": "#f34b7d", "pushed": "2026-10-31"},
+  "KDAG_Core_Tasks": {"description": "KDAG core selection tasks: Levenshtein-distance spelling correction, and k-means clustering from scratch for night-time satellite imagery.", "stars": 0, "forks": 0, "language": "Jupyter Notebook", "color": "#DA5B0B", "pushed": "2026-10-31"},
+  "Quantitative-Finance": {"description": "Streamlit app that pulls daily prices with yfinance and forecasts one to four years ahead with Prophet.", "stars": 1, "forks": 0, "language": "Python", "color": "#3572A5", "pushed": "2026-10-31"}},
+ "totals": {"stars": 4, "repos": 14, "followers": 0, "commits_year": 48, "contributions_year": 61},
+ "languages": [["Jupyter Notebook", 58.2, "#DA5B0B"], ["Python", 20.4, "#3572A5"], ["C++", 12.1, "#f34b7d"], ["JavaScript", 7.9, "#f1e05a"], ["CSS", 0.9, "#563d7c"], ["HTML", 0.5, "#e34c26"]],
+ "streak": {"current": 1, "longest": 6}, "codeforces": {"rating": 1541, "rank": "specialist", "maxRating": 1541}, "weeks": []}
