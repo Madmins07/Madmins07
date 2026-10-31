@@ -1,0 +1,647 @@
+{
+ "generated": "2026-10-31",
+ "repos": {
+  "Classification_models": {
+   "description": "",
+   "stars": 0,
+   "forks": 0,
+   "pushed": "2026-10-31",
+   "language": "Jupyter Notebook",
+   "color": "#DA5B0B"
+  },
+  "Business_Club_Tasks": {
+   "description": "",
+   "stars": 0,
+   "forks": 0,
+   "pushed": "2026-10-31",
+   "language": "Jupyter Notebook",
+   "color": "#DA5B0B"
+  },
+  "cgpa_simulator": {
+   "description": "",
+   "stars": 0,
+   "forks": 0,
+   "pushed": "2026-10-31",
+   "language": "JavaScript",
+   "color": "#f1e05a"
+  },
+  "Madmins07": {
+   "description": "",
+   "stars": 0,
+   "forks": 0,
+   "pushed": "2026-10-31",
+   "language": "Python",
+   "color": "#3572A5"
+  },
+  "Neural_Networks": {
+   "description": "",
+   "stars": 1,
+   "forks": 0,
+   "pushed": "2026-10-31",
+   "language": "Jupyter Notebook",
+   "color": "#DA5B0B"
+  },
+  "Regression-Models": {
+   "description": "",
+   "stars": 0,
+   "forks": 0,
+   "pushed": "2026-10-31",
+   "language": "Jupyter Notebook",
+   "color": "#DA5B0B"
+  },
+  "Time-series-models": {
+   "description": "",
+   "stars": 0,
+   "forks": 0,
+   "pushed": "2026-10-31",
+   "language": "Jupyter Notebook",
+   "color": "#DA5B0B"
+  },
+  "KDAG_Core_Tasks": {
+   "description": "",
+   "stars": 0,
+   "forks": 0,
+   "pushed": "2026-10-31",
+   "language": "Jupyter Notebook",
+   "color": "#DA5B0B"
+  },
+  "Microsoft-project": {
+   "description": "",
+   "stars": 0,
+   "forks": 0,
+   "pushed": "2026-10-31",
+   "language": "Python",
+   "color": "#3572A5"
+  },
+  "Python-timepass": {
+   "description": "Things I do not in my past time but to time pass!",
+   "stars": 0,
+   "forks": 0,
+   "pushed": "2026-10-31",
+   "language": "Python",
+   "color": "#3572A5"
+  },
+  "Snake-Game": {
+   "description": "",
+   "stars": 0,
+   "forks": 0,
+   "pushed": "2026-10-31",
+   "language": "Python",
+   "color": "#3572A5"
+  },
+  "Quantitative-Finance": {
+   "description": "Stock Predictor and trend plotter",
+   "stars": 1,
+   "forks": 0,
+   "pushed": "2026-10-31",
+   "language": "Python",
+   "color": "#3572A5"
+  },
+  "Competitive-Programming": {
+   "description": "",
+   "stars": 1,
+   "forks": 0,
+   "pushed": "2026-10-31",
+   "language": "C++",
+   "color": "#f34b7d"
+  },
+  "OR2": {
+   "description": "",
+   "stars": 1,
+   "forks": 0,
+   "pushed": "2026-10-31",
+   "language": "Python",
+   "color": "#3572A5"
+  }
+ },
+ "selected": [
+  "cgpa_simulator",
+  "OR2",
+  "Time-series-models",
+  "Competitive-Programming",
+  "KDAG_Core_Tasks",
+  "Quantitative-Finance"
+ ],
+ "totals": {
+  "stars": 4,
+  "repos": 14,
+  "followers": 0,
+  "commits_year": 25,
+  "contributions_year": 26
+ },
+ "languages": [
+  [
+   "Jupyter Notebook",
+   52.8,
+   "#DA5B0B"
+  ],
+  [
+   "C++",
+   20.0,
+   "#f34b7d"
+  ],
+  [
+   "Python",
+   18.6,
+   "#3572A5"
+  ],
+  [
+   "JavaScript",
+   5.8,
+   "#f1e05a"
+  ],
+  [
+   "CSS",
+   2.6,
+   "#663399"
+  ],
+  [
+   "HTML",
+   0.1,
+   "#e34c26"
+  ]
+ ],
+ "streak": {
+  "current": 1,
+  "longest": 1
+ },
+ "codeforces": {
+  "rating": 1541,
+  "rank": "specialist",
+  "maxRating": 1541
+ },
+ "weeks": [
+  [
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   1,
+   0,
+   0,
+   3,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   20
+  ]
+ ]
+}
