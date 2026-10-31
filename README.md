@@ -11,7 +11,7 @@
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-madmins07-FF7A1A?style=flat-square&logo=linkedin&logoColor=0A0B0E&labelColor=0A0B0E)](https://www.linkedin.com/in/madmins07/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-madmins07-A8D4FF?style=flat-square&logo=linkedin&logoColor=0A0B0E&labelColor=0A0B0E)](https://www.linkedin.com/in/madmins07/)
 [![Email](https://img.shields.io/badge/Email-madhavagarwal50-F4F5F7?style=flat-square&logo=gmail&logoColor=0A0B0E&labelColor=0A0B0E)](mailto:madhavagarwal50@gmail.com)
 [![Codeforces](https://img.shields.io/badge/Codeforces-Madmins07-F4F5F7?style=flat-square&logo=codeforces&logoColor=0A0B0E&labelColor=0A0B0E)](https://codeforces.com/profile/Madmins07)
 [![Blog](https://img.shields.io/badge/Blog-madblogs6-F4F5F7?style=flat-square&logo=wordpress&logoColor=0A0B0E&labelColor=0A0B0E)](https://madblogs6.wordpress.com)
