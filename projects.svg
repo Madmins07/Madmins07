@@ -1,0 +1,76 @@
+<svg width="1000" height="330" viewBox="0 0 1000 330" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Selected work: cgpa_simulator, OR2, Time-series-models, Competitive-Programming, KDAG_Core_Tasks, Quantitative-Finance">
+<style>
+  .sans{font-family:-apple-system,'Inter','Segoe UI','Helvetica Neue',Arial,sans-serif}
+  .mono{font-family:ui-monospace,'SF Mono','JetBrains Mono','Cascadia Code',Menlo,Consolas,monospace}
+  .blink{animation:blink 1.2s step-end infinite}
+  @keyframes blink{0%,55%{opacity:1}56%,100%{opacity:0}}
+  @media (prefers-reduced-motion: reduce){ .blink{animation:none} }
+</style>
+<defs>
+  <clipPath id="jf"><rect width="1000" height="330" rx="0"/></clipPath>
+  <pattern id="jdots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#1F2533"/></pattern>
+</defs>
+<g clip-path="url(#jf)">
+<rect width="1000" height="330" fill="#0D1117"/>
+<rect width="1000" height="330" fill="url(#jdots)" opacity=".45"/>
+<rect x="39.5" y="0" width="1" height="330" fill="#2B3242"/>
+<rect x="36" y="48" width="8" height="8" fill="#A8D4FF"/>
+<text x="66" y="56" class="mono" font-size="11" fill="#A8D4FF" font-weight="700" letter-spacing="2">05</text>
+<text x="88" y="56.5" class="mono" font-size="13" fill="#E4EBF5" font-weight="700" letter-spacing="3">SELECTED WORK</text>
+<text x="944" y="56" class="mono" font-size="10" fill="#79819A" text-anchor="end" letter-spacing="2.4">STARS REFRESH NIGHTLY  ·  2026-11-07</text>
+<line x1="88" y1="74" x2="944" y2="74" stroke="#1F2533" opacity="1"/>
+<g opacity="0"><animate attributeName="opacity" values="0;1" begin="0.15s" dur="0.55s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" begin="0.15s" dur="0.55s" fill="freeze"/>
+<text x="88" y="110" class="mono" font-size="10" fill="#A8D4FF" font-weight="700" letter-spacing="2">01</text>
+<text x="118" y="110" class="mono" font-size="13.5" fill="#E4EBF5" font-weight="700">cgpa_simulator</text>
+<text x="118" y="128" class="sans" font-size="11" fill="#ADB5C7">Exact-distribution semester CGPA simulator: set</text>
+<text x="118" y="143" class="sans" font-size="11" fill="#ADB5C7">per-course grade probabilities, get expected CGPA…</text>
+<text x="504" y="110" class="mono" font-size="11" fill="#79819A" text-anchor="end">★ 0</text>
+<text x="504" y="128" class="mono" font-size="10" fill="#79819A" text-anchor="end" letter-spacing="1">JavaScript</text>
+<line x1="88" y1="160" x2="504" y2="160" stroke="#1F2533" opacity="0.9"/>
+</g>
+<g opacity="0"><animate attributeName="opacity" values="0;1" begin="0.22999999999999998s" dur="0.55s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" begin="0.22999999999999998s" dur="0.55s" fill="freeze"/>
+<text x="528" y="110" class="mono" font-size="10" fill="#A8D4FF" font-weight="700" letter-spacing="2">02</text>
+<text x="558" y="110" class="mono" font-size="13.5" fill="#E4EBF5" font-weight="700">OR2</text>
+<text x="558" y="128" class="sans" font-size="11" fill="#ADB5C7">Multi-objective baggage packing optimiser comparing</text>
+<text x="558" y="143" class="sans" font-size="11" fill="#ADB5C7">dynamic programming and integer programming (PuLP…</text>
+<text x="944" y="110" class="mono" font-size="11" fill="#79819A" text-anchor="end">★ 1</text>
+<text x="944" y="128" class="mono" font-size="10" fill="#79819A" text-anchor="end" letter-spacing="1">Python</text>
+<line x1="528" y1="160" x2="944" y2="160" stroke="#1F2533" opacity="0.9"/>
+</g>
+<g opacity="0"><animate attributeName="opacity" values="0;1" begin="0.31s" dur="0.55s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" begin="0.31s" dur="0.55s" fill="freeze"/>
+<text x="88" y="180" class="mono" font-size="10" fill="#A8D4FF" font-weight="700" letter-spacing="2">03</text>
+<text x="118" y="180" class="mono" font-size="13.5" fill="#E4EBF5" font-weight="700">Time-series-models</text>
+<text x="118" y="198" class="sans" font-size="11" fill="#ADB5C7">ARIMA forecasting of the USD/INR exchange rate: ADF</text>
+<text x="118" y="213" class="sans" font-size="11" fill="#ADB5C7">stationarity testing, ACF/PACF diagnostics, and…</text>
+<text x="504" y="180" class="mono" font-size="11" fill="#79819A" text-anchor="end">★ 0</text>
+<text x="504" y="198" class="mono" font-size="10" fill="#79819A" text-anchor="end" letter-spacing="1">Jupyter Notebook</text>
+<line x1="88" y1="230" x2="504" y2="230" stroke="#1F2533" opacity="0.9"/>
+</g>
+<g opacity="0"><animate attributeName="opacity" values="0;1" begin="0.39s" dur="0.55s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" begin="0.39s" dur="0.55s" fill="freeze"/>
+<text x="528" y="180" class="mono" font-size="10" fill="#A8D4FF" font-weight="700" letter-spacing="2">04</text>
+<text x="558" y="180" class="mono" font-size="13.5" fill="#E4EBF5" font-weight="700">Competitive-Programming</text>
+<text x="558" y="198" class="sans" font-size="11" fill="#ADB5C7">Accepted solutions from Codeforces and LeetCode, in</text>
+<text x="558" y="213" class="sans" font-size="11" fill="#ADB5C7">C++ (and one in Python), indexed by problem.</text>
+<text x="944" y="180" class="mono" font-size="11" fill="#79819A" text-anchor="end">★ 1</text>
+<text x="944" y="198" class="mono" font-size="10" fill="#79819A" text-anchor="end" letter-spacing="1">C++</text>
+<line x1="528" y1="230" x2="944" y2="230" stroke="#1F2533" opacity="0.9"/>
+</g>
+<g opacity="0"><animate attributeName="opacity" values="0;1" begin="0.47s" dur="0.55s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" begin="0.47s" dur="0.55s" fill="freeze"/>
+<text x="88" y="250" class="mono" font-size="10" fill="#A8D4FF" font-weight="700" letter-spacing="2">05</text>
+<text x="118" y="250" class="mono" font-size="13.5" fill="#E4EBF5" font-weight="700">KDAG_Core_Tasks</text>
+<text x="118" y="268" class="sans" font-size="11" fill="#ADB5C7">KDAG core selection tasks: Levenshtein-distance</text>
+<text x="118" y="283" class="sans" font-size="11" fill="#ADB5C7">spelling correction for survey data, and k-means…</text>
+<text x="504" y="250" class="mono" font-size="11" fill="#79819A" text-anchor="end">★ 0</text>
+<text x="504" y="268" class="mono" font-size="10" fill="#79819A" text-anchor="end" letter-spacing="1">Jupyter Notebook</text>
+<line x1="88" y1="300" x2="504" y2="300" stroke="#1F2533" opacity="0.9"/>
+</g>
+<g opacity="0"><animate attributeName="opacity" values="0;1" begin="0.55s" dur="0.55s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" begin="0.55s" dur="0.55s" fill="freeze"/>
+<text x="528" y="250" class="mono" font-size="10" fill="#A8D4FF" font-weight="700" letter-spacing="2">06</text>
+<text x="558" y="250" class="mono" font-size="13.5" fill="#E4EBF5" font-weight="700">Quantitative-Finance</text>
+<text x="558" y="268" class="sans" font-size="11" fill="#ADB5C7">Stock Predictor and trend plotter</text>
+<text x="944" y="250" class="mono" font-size="11" fill="#79819A" text-anchor="end">★ 1</text>
+<text x="944" y="268" class="mono" font-size="10" fill="#79819A" text-anchor="end" letter-spacing="1">Python</text>
+<line x1="528" y1="300" x2="944" y2="300" stroke="#1F2533" opacity="0.9"/>
+</g>
+</g>
+</svg>
