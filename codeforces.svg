@@ -1,0 +1,114 @@
+<svg width="1000" height="430" viewBox="0 0 1000 430" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Competitive programming: Codeforces rating 1541 (specialist), 316 problems solved over 14 rated contests">
+<style>
+  .sans{font-family:-apple-system,'Inter','Segoe UI','Helvetica Neue',Arial,sans-serif}
+  .mono{font-family:ui-monospace,'SF Mono','JetBrains Mono','Cascadia Code',Menlo,Consolas,monospace}
+  .blink{animation:blink 1.2s step-end infinite}
+  @keyframes blink{0%,55%{opacity:1}56%,100%{opacity:0}}
+  @media (prefers-reduced-motion: reduce){ .blink{animation:none} }
+</style>
+<defs>
+  <clipPath id="cf"><rect width="1000" height="430" rx="0"/></clipPath>
+  <pattern id="cdots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#1F2533"/></pattern>
+</defs>
+<g clip-path="url(#cf)">
+<rect width="1000" height="430" fill="#0D1117"/>
+<rect width="1000" height="430" fill="url(#cdots)" opacity=".45"/>
+<rect x="39.5" y="0" width="1" height="430" fill="#2B3242"/>
+<rect x="36" y="48" width="8" height="8" fill="#A8D4FF"/>
+<text x="66" y="56" class="mono" font-size="11" fill="#A8D4FF" font-weight="700" letter-spacing="2">06</text>
+<text x="88" y="56.5" class="mono" font-size="13" fill="#E4EBF5" font-weight="700" letter-spacing="3">COMPETITIVE PROGRAMMING</text>
+<text x="944" y="56" class="mono" font-size="10" fill="#79819A" text-anchor="end" letter-spacing="2.4">CODEFORCES  ·  @MADMINS07  ·  2026-11-14</text>
+<line x1="88" y1="74" x2="944" y2="74" stroke="#1F2533" opacity="1"/>
+<g opacity="0"><animate attributeName="opacity" values="0;1" begin="0.2s" dur="0.55s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" begin="0.2s" dur="0.55s" fill="freeze"/>
+<text x="88" y="100" class="mono" font-size="10" fill="#79819A" letter-spacing="2.4">RATING</text>
+<text x="88" y="134" class="mono" font-size="30" fill="#A8D4FF" font-weight="700" letter-spacing="-1">1541</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" values="0;1" begin="0.28s" dur="0.55s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" begin="0.28s" dur="0.55s" fill="freeze"/>
+<text x="228" y="100" class="mono" font-size="10" fill="#79819A" letter-spacing="2.4">PEAK</text>
+<text x="228" y="134" class="mono" font-size="30" fill="#E4EBF5" font-weight="700" letter-spacing="-1">1541</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" values="0;1" begin="0.36s" dur="0.55s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" begin="0.36s" dur="0.55s" fill="freeze"/>
+<text x="368" y="100" class="mono" font-size="10" fill="#79819A" letter-spacing="2.4">SOLVED</text>
+<text x="368" y="134" class="mono" font-size="30" fill="#E4EBF5" font-weight="700" letter-spacing="-1">316</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" values="0;1" begin="0.44s" dur="0.55s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" begin="0.44s" dur="0.55s" fill="freeze"/>
+<text x="508" y="100" class="mono" font-size="10" fill="#79819A" letter-spacing="2.4">CONTESTS</text>
+<text x="508" y="134" class="mono" font-size="30" fill="#E4EBF5" font-weight="700" letter-spacing="-1">14</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" values="0;1" begin="0.5s" dur="0.55s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" begin="0.5s" dur="0.55s" fill="freeze"/>
+<text x="944" y="100" class="mono" font-size="10" fill="#A8D4FF" text-anchor="end" letter-spacing="2.4">SPECIALIST</text>
+<text x="944" y="134" class="mono" font-size="10" fill="#79819A" text-anchor="end" letter-spacing="2.4">RANK</text>
+</g>
+<line x1="88" y1="231.76470588235293" x2="600" y2="231.76470588235293" stroke="#1F2533" opacity="1"/>
+<text x="92" y="227.76470588235293" class="mono" font-size="9" fill="#3E4659" letter-spacing="2.4">1200  PUPIL</text>
+<line x1="88" y1="207.05882352941177" x2="600" y2="207.05882352941177" stroke="#1F2533" opacity="1"/>
+<text x="92" y="203.05882352941177" class="mono" font-size="9" fill="#3E4659" letter-spacing="2.4">1400  SPECIALIST</text>
+<line x1="88" y1="182.35294117647058" x2="600" y2="182.35294117647058" stroke="#1F2533" opacity="1"/>
+<text x="92" y="178.35294117647058" class="mono" font-size="9" fill="#3E4659" letter-spacing="2.4">1600  EXPERT</text>
+<line x1="88" y1="380" x2="600" y2="380" stroke="#2B3242" opacity="1"/>
+<path d="M88.0 328.9 L127.4 296.5 L166.8 276.6 L206.2 269.2 L245.5 261.9 L284.9 269.2 L324.3 269.4 L363.7 273.9 L403.1 256.8 L442.5 262.9 L481.8 273.3 L521.2 249.1 L560.6 204.5 L600.0 189.6 L600.0 380 L88.0 380 Z" fill="#A8D4FF" opacity="0"><animate attributeName="opacity" values="0;.1" begin="1.6s" dur=".8s" fill="freeze"/></path>
+<path d="M88.0 328.9 L127.4 296.5 L166.8 276.6 L206.2 269.2 L245.5 261.9 L284.9 269.2 L324.3 269.4 L363.7 273.9 L403.1 256.8 L442.5 262.9 L481.8 273.3 L521.2 249.1 L560.6 204.5 L600.0 189.6" fill="none" stroke="#A8D4FF" stroke-width="2" stroke-linejoin="round" stroke-dasharray="566" stroke-dashoffset="566"><animate attributeName="stroke-dashoffset" values="566;0" begin=".6s" dur="1.6s" fill="freeze"/></path>
+<rect x="85.5" y="326.4" width="5" height="5" fill="#0D1117" stroke="#A8D4FF" opacity="0"><animate attributeName="opacity" values="0;1" begin="2s" dur=".4s" fill="freeze"/></rect>
+<rect x="124.9" y="294.0" width="5" height="5" fill="#0D1117" stroke="#A8D4FF" opacity="0"><animate attributeName="opacity" values="0;1" begin="2s" dur=".4s" fill="freeze"/></rect>
+<rect x="164.3" y="274.1" width="5" height="5" fill="#0D1117" stroke="#A8D4FF" opacity="0"><animate attributeName="opacity" values="0;1" begin="2s" dur=".4s" fill="freeze"/></rect>
+<rect x="203.7" y="266.7" width="5" height="5" fill="#0D1117" stroke="#A8D4FF" opacity="0"><animate attributeName="opacity" values="0;1" begin="2s" dur=".4s" fill="freeze"/></rect>
+<rect x="243.0" y="259.4" width="5" height="5" fill="#0D1117" stroke="#A8D4FF" opacity="0"><animate attributeName="opacity" values="0;1" begin="2s" dur=".4s" fill="freeze"/></rect>
+<rect x="282.4" y="266.7" width="5" height="5" fill="#0D1117" stroke="#A8D4FF" opacity="0"><animate attributeName="opacity" values="0;1" begin="2s" dur=".4s" fill="freeze"/></rect>
+<rect x="321.8" y="266.9" width="5" height="5" fill="#0D1117" stroke="#A8D4FF" opacity="0"><animate attributeName="opacity" values="0;1" begin="2s" dur=".4s" fill="freeze"/></rect>
+<rect x="361.2" y="271.4" width="5" height="5" fill="#0D1117" stroke="#A8D4FF" opacity="0"><animate attributeName="opacity" values="0;1" begin="2s" dur=".4s" fill="freeze"/></rect>
+<rect x="400.6" y="254.3" width="5" height="5" fill="#0D1117" stroke="#A8D4FF" opacity="0"><animate attributeName="opacity" values="0;1" begin="2s" dur=".4s" fill="freeze"/></rect>
+<rect x="440.0" y="260.4" width="5" height="5" fill="#0D1117" stroke="#A8D4FF" opacity="0"><animate attributeName="opacity" values="0;1" begin="2s" dur=".4s" fill="freeze"/></rect>
+<rect x="479.3" y="270.8" width="5" height="5" fill="#0D1117" stroke="#A8D4FF" opacity="0"><animate attributeName="opacity" values="0;1" begin="2s" dur=".4s" fill="freeze"/></rect>
+<rect x="518.7" y="246.6" width="5" height="5" fill="#0D1117" stroke="#A8D4FF" opacity="0"><animate attributeName="opacity" values="0;1" begin="2s" dur=".4s" fill="freeze"/></rect>
+<rect x="558.1" y="202.0" width="5" height="5" fill="#0D1117" stroke="#A8D4FF" opacity="0"><animate attributeName="opacity" values="0;1" begin="2s" dur=".4s" fill="freeze"/></rect>
+<rect x="597.5" y="187.1" width="5" height="5" fill="#0D1117" stroke="#A8D4FF" opacity="0"><animate attributeName="opacity" values="0;1" begin="2s" dur=".4s" fill="freeze"/></rect>
+<text x="88" y="398" class="mono" font-size="9" fill="#79819A" letter-spacing="2.4">MAR 2024</text>
+<text x="600" y="398" class="mono" font-size="9" fill="#79819A" text-anchor="end" letter-spacing="2.4">JUN 2026</text>
+<g opacity="0"><animate attributeName="opacity" values="0;1" begin="2.3s" dur="0.55s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" begin="2.3s" dur="0.55s" fill="freeze"/>
+<line x1="560.6" y1="212.5" x2="560.6" y2="258.5" stroke="#2B3242"/><text x="552.6153846153846" y="250.46470588235294" class="mono" font-size="10" fill="#E4EBF5" font-weight="700" text-anchor="end">+361  ·  rank 180</text>
+<text x="552.6153846153846" y="262.464705882353" class="sans" font-size="9.5" fill="#79819A" text-anchor="end">Codeforces Round 1099 (Div. 2)</text>
+</g>
+<text x="660" y="172" class="mono" font-size="10" fill="#79819A" letter-spacing="2.4">SOLVED BY DIFFICULTY</text>
+<rect x="660.0" y="262" width="22.0" height="0" fill="#A8D4FF" fill-opacity="1.00"><animate attributeName="height" values="0;58.0" begin="0.80s" dur=".6s" fill="freeze"/><animate attributeName="y" values="262;204.0" begin="0.80s" dur=".6s" fill="freeze"/></rect>
+<text x="671.0" y="276" class="mono" font-size="8" fill="#79819A" text-anchor="middle">800</text>
+<text x="671.0" y="199.0" class="mono" font-size="9" fill="#ADB5C7" text-anchor="middle">282</text>
+<rect x="686.0" y="262" width="22.0" height="0" fill="#A8D4FF" fill-opacity="0.38"><animate attributeName="height" values="0;16.7" begin="0.85s" dur=".6s" fill="freeze"/><animate attributeName="y" values="262;245.3" begin="0.85s" dur=".6s" fill="freeze"/></rect>
+<text x="697.0" y="276" class="mono" font-size="8" fill="#79819A" text-anchor="middle">900</text>
+<rect x="712.0" y="262" width="22.0" height="0" fill="#A8D4FF" fill-opacity="0.38"><animate attributeName="height" values="0;16.7" begin="0.90s" dur=".6s" fill="freeze"/><animate attributeName="y" values="262;245.3" begin="0.90s" dur=".6s" fill="freeze"/></rect>
+<text x="723.0" y="276" class="mono" font-size="8" fill="#79819A" text-anchor="middle">1000</text>
+<rect x="738.0" y="262" width="22.0" height="0" fill="#A8D4FF" fill-opacity="0.36"><animate attributeName="height" values="0;11.4" begin="0.95s" dur=".6s" fill="freeze"/><animate attributeName="y" values="262;250.6" begin="0.95s" dur=".6s" fill="freeze"/></rect>
+<text x="749.0" y="276" class="mono" font-size="8" fill="#79819A" text-anchor="middle">1100</text>
+<rect x="764.0" y="262" width="22.0" height="0" fill="#A8D4FF" fill-opacity="0.35"><animate attributeName="height" values="0;9.1" begin="1.00s" dur=".6s" fill="freeze"/><animate attributeName="y" values="262;252.9" begin="1.00s" dur=".6s" fill="freeze"/></rect>
+<text x="775.0" y="276" class="mono" font-size="8" fill="#79819A" text-anchor="middle">1200</text>
+<rect x="790.0" y="262" width="22.0" height="0" fill="#A8D4FF" fill-opacity="0.35"><animate attributeName="height" values="0;10.4" begin="1.05s" dur=".6s" fill="freeze"/><animate attributeName="y" values="262;251.6" begin="1.05s" dur=".6s" fill="freeze"/></rect>
+<text x="801.0" y="276" class="mono" font-size="8" fill="#79819A" text-anchor="middle">1300</text>
+<rect x="816.0" y="262" width="22.0" height="0" fill="#A8D4FF" fill-opacity="0.35"><animate attributeName="height" values="0;9.1" begin="1.10s" dur=".6s" fill="freeze"/><animate attributeName="y" values="262;252.9" begin="1.10s" dur=".6s" fill="freeze"/></rect>
+<text x="827.0" y="276" class="mono" font-size="8" fill="#79819A" text-anchor="middle">1400</text>
+<rect x="842.0" y="262" width="22.0" height="0" fill="#A8D4FF" fill-opacity="0.35"><animate attributeName="height" values="0;9.1" begin="1.15s" dur=".6s" fill="freeze"/><animate attributeName="y" values="262;252.9" begin="1.15s" dur=".6s" fill="freeze"/></rect>
+<text x="853.0" y="276" class="mono" font-size="8" fill="#79819A" text-anchor="middle">1500</text>
+<rect x="868.0" y="262" width="22.0" height="0" fill="#A8D4FF" fill-opacity="0.35"><animate attributeName="height" values="0;9.1" begin="1.20s" dur=".6s" fill="freeze"/><animate attributeName="y" values="262;252.9" begin="1.20s" dur=".6s" fill="freeze"/></rect>
+<text x="879.0" y="276" class="mono" font-size="8" fill="#79819A" text-anchor="middle">1600</text>
+<rect x="894.0" y="262" width="22.0" height="0" fill="#A8D4FF" fill-opacity="0.35"><animate attributeName="height" values="0;9.1" begin="1.25s" dur=".6s" fill="freeze"/><animate attributeName="y" values="262;252.9" begin="1.25s" dur=".6s" fill="freeze"/></rect>
+<text x="905.0" y="276" class="mono" font-size="8" fill="#79819A" text-anchor="middle">1900</text>
+<text x="905.0" y="247.90344506228786" class="mono" font-size="9" fill="#ADB5C7" text-anchor="middle">1</text>
+<text x="660" y="300" class="mono" font-size="10" fill="#79819A" letter-spacing="2.4">TOP TAGS</text>
+<text x="660" y="326" class="mono" font-size="10" fill="#ADB5C7">implementation</text>
+<text x="944" y="326" class="mono" font-size="9.5" fill="#79819A" text-anchor="end">174</text>
+<rect x="810.0" y="319.0" width="0" height="7.0" rx="0" fill="#A8D4FF"><animate attributeName="width" values="0;104.0" begin="1.00s" dur="0.8s" fill="freeze"/></rect>
+<text x="660" y="343" class="mono" font-size="10" fill="#ADB5C7">math</text>
+<text x="944" y="343" class="mono" font-size="9.5" fill="#79819A" text-anchor="end">130</text>
+<rect x="810.0" y="336.0" width="0" height="7.0" rx="0" fill="#A8D4FF"><animate attributeName="width" values="0;77.7" begin="1.08s" dur="0.8s" fill="freeze"/></rect>
+<text x="660" y="360" class="mono" font-size="10" fill="#ADB5C7">greedy</text>
+<text x="944" y="360" class="mono" font-size="9.5" fill="#79819A" text-anchor="end">105</text>
+<rect x="810.0" y="353.0" width="0" height="7.0" rx="0" fill="#A8D4FF"><animate attributeName="width" values="0;62.8" begin="1.16s" dur="0.8s" fill="freeze"/></rect>
+<text x="660" y="377" class="mono" font-size="10" fill="#ADB5C7">brute force</text>
+<text x="944" y="377" class="mono" font-size="9.5" fill="#79819A" text-anchor="end">59</text>
+<rect x="810.0" y="370.0" width="0" height="7.0" rx="0" fill="#A8D4FF"><animate attributeName="width" values="0;35.3" begin="1.24s" dur="0.8s" fill="freeze"/></rect>
+<text x="660" y="394" class="mono" font-size="10" fill="#ADB5C7">strings</text>
+<text x="944" y="394" class="mono" font-size="9.5" fill="#79819A" text-anchor="end">51</text>
+<rect x="810.0" y="387.0" width="0" height="7.0" rx="0" fill="#A8D4FF"><animate attributeName="width" values="0;30.5" begin="1.32s" dur="0.8s" fill="freeze"/></rect>
+<text x="660" y="411" class="mono" font-size="10" fill="#ADB5C7">constructive algorithms</text>
+<text x="944" y="411" class="mono" font-size="9.5" fill="#79819A" text-anchor="end">38</text>
+<rect x="810.0" y="404.0" width="0" height="7.0" rx="0" fill="#A8D4FF"><animate attributeName="width" values="0;22.7" begin="1.40s" dur="0.8s" fill="freeze"/></rect>
+</g>
+</svg>
