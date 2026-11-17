@@ -1,9 +1,9 @@
 {
  "game": 1,
- "human": 2097152,
- "bot": 4194304,
- "mask": 6291456,
- "move": 2,
+ "human": 2097280,
+ "bot": 4210688,
+ "mask": 6307968,
+ "move": 4,
  "over": null,
  "history": [
   {
@@ -17,11 +17,23 @@
    "col": 3,
    "who": "bot",
    "user": "bot"
+  },
+  {
+   "n": 3,
+   "col": 1,
+   "who": "human",
+   "user": "Propar2750"
+  },
+  {
+   "n": 4,
+   "col": 2,
+   "who": "bot",
+   "user": "bot"
   }
  ],
  "players": {
   "Propar2750": {
-   "moves": 1,
+   "moves": 2,
    "wins": 0
   }
  },
@@ -30,8 +42,8 @@
  "bot_wins": 0,
  "draws": 0,
  "last": [
-  3,
-  1
+  2,
+  0
  ],
- "updated": "2026-11-17 16:55 UTC"
+ "updated": "2026-11-17 16:56 UTC"
 }
